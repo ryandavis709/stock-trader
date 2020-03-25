@@ -204,7 +204,7 @@ if __name__ == "__main__":
             wait_until_next_day()
             start_balance = total_assets
             stocks_to_remove = []
-            searched_stocks = []
+            searched_stocks = symbols
 
         now = datetime.datetime.now()
         today930 = now.replace(hour=9, minute=30, second=0, microsecond=0)
@@ -215,7 +215,7 @@ if __name__ == "__main__":
             wait_until_next_day()
             start_balance = total_assets
             stocks_to_remove = []
-            searched_stocks = []
+            searched_stocks = trader.symbols
 
 
         for symbol in trader.symbols:
