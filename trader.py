@@ -140,7 +140,7 @@ class Stock_Trader:
     Returns:
         stocks_to_watch: array of of stocks, each containing symbol, price, change, volume
 """
-def get_stocks_to_watch():
+def get_stocks_to_watch(searched_stocks):
     stocks_to_watch = []
 
     driver = webdriver.Chrome()
@@ -156,19 +156,34 @@ def get_stocks_to_watch():
         volume = row.find_element_by_xpath(".//td[7]").text
         print(symbol, price, change, volume)
         if ("M" in volume):
-            stock = {"symbol":symbol, "price":price,"change":change, "volume":volume}
-            stocks_to_watch.append(stock)
+            if symbol not in searched_stocks:
+                stock = {"symbol":symbol, "price":price,"change":change, "volume":volume}
+                stocks_to_watch.append(stock)
         try:
             row = row.find_element_by_xpath(".//following-sibling::tr")
         except:
             print("no more rows!")
             return stocks_to_watch
 
+def wait_until_next_day():
+    print("waiting")
+    now = datetime.datetime.today()
+    future = datetime.datetime(now.year,now.month,now.day,9,30)
+    future += datetime.timedelta(days=1)
+    print((future-now).seconds)
+    time.sleep((future-now).seconds)
+
+
+
 if __name__ == "__main__":
     trader = Stock_Trader()
+    stocks_to_remove = []
+    searched_stocks = []
+    num_stocks = 0
     count = 0
     current_assets = 0
-    stocks_to_watch = get_stocks_to_watch()
+    start_balance = trader.capital
+    stocks_to_watch = get_stocks_to_watch(trader.bought_stocks)
     trader.symbols = stocks_to_watch[:5]
 
     for symbol in trader.symbols:
@@ -178,14 +193,40 @@ if __name__ == "__main__":
     time.sleep(60)
     trading = True
     while trading:
+        # monitor to make sure that we are within trading hours
+        # mon - fri, 9:30 - 4:00
+        # at 3:45, start liquidating all holdings.
+        # if not in trading hours, sleep until trading hours , then continue
+        # if we achieve our 3% gain or lose 1.5%, go ahead and call it quits for the day
+        total_assets = trader.capital + current_assets
+        if total_assets > start_balance * 1.03 or total_assets < start_balance * .985:
+            print("quitting for the day")
+            wait_until_next_day()
+            start_balance = total_assets
+            stocks_to_remove = []
+            searched_stocks = []
+
+        now = datetime.datetime.now()
+        today930 = now.replace(hour=9, minute=30, second=0, microsecond=0)
+        today4 = now.replace(hour=16, minute=0, second=0, microsecond=0)
+
+        if now < today930 or now > today4:
+            print("not in trading hours... sleeping")
+            wait_until_next_day()
+            start_balance = total_assets
+            stocks_to_remove = []
+            searched_stocks = []
+
+
         for symbol in trader.symbols:
             symbol = trader.getCurrentPrice(symbol)
-            if symbol["Current_Price"] >= symbol["SMA"]:
+            searched_stocks.append(symbol['symbol'])
+            if symbol["Current_Price"] > symbol["SMA"]:
                 if symbol["symbol"] not in trader.bought_stocks:
+                    num_stocks += 1
                     trader.bought_stocks.append(symbol['symbol'])
                     print("\nBuying {} @ {} per share".format(symbol["symbol"], symbol["Current_Price"]))
                     symbol["Shares_Bought"] = trader.buy_stock(symbol)
-                    symbol["Sold"] = False
                     symbol["Last_Price"] = symbol["Current_Price"]
                     symbol["Bought_Price"] = symbol["Current_Price"]
                     symbol["Exit"] = symbol["Current_Price"] * .97
@@ -200,17 +241,44 @@ if __name__ == "__main__":
                     symbol["Exit"] = symbol["Current_Price"] * .97
                     print("\n{} rose to {}, updating exit to {}\n".format(symbol['symbol'], symbol['Current_Price'], symbol['Exit']))
                 if symbol["Current_Price"] <= symbol["Exit"]:
-                    if symbol["Sold"] == False:
-                        print("\nSold {} @ {}".format(symbol['symbol'], symbol['Current_Price']))
-                        trader.sell_stock(symbol)
-                        trader.capital += (symbol["Shares_Bought"] * symbol["Current_Price"])
-                        current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Current_Price"])
-                        symbol['Sold'] = True
-                        print("Current account balance: {}\n".format(trader.capital))
-                    #trader.bought_stocks.remove(symbol['symbol'])
+                    num_stocks -= 1
+                    print("\nSold {} @ {}".format(symbol['symbol'], symbol['Current_Price']))
+                    trader.sell_stock(symbol)
+                    trader.capital += (symbol["Shares_Bought"] * symbol["Current_Price"])
+                    current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Current_Price"])
+                    trader.symbols.remove(symbol)
+                    print("Current account balance: {}\n".format(trader.capital))
+            else:
+                stocks_to_remove.append(symbol)
+                print("{} price was not above SMA, abandoning...".format(symbol['symbol']))
+        for stock in stocks_to_remove:
+            trader.symbols.remove(stock)
         if count % 2 == 0:
             print("Current account summary: \n\tAssets: {} \n\tCash: {} \n\tTotal: {} \n\tgains/losses: {}\n".format(current_assets, trader.capital, current_assets + trader.capital, (current_assets + trader.capital) - 1000))
+            print("Current Holdings: ")
+            for symbol in trader.symbols:
+                print("{} shares of {}".format(symbol["Shares_Bought"], symbol["symbol"]))
         count += 1
+        if len(trader.symbols) < 5:
+            #repeat the process
+            print("Searching for new stocks")
+            stocks_to_remove = []
+            new_stocks = get_stocks_to_watch(searched_stocks)
+            if len(new_stocks) == 0 and len(trader.symbols) == 0:
+                print("no new stocks found... will try again tomorrow")
+                wait_until_next_day()
+                start_balance = total_assets
+                stocks_to_remove = []
+                searched_stocks = []
+            new_stock_ct = 0
+            while len(trader.symbols) != 5:
+                trader.symbols.append(new_stocks[new_stock_ct])
+                new_stock_ct += 1
+            time.sleep(60)
+            for symbol in trader.symbols:
+                symbol = trader.getSMAhigh(symbol)
+
+            #get new stocks, reset everything, etc
         time.sleep(60)
 
     # get stocks to monitor
