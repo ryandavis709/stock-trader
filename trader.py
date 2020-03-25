@@ -35,7 +35,7 @@ class Stock_Trader:
         self.symbols = []
         self.bought_stocks = []
         self.capital = 1000
-        self.risk = .05
+        self.risk = .1
     """
         Author: Ryan Davis
         Date: 3/25/2020
@@ -105,15 +105,15 @@ class Stock_Trader:
     """
     def buy_stock(self, symbol):
         num_shares = self.capital * self.risk / symbol['Current_Price']
-        self.capital = self.capital - (num_shares * symbol['Current_Price'])
+
         print("Bought {} shares of {}".format(num_shares,symbol['symbol']))
-        print("Current account balance: {}".format(self.capital))
+
         return num_shares
     """
         Author: Ryan Davis
         Date: 3/23/2020
 
-        Sells stock at current price, updates current capital
+        Sells stock at current price
 
         Arguments:
             symbol: dict containing current stock symbol and information
@@ -127,8 +127,7 @@ class Stock_Trader:
             print("Sold all of {} for {} in profit!".format(symbol['symbol'], change))
         else:
             print("Sold all of {} for a {} loss!".format(symbol['symbol'], change))
-        self.captial = self.capital + symbol["Shares_Bought"] * symbol["Current_Price"]
-        print("Current account balance: {}\n".format(self.capital))
+
 
 """
     Author: Ryan Davis
@@ -191,9 +190,9 @@ if __name__ == "__main__":
                     symbol["Bought_Price"] = symbol["Current_Price"]
                     symbol["Exit"] = symbol["Current_Price"] * .97
                     print("Setting exit @ {}\n".format(symbol["Exit"]))
-
+                    trader.capital -= (symbol["Shares_Bought"] * symbol["Current_Price"])
                     current_assets = current_assets + (symbol["Shares_Bought"] * symbol["Current_Price"])
-
+                    print("Current account balance: {}\n".format(trader.capital))
                 if symbol["Current_Price"] > symbol["Last_Price"]:
                     current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Last_Price"])
                     current_assets = current_assets + (symbol["Shares_Bought"] * symbol["Current_Price"])
@@ -204,8 +203,10 @@ if __name__ == "__main__":
                     if symbol["Sold"] == False:
                         print("\nSold {} @ {}".format(symbol['symbol'], symbol['Current_Price']))
                         trader.sell_stock(symbol)
+                        trader.capital += (symbol["Shares_Bought"] * symbol["Current_Price"])
                         current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Current_Price"])
                         symbol['Sold'] = True
+                        print("Current account balance: {}\n".format(trader.capital))
                     #trader.bought_stocks.remove(symbol['symbol'])
         if count % 2 == 0:
             print("Current account summary: \n\tAssets: {} \n\tCash: {} \n\tTotal: {} \n\tgains/losses: {}\n".format(current_assets, trader.capital, current_assets + trader.capital, (current_assets + trader.capital) - 1000))
