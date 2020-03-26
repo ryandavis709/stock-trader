@@ -57,14 +57,18 @@ class Stock_Trader:
         "time_period":"200",
         "series_type":"high",
         "apikey":os.getenv("API_KEY") }
-        response = requests.get(self.API_URL, SMA_high)
-        data = response.json()
-        a = data['Technical Analysis: SMA']
-        keys = a.keys()
-        newest_key = list(keys)[0]
+        try:
+            response = requests.get(self.API_URL, SMA_high)
+            data = response.json()
+            a = data['Technical Analysis: SMA']
+            keys = a.keys()
+            newest_key = list(keys)[0]
         #print(symbol['symbol'] + " " + str(newest_key) + " " + str(a[newest_key]["SMA"]))
-        symbol["SMA"] = float(a[newest_key]["SMA"])
-        return symbol
+            symbol["SMA"] = float(a[newest_key]["SMA"])
+            return symbol
+        except:
+            symbol["SMA"] = 2**1000
+            return symbol
     """
         Author: Ryan Davis
         Date: 3/23/2020
@@ -144,6 +148,7 @@ def get_stocks_to_watch(searched_stocks):
     stocks_to_watch = []
 
     driver = webdriver.Chrome()
+    driver.set_window_position(-2000,0)
     driver.get("http://finance.yahoo.com/gainers")
 
     elem = driver.find_element_by_name
@@ -155,8 +160,8 @@ def get_stocks_to_watch(searched_stocks):
         change = row.find_element_by_xpath(".//td[5]").text
         volume = row.find_element_by_xpath(".//td[7]").text
         print(symbol, price, change, volume)
-        if ("M" in volume):
-            if symbol not in searched_stocks:
+        if symbol not in searched_stocks:
+            if "M" in volume:
                 stock = {"symbol":symbol, "price":price,"change":change, "volume":volume}
                 stocks_to_watch.append(stock)
         try:
@@ -199,7 +204,7 @@ if __name__ == "__main__":
         # if not in trading hours, sleep until trading hours , then continue
         # if we achieve our 3% gain or lose 1.5%, go ahead and call it quits for the day
         total_assets = trader.capital + current_assets
-        if total_assets > start_balance * 1.03 or total_assets < start_balance * .985:
+        if total_assets < start_balance * .985:
             print("quitting for the day")
             wait_until_next_day()
             start_balance = total_assets
@@ -271,8 +276,12 @@ if __name__ == "__main__":
                 stocks_to_remove = []
                 searched_stocks = []
             new_stock_ct = 0
-            while len(trader.symbols) != 5:
-                trader.symbols.append(new_stocks[new_stock_ct])
+            while len(trader.symbols) != 5 and len(new_stocks) != 0:
+                try:
+                    trader.symbols.append(new_stocks[new_stock_ct])
+                except Exception as e:
+                    print("No more new stocks... breaking loop")
+                    break
                 new_stock_ct += 1
             time.sleep(60)
             for symbol in trader.symbols:
@@ -280,12 +289,3 @@ if __name__ == "__main__":
 
             #get new stocks, reset everything, etc
         time.sleep(60)
-
-    # get stocks to monitor
-    # get SMA_high
-    # wait 1 minute
-    # get SMA_low
-    # wait 1 minute
-    # get current price
-    # wait 1 minute, etc
-    # enact trade logic
