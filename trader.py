@@ -174,7 +174,7 @@ def wait_until_next_day():
     print("waiting")
     now = datetime.datetime.today()
     future = datetime.datetime(now.year,now.month,now.day,9,30)
-    if(now.hour > 4):
+    if(now.hour > 16):
         future += datetime.timedelta(days=1)
     print((future-now).seconds)
     time.sleep((future-now).seconds)
@@ -206,7 +206,15 @@ if __name__ == "__main__":
         # if we achieve our 3% gain or lose 1.5%, go ahead and call it quits for the day
         total_assets = trader.capital + current_assets
         if total_assets < start_balance * .985:
-            print("quitting for the day")
+            print("quitting for the day, too many losses")
+            for symbol in trader.symbol:
+                num_stocks -= 1
+                print("\nSold {} @ {}".format(symbol['symbol'], symbol['Current_Price']))
+                trader.sell_stock(symbol)
+                trader.capital += (symbol["Shares_Bought"] * symbol["Current_Price"])
+                current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Current_Price"])
+                trader.symbols.remove(symbol)
+                print("Current account balance: {}\n".format(trader.capital))
             wait_until_next_day()
             start_balance = total_assets
             stocks_to_remove = []
@@ -271,6 +279,14 @@ if __name__ == "__main__":
             else:
                 stocks_to_remove.append(symbol)
                 print("{} price was not above SMA, abandoning...".format(symbol['symbol']))
+                if symbol['symbol'] in trader.bought_stocks:
+                    num_stocks -= 1
+                    print("\nSold {} @ {}".format(symbol['symbol'], symbol['Current_Price']))
+                    trader.sell_stock(symbol)
+                    trader.capital += (symbol["Shares_Bought"] * symbol["Current_Price"])
+                    current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Current_Price"])
+                    trader.symbols.remove(symbol)
+                    print("Current account balance: {}\n".format(trader.capital))
         for stock in stocks_to_remove:
             trader.symbols.remove(stock)
         if count % 2 == 0:
