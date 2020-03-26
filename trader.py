@@ -183,8 +183,14 @@ def wait_until_next_day():
     print("waiting")
     now = datetime.datetime.today()
     future = datetime.datetime(now.year,now.month,now.day,9,30)
-    if(now.hour > 16):
+    if (now.weekday() == 5): # five refers to saturday here
+        future += datetime.timedelta(days=2)
+    elif (now.weekday() == 6): #six refers to sunday
         future += datetime.timedelta(days=1)
+    elif(now.hour > 16): # if its past four PM, just move to the next day.
+        future += datetime.timedelta(days=1)
+        if future.weekday==5: # accounts for case that its friday past 4pm. wait until monday 
+            future += datetime.timedelta(days=2)
     print((future-now).seconds)
     time.sleep((future-now).seconds)
 
