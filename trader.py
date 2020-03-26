@@ -34,7 +34,7 @@ class Stock_Trader:
         self.API_URL = "https://www.alphavantage.co/query"
         self.symbols = []
         self.bought_stocks = []
-        self.capital = 1035.67
+        self.capital = 1050.2123
         self.risk = .1
     """
         Author: Ryan Davis
@@ -169,6 +169,18 @@ def get_stocks_to_watch(searched_stocks):
         except:
             print("no more rows!")
             return stocks_to_watch
+"""
+    Author: Ryan Davis
+    Date: 3/26/2020
+
+    Waits until next trading day. Doesnt currently account for weekends but oh well.
+
+    Arguments:
+        None
+    Returns:
+        None
+"""
+
 
 def wait_until_next_day():
     print("waiting")
