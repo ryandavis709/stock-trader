@@ -34,7 +34,7 @@ class Stock_Trader:
         self.API_URL = "https://www.alphavantage.co/query"
         self.symbols = []
         self.bought_stocks = []
-        self.capital = 1000
+        self.capital = 1035.67
         self.risk = .1
     """
         Author: Ryan Davis
@@ -174,7 +174,8 @@ def wait_until_next_day():
     print("waiting")
     now = datetime.datetime.today()
     future = datetime.datetime(now.year,now.month,now.day,9,30)
-    future += datetime.timedelta(days=1)
+    if(now.hour > 4):
+        future += datetime.timedelta(days=1)
     print((future-now).seconds)
     time.sleep((future-now).seconds)
 
@@ -214,7 +215,21 @@ if __name__ == "__main__":
         now = datetime.datetime.now()
         today930 = now.replace(hour=9, minute=30, second=0, microsecond=0)
         today4 = now.replace(hour=16, minute=0, second=0, microsecond=0)
-
+        today345 = now.replace(hour=14, minute=0, second=0, microsecond=0)
+        if now > today345:
+            for symbol in trader.symbols:
+                num_stocks -= 1
+                print("\nSold {} @ {}".format(symbol['symbol'], symbol['Current_Price']))
+                trader.sell_stock(symbol)
+                trader.capital += (symbol["Shares_Bought"] * symbol["Current_Price"])
+                current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Current_Price"])
+                trader.symbols.remove(symbol)
+                print("Current account balance: {}\n".format(trader.capital))
+            wait_until_next_day()
+            start_balance = total_assets
+            stocks_to_remove = []
+            searched_stocks = trader.symbols
+            
         if now < today930 or now > today4:
             print("not in trading hours... sleeping")
             wait_until_next_day()
