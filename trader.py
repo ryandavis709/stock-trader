@@ -63,7 +63,6 @@ class Stock_Trader:
             a = data['Technical Analysis: SMA']
             keys = a.keys()
             newest_key = list(keys)[0]
-        #print(symbol['symbol'] + " " + str(newest_key) + " " + str(a[newest_key]["SMA"]))
             symbol["SMA"] = float(a[newest_key]["SMA"])
             return symbol
         except:
@@ -180,8 +179,6 @@ def get_stocks_to_watch(searched_stocks):
     Returns:
         None
 """
-
-
 def wait_until_next_day():
     print("waiting")
     now = datetime.datetime.today()
