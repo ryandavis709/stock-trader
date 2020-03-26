@@ -229,7 +229,7 @@ if __name__ == "__main__":
             start_balance = total_assets
             stocks_to_remove = []
             searched_stocks = trader.symbols
-            
+
         if now < today930 or now > today4:
             print("not in trading hours... sleeping")
             wait_until_next_day()
@@ -274,7 +274,7 @@ if __name__ == "__main__":
         for stock in stocks_to_remove:
             trader.symbols.remove(stock)
         if count % 2 == 0:
-            print("Current account summary: \n\tAssets: {} \n\tCash: {} \n\tTotal: {} \n\tgains/losses: {}\n".format(current_assets, trader.capital, current_assets + trader.capital, (current_assets + trader.capital) - 1000))
+            print("Current account summary: \n\tAssets: {} \n\tCash: {} \n\tTotal: {} \n\tgains/losses: {}\n".format(current_assets, trader.capital, current_assets + trader.capital, (current_assets + trader.capital) - start_balance))
             print("Current Holdings: ")
             for symbol in trader.symbols:
                 print("{} shares of {}".format(symbol["Shares_Bought"], symbol["symbol"]))
