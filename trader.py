@@ -39,7 +39,7 @@ class Stock_Trader:
         self.API_URL = "https://www.alphavantage.co/query"
         self.symbols = []
         self.bought_stocks = []
-        self.capital = 1050.2123
+        self.capital = 1060.2123
         self.risk = .1
     """
         Author: Ryan Davis
@@ -104,8 +104,8 @@ class Stock_Trader:
             symbol["Current_Price"] = float(a[newest_key]["1. open"])
             return symbol
         except Exception as e:
-            print("Error getting Current price of {}, {}".format(symbol['symbol'], data['Error Message']))
             try:
+                print("Error getting Current price of {}, {}".format(symbol['symbol'], data['Error Message']))
                 print("Setting current price to last price found...")
                 symbol["Current_Price"] = symbol["Last_Price"]
             except:
