@@ -39,8 +39,8 @@ class Stock_Trader:
         self.API_URL = "https://www.alphavantage.co/query"
         self.symbols = []
         self.bought_stocks = []
-        self.capital = 1068.855
-        self.risk = .1
+        self.capital = 1082.2708
+        self.risk = .2
     """
         Author: Ryan Davis
         Date: 3/25/2020
@@ -239,7 +239,7 @@ def get_stocks_to_watch(searched_stocks):
     Author: Ryan Davis
     Date: 3/26/2020
 
-    Waits until next trading day. Doesnt currently account for weekends but oh well.
+    Waits until next trading day.
 
     Arguments:
         None
@@ -260,7 +260,23 @@ def wait_until_next_day():
             future += datetime.timedelta(days=2)
     print((future-now).seconds)
     time.sleep((future-now).seconds)
+"""
+    Author: Ryan Davis
+    Date: 3/26/2020
 
+    Waits one hour, implemented to wait for new stocks to appear
+
+    Arguments:
+        None
+    Returns:
+        None
+"""
+def wait_one_hour():
+    print("waiting")
+    now = datetime.datetime.today()
+    future = datetime.datetime(now.year, now.month, now.day, now.hour + 1, now.minute)
+    print((future-now).seconds)
+    time.sleep((future-now).seconds)
 """
     Author: Ryan Davis
     Date: 3/27/2020
@@ -387,9 +403,9 @@ if __name__ == "__main__":
             stocks_to_remove = []
             new_stocks = get_stocks_to_watch(searched_stocks)
             if len(new_stocks) == 0 and len(trader.symbols) == 0:
-                print("no new stocks found... will try again tomorrow")
-                wait_until_next_day()
-                start_balance, stocks_to_remove, searched_stocks = reset(total_assets, trader.symbols)
+                print("no new stocks found... will try again in an hour")
+                wait_one_hour()
+                #start_balance, stocks_to_remove, searched_stocks = reset(total_assets, trader.symbols)
             new_stock_ct = 0
             while len(trader.symbols) != 5 and len(new_stocks) != 0:
                 try:
