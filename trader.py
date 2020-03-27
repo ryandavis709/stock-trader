@@ -106,6 +106,11 @@ class Stock_Trader:
         except Exception as e:
             try:
                 print("Error getting Current price of {}, {}".format(symbol['symbol'], data['Error Message']))
+            except:
+                print("API Error... could not get error message")
+                print(data)
+            try:
+
                 print("Setting current price to last price found...")
                 symbol["Current_Price"] = symbol["Last_Price"]
             except:
@@ -140,12 +145,12 @@ class Stock_Trader:
 
 
         today = datetime.datetime.today()
-        filename = "/logs/{}-{}-{}.txt".format(today.year, today.month, today.day)
+        filename = "logs/{}-{}-{}.txt".format(today.year, today.month, today.day)
         file = open(filename, "a")
-        file.write("{} - Bought {} shares of {} @ {}".format(datetime.datetime.now(), num_shares, symbol['symbol'], symbol["Bought_Price"]))
-        file.write("{} - Current assets: {}".format(datetime.datetime.now(), current_assets))
-        file.write("{} - Current Cash: {}".format(datetime.datetime.now(), self.capital))
-        file.write("{} - Total Account Value: {}".format(datetime.datetime.now(), self.capital + current_assets))
+        file.write("{} - Bought {} shares of {} @ {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), num_shares, symbol['symbol'], symbol["Bought_Price"]))
+        file.write("{} - Current assets: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), current_assets))
+        file.write("{} - Current Cash: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital))
+        file.write("{} - Total Account Value: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
         file.close()
 
         return symbol, current_assets
@@ -173,12 +178,12 @@ class Stock_Trader:
             print("Sold all of {} for a {} loss!".format(symbol['symbol'], change))
 
         today = datetime.datetime.today()
-        filename = "/logs/{}-{}-{}.txt".format(today.year, today.month, today.day)
+        filename = "logs/{}-{}-{}.txt".format(today.year, today.month, today.day)
         file = open(filename, "a")
-        file.write("{} - Sold {} shares of {} @ {}".format(datetime.datetime.now(), symbol["Shares_Bought"], symbol['symbol'], symbol["Bought_Price"]))
-        file.write("{} - Current assets: {}".format(datetime.datetime.now(), current_assets))
-        file.write("{} - Current Cash: {}".format(datetime.datetime.now(), self.capital))
-        file.write("{} - Total Account Value: {}".format(datetime.datetime.now(), self.capital + current_assets))
+        file.write("{} - Sold {} shares of {} @ {}]n".format(datetime.datetime.now().strftime("%H:%M:%S"), symbol["Shares_Bought"], symbol['symbol'], symbol["Bought_Price"]))
+        file.write("{} - Current assets: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), current_assets))
+        file.write("{} - Current Cash: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital))
+        file.write("{} - Total Account Value: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
         file.close()
 
         return current_assets
