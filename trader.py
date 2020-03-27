@@ -180,7 +180,7 @@ class Stock_Trader:
         today = datetime.datetime.today()
         filename = "logs/{}-{}-{}.txt".format(today.year, today.month, today.day)
         file = open(filename, "a")
-        file.write("{} - Sold {} shares of {} @ {}]n".format(datetime.datetime.now().strftime("%H:%M:%S"), symbol["Shares_Bought"], symbol['symbol'], symbol["Bought_Price"]))
+        file.write("{} - Sold {} shares of {} @ {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), symbol["Shares_Bought"], symbol['symbol'], symbol["Bought_Price"]))
         file.write("{} - Current assets: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), current_assets))
         file.write("{} - Current Cash: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital))
         file.write("{} - Total Account Value: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
