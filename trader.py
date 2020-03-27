@@ -62,6 +62,7 @@ class Stock_Trader:
         "time_period":"200",
         "series_type":"high",
         "apikey":os.getenv("API_KEY") }
+        data = {}
         try:
             response = requests.get(self.API_URL, SMA_high)
             data = response.json()
@@ -70,7 +71,8 @@ class Stock_Trader:
             newest_key = list(keys)[0]
             symbol["SMA"] = float(a[newest_key]["SMA"])
             return symbol
-        except:
+        except Exception as e:
+            print("Error getting SMA of {}, {}".format(symbol['symbol'],data['Error Message']))
             symbol["SMA"] = 2**1000
             return symbol
     """
@@ -86,19 +88,30 @@ class Stock_Trader:
             None
     """
     def getCurrentPrice(self,symbol):
-        data = { "function": "TIME_SERIES_INTRADAY",
+        Current_Price = { "function": "TIME_SERIES_INTRADAY",
         "symbol": symbol['symbol'],
         "interval" : "1min",
         "datatype": "json",
         "apikey": os.getenv("API_KEY") }
-        response = requests.get(self.API_URL, data)
-        data = response.json()
-        a = (data['Time Series (1min)'])
-        keys = (a.keys())
-        newest_key = list(keys)[0]
-        #print(str(a[newest_key]))
-        symbol["Current_Price"] = float(a[newest_key]["1. open"])
-        return symbol
+        data = {}
+        try:
+            response = requests.get(self.API_URL, Current_Price)
+            data = response.json()
+            a = (data['Time Series (1min)'])
+            keys = (a.keys())
+            newest_key = list(keys)[0]
+            #print(str(a[newest_key]))
+            symbol["Current_Price"] = float(a[newest_key]["1. open"])
+            return symbol
+        except Exception as e:
+            print("Error getting Current price of {}, {}".format(symbol['symbol'], data['Error Message']))
+            try:
+                print("Setting current price to last price found...")
+                symbol["Current_Price"] = symbol["Last_Price"]
+            except:
+                print("No last price found... setting to -100")
+                symbol["Current_Price"] = -100
+            return symbol
     """
         Author: Ryan Davis
         Date: 3/23/2020
@@ -138,11 +151,10 @@ class Stock_Trader:
         Returns:
             None
     """
-    def sell_stock(self, symbol):
+    def sell_stock(self, symbol, current_assets):
         print("\nSold {} @ {}".format(symbol['symbol'], symbol['Current_Price']))
         self.capital += (symbol["Shares_Bought"] * symbol["Current_Price"])
         current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Current_Price"])
-        self.symbols.remove(symbol)
         print("Current account balance: {}\n".format(self.capital))
         change = (symbol["Shares_Bought"] * symbol["Current_Price"]) - (symbol["Shares_Bought"] * symbol["Bought_Price"])
         if change > 0:
@@ -184,16 +196,16 @@ def get_stocks_to_watch(searched_stocks):
         symbol = row.find_element_by_xpath(".//td[1]").text
         price = row.find_element_by_xpath(".//td[3]").text
         change = row.find_element_by_xpath(".//td[5]").text
-        volume = row.find_element_by_xpath(".//td[7]").text
+        volume = row.find_element_by_xpath(".//td[6]").text
         print(symbol, price, change, volume)
         if symbol not in searched_stocks:
-            if "M" in volume:
+            if "M" in volume and "+" in change:
                 stock = {"symbol":symbol, "price":price,"change":change, "volume":volume}
                 stocks_to_watch.append(stock)
         try:
             row = row.find_element_by_xpath(".//following-sibling::tr")
         except:
-            print("no more rows!")
+            print("no more rows!\n")
             return stocks_to_watch
 """
     Author: Ryan Davis
@@ -230,6 +242,7 @@ def print_account_holdings(symbols):
     print("Current Holdings: ")
     for symbol in symbols:
         print("{} shares of {}".format(symbol["Shares_Bought"], symbol["symbol"]))
+    print()
 
 
 
@@ -258,7 +271,8 @@ if __name__ == "__main__":
                 if symbol['symbol'] in trader.bought_stocks:
                     num_stocks -= 1
                     current_assets = trader.sell_stock(symbol, current_assets)
-            #wait_until_next_day()
+                    stocks_to_remove.append(symbol)
+            wait_until_next_day()
             start_balance = total_assets
             stocks_to_remove = []
             searched_stocks = symbols
@@ -267,17 +281,18 @@ if __name__ == "__main__":
         today930 = now.replace(hour=9, minute=30, second=0, microsecond=0)
         today4 = now.replace(hour=16, minute=0, second=0, microsecond=0)
         today345 = now.replace(hour=14, minute=0, second=0, microsecond=0)
-        #if now > today345:
-            #for symbol in trader.symbols:
-            #    num_stocks -= 1
-            #    symbol, current_assets = trader.sell_stock(symbol, current_assets)
-            #wait_until_next_day()
-            #start_balance, stocks_to_remove, searched_stocks = reset(total_assets, trader.symbols)
+        if now > today345:
+            for symbol in trader.symbols:
+                num_stocks -= 1
+                symbol, current_assets = trader.sell_stock(symbol, current_assets)
+                stocks_to_remove.append(symbol)
+            wait_until_next_day()
+            start_balance, stocks_to_remove, searched_stocks = reset(total_assets, trader.symbols)
 
-        #if now < today930 or now > today4:
-            #print("not in trading hours... sleeping")
-            #wait_until_next_day()
-            #start_balance, stocks_to_remove, searched_stocks = reset(total_assets, trader.symbols)
+        if now < today930 or now > today4:
+            print("not in trading hours... sleeping")
+            wait_until_next_day()
+            start_balance, stocks_to_remove, searched_stocks = reset(total_assets, trader.symbols)
 
         for symbol in trader.symbols:
             symbol = trader.getCurrentPrice(symbol)
@@ -293,6 +308,7 @@ if __name__ == "__main__":
                 if symbol["Current_Price"] <= symbol["Exit"]:
                     num_stocks -= 1
                     current_assets = trader.sell_stock(symbol, current_assets)
+                    stocks_to_remove.append(symbol)
             else:
                 stocks_to_remove.append(symbol)
                 print("{} price was not above SMA, abandoning...".format(symbol['symbol']))
@@ -300,12 +316,12 @@ if __name__ == "__main__":
                 #or accounts for case that stock value is just above SMA then falls just below
                 if symbol['symbol'] in trader.bought_stocks:
                     num_stocks -= 1
-                    current_assets = trader.sell_stock(symbol)
-
+                    current_assets = trader.sell_stock(symbol, current_assets)
+                    stocks_to_remove.append(symbol)
         for stock in stocks_to_remove:
             trader.symbols.remove(stock)
         if count % 2 == 0:
-            print_account_holdings(symbols)
+            print_account_holdings(trader.symbols)
         count += 1
 
         if len(trader.symbols) < 5:
@@ -327,5 +343,9 @@ if __name__ == "__main__":
                 new_stock_ct += 1
             time.sleep(60)
             for symbol in trader.symbols:
-                symbol = trader.getSMAhigh(symbol)
+                try:
+                    if symbol['SMA'] > 0:
+                        continue
+                except:
+                    symbol = trader.getSMAhigh(symbol)
         time.sleep(60)

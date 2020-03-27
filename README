@@ -3,4 +3,15 @@ TODO
 3/26/2020
 refactor, make it look pretty, kinda hard to read at the moment
   add to classes, make it work
-update wait until next day, make work for weekends
+update wait until next day, make work for weekends - DONE
+add logging for timestamp of every buy and sell of stock. log to excel file
+
+add in some volume calculations?
+  if price is increasing but volume isnt, could signal the end of a trend
+
+should i actually require at least 1M in volume?
+  could probably lower to like 500k or something, just unsure. will have to do more testing
+
+... maybe if no stocks are found wait an hour and try again...
+
+logging system, have it email me a report at the end of every trading day with all trades attached...
