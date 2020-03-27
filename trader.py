@@ -149,7 +149,7 @@ class Stock_Trader:
         file.write("{} - Bought {} shares of {} @ {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), num_shares, symbol['symbol'], symbol["Bought_Price"]))
         file.write("{} - Current assets: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), current_assets))
         file.write("{} - Current Cash: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital))
-        file.write("{} - Total Account Value: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
+        file.write("{} - Total Account Value: {}\n\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
         file.close()
 
         return symbol, current_assets
@@ -182,7 +182,7 @@ class Stock_Trader:
         file.write("{} - Sold {} shares of {} @ {}]n".format(datetime.datetime.now().strftime("%H:%M:%S"), symbol["Shares_Bought"], symbol['symbol'], symbol["Bought_Price"]))
         file.write("{} - Current assets: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), current_assets))
         file.write("{} - Current Cash: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital))
-        file.write("{} - Total Account Value: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
+        file.write("{} - Total Account Value: {}\n\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
         file.close()
 
         return current_assets
