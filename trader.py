@@ -174,8 +174,10 @@ class Stock_Trader:
         change = (symbol["Shares_Bought"] * symbol["Current_Price"]) - (symbol["Shares_Bought"] * symbol["Bought_Price"])
         if change > 0:
             print("Sold all of {} for {} in profit!".format(symbol['symbol'], change))
+            print("{} was bought at {}".format(symbol['symbol'], symbol['Bought_Price']))
         else:
             print("Sold all of {} for a {} loss!".format(symbol['symbol'], change))
+            print("{} was bought at {}".format(symbol['symbol'], symbol['Bought_Price']))
 
         today = datetime.datetime.today()
         filename = "logs/{}-{}-{}.txt".format(today.year, today.month, today.day)
