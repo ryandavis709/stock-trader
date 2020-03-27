@@ -39,7 +39,7 @@ class Stock_Trader:
         self.API_URL = "https://www.alphavantage.co/query"
         self.symbols = []
         self.bought_stocks = []
-        self.capital = 1060.2123
+        self.capital = 1068.855
         self.risk = .1
     """
         Author: Ryan Davis
@@ -106,6 +106,7 @@ class Stock_Trader:
         except Exception as e:
             try:
                 print("Error getting Current price of {}, {}".format(symbol['symbol'], data['Error Message']))
+                print(data)
             except:
                 print("API Error... could not get error message")
                 print(data)
@@ -179,7 +180,7 @@ class Stock_Trader:
         today = datetime.datetime.today()
         filename = "logs/{}-{}-{}.txt".format(today.year, today.month, today.day)
         file = open(filename, "a")
-        file.write("{} - Sold {} shares of {} @ {}]n".format(datetime.datetime.now().strftime("%H:%M:%S"), symbol["Shares_Bought"], symbol['symbol'], symbol["Bought_Price"]))
+        file.write("{} - Sold {} shares of {} @ {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), symbol["Shares_Bought"], symbol['symbol'], symbol["Bought_Price"]))
         file.write("{} - Current assets: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), current_assets))
         file.write("{} - Current Cash: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital))
         file.write("{} - Total Account Value: {}\n\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
@@ -230,6 +231,7 @@ def get_stocks_to_watch(searched_stocks):
             row = row.find_element_by_xpath(".//following-sibling::tr")
         except:
             print("no more rows!\n")
+            driver.close()
             return stocks_to_watch
 """
     Author: Ryan Davis
@@ -274,7 +276,6 @@ if __name__ == "__main__":
     trader = Stock_Trader()
     stocks_to_remove = []
     searched_stocks = []
-    num_stocks = 0
     count = 0
     current_assets = 0
 
@@ -295,7 +296,6 @@ if __name__ == "__main__":
             print("quitting for the day, too many losses")
             for symbol in trader.symbol:
                 if symbol['symbol'] in trader.bought_stocks:
-                    num_stocks -= 1
                     current_assets = trader.sell_stock(symbol, current_assets)
                     stocks_to_remove.append(symbol)
             wait_until_next_day()
@@ -306,10 +306,9 @@ if __name__ == "__main__":
         now = datetime.datetime.now()
         today930 = now.replace(hour=9, minute=30, second=0, microsecond=0)
         today4 = now.replace(hour=16, minute=0, second=0, microsecond=0)
-        today345 = now.replace(hour=14, minute=0, second=0, microsecond=0)
+        today345 = now.replace(hour=15, minute=45, second=0, microsecond=0)
         if now > today345:
             for symbol in trader.symbols:
-                num_stocks -= 1
                 symbol, current_assets = trader.sell_stock(symbol, current_assets)
                 stocks_to_remove.append(symbol)
             wait_until_next_day()
@@ -325,14 +324,12 @@ if __name__ == "__main__":
             searched_stocks.append(symbol['symbol'])
             if symbol["Current_Price"] > symbol["SMA"]:
                 if symbol["symbol"] not in trader.bought_stocks:
-                    num_stocks += 1
                     symbol, current_assets = trader.buy_stock(symbol, current_assets)
 
                 if symbol["Current_Price"] > symbol["Last_Price"]:
                     symbol, current_assets = trader.update_stock(symbol, current_assets)
 
                 if symbol["Current_Price"] <= symbol["Exit"]:
-                    num_stocks -= 1
                     current_assets = trader.sell_stock(symbol, current_assets)
                     stocks_to_remove.append(symbol)
             else:
@@ -341,11 +338,18 @@ if __name__ == "__main__":
                 #accounts for the case that the stock value drops rapidly below SMA when it was previously above
                 #or accounts for case that stock value is just above SMA then falls just below
                 if symbol['symbol'] in trader.bought_stocks:
-                    num_stocks -= 1
                     current_assets = trader.sell_stock(symbol, current_assets)
                     stocks_to_remove.append(symbol)
         for stock in stocks_to_remove:
-            trader.symbols.remove(stock)
+            try:
+                for item in trader.symbols:
+                    if stock['symbol'] == item['symbol']:
+                        trader.symbols.remove(item)
+                        break
+            except:
+                print("Error removing stock from symbols.....")
+                print(stock)
+                print(trader.symbols)
         if count % 2 == 0:
             print_account_holdings(trader.symbols)
         count += 1
