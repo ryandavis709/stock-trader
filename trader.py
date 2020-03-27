@@ -193,7 +193,7 @@ class Stock_Trader:
         current_assets = current_assets + (symbol["Shares_Bought"] * symbol["Current_Price"])
         symbol["Last_Price"] = symbol["Current_Price"]
         symbol["Exit"] = symbol["Current_Price"] * .97
-        print("\n{} rose to {}, updating exit to {}\n".format(symbol['symbol'], symbol['Current_Price'], symbol['Exit']))
+        print("\n{} rose from {} to {}, updating exit to {}\n".format(symbol['symbol'], symbol['Last_Price'], symbol['Current_Price'], symbol['Exit']))
         return symbol, current_assets
 
 """
