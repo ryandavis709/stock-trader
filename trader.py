@@ -106,6 +106,10 @@ class Stock_Trader:
         except Exception as e:
             try:
                 print("Error getting Current price of {}, {}".format(symbol['symbol'], data['Error Message']))
+            except:
+                print("API Error... could not get error message")
+                print(data)
+            try:
                 print("Setting current price to last price found...")
                 symbol["Current_Price"] = symbol["Last_Price"]
             except:
@@ -138,6 +142,16 @@ class Stock_Trader:
         current_assets = current_assets + (symbol["Shares_Bought"] * symbol["Current_Price"])
         print("Current account balance: {}\n".format(self.capital))
 
+
+        today = datetime.datetime.today()
+        filename = "logs/{}-{}-{}.txt".format(today.year, today.month, today.day)
+        file = open(filename, "a")
+        file.write("{} - Bought {} shares of {} @ {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), num_shares, symbol['symbol'], symbol["Bought_Price"]))
+        file.write("{} - Current assets: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), current_assets))
+        file.write("{} - Current Cash: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital))
+        file.write("{} - Total Account Value: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
+        file.close()
+
         return symbol, current_assets
     """
         Author: Ryan Davis
@@ -161,6 +175,16 @@ class Stock_Trader:
             print("Sold all of {} for {} in profit!".format(symbol['symbol'], change))
         else:
             print("Sold all of {} for a {} loss!".format(symbol['symbol'], change))
+
+        today = datetime.datetime.today()
+        filename = "logs/{}-{}-{}.txt".format(today.year, today.month, today.day)
+        file = open(filename, "a")
+        file.write("{} - Sold {} shares of {} @ {}]n".format(datetime.datetime.now().strftime("%H:%M:%S"), symbol["Shares_Bought"], symbol['symbol'], symbol["Bought_Price"]))
+        file.write("{} - Current assets: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), current_assets))
+        file.write("{} - Current Cash: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital))
+        file.write("{} - Total Account Value: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
+        file.close()
+
         return current_assets
 
     def update_stock(self, symbol, current_assets):
@@ -253,6 +277,8 @@ if __name__ == "__main__":
     num_stocks = 0
     count = 0
     current_assets = 0
+
+
     start_balance = trader.capital
     stocks_to_watch = get_stocks_to_watch(trader.bought_stocks)
     trader.symbols = stocks_to_watch[:5]
