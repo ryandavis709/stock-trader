@@ -1,0 +1,69 @@
+11:47:57 - Bought 18.856599377501112 shares of SDC @ 5.6225
+11:47:57 - Current assets: 106.02123
+11:47:57 - Current Cash: 954.1910699999999
+11:47:57 - Total Account Value: 1060.2123
+11:47:57 - Bought 0.6391240194860301 shares of ZM @ 149.2967
+11:47:57 - Current assets: 201.440337
+11:47:57 - Current Cash: 858.7719629999999
+11:47:57 - Total Account Value: 1060.2123
+11:47:58 - Bought 2.9281940384005565 shares of MRNA @ 29.3277
+11:47:58 - Current assets: 287.3175333
+11:47:58 - Current Cash: 772.8947666999999
+11:47:58 - Total Account Value: 1060.2123
+11:59:14 - Bought 1.6525438672225785 shares of LYV @ 46.77
+11:59:14 - Current assets: 367.60477846804577
+11:59:14 - Current Cash: 695.6052900299999
+11:59:14 - Total Account Value: 1063.2100684980455
+12:17:15 - Bought 2.8105264243636356 shares of LVGO @ 24.75
+12:17:15 - Current assets: 439.67910523590575
+12:17:15 - Current Cash: 626.0447610269999
+12:17:15 - Total Account Value: 1065.7238662629056
+12:54:42 - Sold 18.856599377501112 shares of SDC @ 5.6225]n12:54:42 - Current assets: 336.01505698502297
+12:54:42 - Current Cash: 730.1331895908061
+12:54:42 - Total Account Value: 1066.148246575829
+12:56:57 - Bought 0.43103677288553405 shares of TDOC @ 169.39
+12:56:57 - Current assets: 409.1351735677597
+12:56:57 - Current Cash: 657.1198706317255
+12:56:57 - Total Account Value: 1066.2550441994852
+14:00:52 - Sold 0.6391240194860301 shares of ZM @ 149.2967]n14:00:52 - Current assets: 314.94977680841197
+14:00:52 - Current Cash: 753.9645437571891
+14:00:52 - Total Account Value: 1068.914320565601
+14:05:38 - Bought 18.605918189730204 shares of SDC @ 5.745
+14:05:38 - Current assets: 106.89100000000002
+14:05:38 - Current Cash: 962.019
+14:05:38 - Total Account Value: 1068.91
+14:05:39 - Bought 17.577223145931924 shares of ANGI @ 5.4731
+14:05:39 - Current assets: 203.09290000000004
+14:05:39 - Current Cash: 865.8171
+14:05:39 - Total Account Value: 1068.91
+14:05:40 - Bought 7.6278740518205925 shares of EURN @ 11.3507
+14:05:40 - Current assets: 289.67461000000003
+14:05:40 - Current Cash: 779.2353899999999
+14:05:40 - Total Account Value: 1068.9099999999999
+14:05:41 - Bought 2.6043963569518715 shares of MRNA @ 29.92
+14:05:41 - Current assets: 367.59814900000003
+14:05:41 - Current Cash: 701.3118509999999
+14:05:41 - Total Account Value: 1068.9099999999999
+14:05:42 - Bought 0.4634627616970658 shares of ZM @ 151.32
+14:05:42 - Current assets: 437.7293341
+14:05:42 - Current Cash: 631.1806658999999
+14:05:42 - Total Account Value: 1068.9099999999999
+14:08:51 - Sold 0.4634627616970658 shares of ZM @ 151.32]n14:08:51 - Current assets: 368.50718071903407
+14:08:51 - Current Cash: 700.8437536106859
+14:08:51 - Total Account Value: 1069.35093432972
+14:14:34 - Bought 18.60496083550914 shares of SDC @ 5.745
+14:14:34 - Current assets: 106.88550000000001
+14:14:34 - Current Cash: 961.9695
+14:14:34 - Total Account Value: 1068.855
+14:14:35 - Bought 8.42355078809107 shares of EURN @ 11.42
+14:14:35 - Current assets: 203.08245000000002
+14:14:35 - Current Cash: 865.77255
+14:14:35 - Total Account Value: 1068.855
+14:14:36 - Bought 16.137419384902145 shares of ANGI @ 5.365
+14:14:36 - Current assets: 289.65970500000003
+14:14:36 - Current Cash: 779.195295
+14:14:36 - Total Account Value: 1068.855
+14:14:36 - Bought 2.5895490029910273 shares of MRNA @ 30.09
+14:14:36 - Current assets: 367.57923450000004
+14:14:36 - Current Cash: 701.2757655
+14:14:36 - Total Account Value: 1068.855
