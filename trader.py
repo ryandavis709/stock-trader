@@ -261,10 +261,35 @@ def wait_until_next_day():
     print((future-now).seconds)
     time.sleep((future-now).seconds)
 
+"""
+    Author: Ryan Davis
+    Date: 3/27/2020
+
+    Resets used variables for between days
+
+    Arguments:
+        Total_assets: float, contains sum of capital and assets
+        Symbols: contains all symbols current in assets
+    Returns:
+        Total_assets: float, contains sum of capital and assets
+        stocks_to_watch: empty arr, contains all stocks that are being looked at
+        symbols: all stocks currently in assets
+"""
 def reset(total_assets, symbols):
     stocks_to_watch = []
     return total_assets, stocks_to_watch, symbols
 
+"""
+    Author: Ryan Davis
+    Date: 3/27/2020
+
+    Prints current account holdings
+
+    Arguments:
+        Symbols: array of stocks, contains all stocks currently being traded
+    Returns:
+        None 
+"""
 def print_account_holdings(symbols):
     print("Current account summary: \n\tAssets: {} \n\tCash: {} \n\tTotal: {} \n\tgains/losses: {}\n".format(current_assets, trader.capital, current_assets + trader.capital, (current_assets + trader.capital) - start_balance))
     print("Current Holdings: ")
