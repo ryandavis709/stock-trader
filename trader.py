@@ -288,7 +288,7 @@ def reset(total_assets, symbols):
     Arguments:
         Symbols: array of stocks, contains all stocks currently being traded
     Returns:
-        None 
+        None
 """
 def print_account_holdings(symbols):
     print("Current account summary: \n\tAssets: {} \n\tCash: {} \n\tTotal: {} \n\tgains/losses: {}\n".format(current_assets, trader.capital, current_assets + trader.capital, (current_assets + trader.capital) - start_balance))
@@ -336,7 +336,7 @@ if __name__ == "__main__":
         today345 = now.replace(hour=15, minute=45, second=0, microsecond=0)
         if now > today345:
             for symbol in trader.symbols:
-                symbol, current_assets = trader.sell_stock(symbol, current_assets)
+                current_assets = trader.sell_stock(symbol, current_assets)
                 stocks_to_remove.append(symbol)
             wait_until_next_day()
             start_balance, stocks_to_remove, searched_stocks = reset(total_assets, trader.symbols)
