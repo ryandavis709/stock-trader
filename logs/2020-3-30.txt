@@ -1,32 +1,54 @@
-09:29:53 - Bought 5.693165702261967 shares of UDR @ 38.02
-09:29:53 - Current assets: 216.45416
-09:29:53 - Current Cash: 865.81664
-09:29:53 - Total Account Value: 1082.2708
-09:29:53 - Bought 14.71226236193713 shares of EURN @ 11.77
-09:29:53 - Current assets: 389.617488
-09:29:53 - Current Cash: 692.653312
-09:29:53 - Total Account Value: 1082.2708
-09:29:54 - Bought 0.5787786187591394 shares of RNG @ 239.35
-09:29:54 - Current assets: 528.1481504
-09:29:54 - Current Cash: 554.1226496
-09:29:54 - Total Account Value: 1082.2708
-09:54:13 - Bought 26.380762949421083 shares of TEVA @ 8.205
-09:54:13 - Current assets: 216.45415999999997
-09:54:13 - Current Cash: 865.81664
-09:54:13 - Total Account Value: 1082.2708
-09:54:14 - Bought 32.18649219330855 shares of GFI @ 5.38
-09:54:14 - Current assets: 389.617488
-09:54:14 - Current Cash: 692.653312
-09:54:14 - Total Account Value: 1082.2708
-09:54:14 - Bought 1.741428817096166 shares of ABT @ 79.55
-09:54:14 - Current assets: 528.1481504
-09:54:14 - Current Cash: 554.1226496
-09:54:14 - Total Account Value: 1082.2708
-09:54:14 - Bought 2.8932131554627336 shares of CHWY @ 38.305
-09:54:14 - Current assets: 638.97268032
-09:54:14 - Current Cash: 443.29811968
-09:54:14 - Total Account Value: 1082.2708
-09:54:15 - Bought 0.6821545274755713 shares of JNJ @ 129.97
-09:54:15 - Current assets: 727.632304256
-09:54:15 - Current Cash: 354.638495744
-09:54:15 - Total Account Value: 1082.2708
+09:49:19 - Bought 1.3215318991097924 shares of ABT @ 80.88
+09:49:19 - Current assets: 106.88550000000001
+09:49:19 - Current Cash: 961.9695
+09:49:19 - Total Account Value: 1068.855
+
+09:49:19 - Bought 17.88047397769517 shares of GFI @ 5.38
+09:49:19 - Current assets: 203.08245000000002
+09:49:19 - Current Cash: 865.77255
+09:49:19 - Total Account Value: 1068.855
+
+10:13:28 - Bought 19.12084078711986 shares of GFI @ 5.59
+10:13:28 - Current assets: 106.88550000000002
+10:13:28 - Current Cash: 961.9695
+10:13:28 - Total Account Value: 1068.855
+
+10:13:28 - Bought 9.458893805309737 shares of FRO @ 10.17
+10:13:28 - Current assets: 203.08245000000005
+10:13:28 - Current Cash: 865.77255
+10:13:28 - Total Account Value: 1068.855
+
+10:15:01 - Bought 1.625863943661972 shares of CVNA @ 53.25
+10:15:01 - Current assets: 289.65970500000003
+10:15:01 - Current Cash: 779.195295
+10:15:01 - Total Account Value: 1068.855
+
+10:15:16 - Bought 9.619695000000002 shares of TEVA @ 8.1
+10:15:16 - Current assets: 367.57923450000004
+10:15:16 - Current Cash: 701.2757655
+10:15:16 - Total Account Value: 1068.855
+
+10:22:25 - Bought 18.90106100795756 shares of GFI @ 5.655
+10:22:25 - Current assets: 106.8855
+10:22:25 - Current Cash: 961.9695
+10:22:25 - Total Account Value: 1068.855
+
+10:22:25 - Bought 1.8112775371869707 shares of CVNA @ 53.11
+10:22:25 - Current assets: 203.08245
+10:22:25 - Current Cash: 865.77255
+10:22:25 - Total Account Value: 1068.855
+
+10:22:50 - Bought 8.45068374816984 shares of FRO @ 10.245
+10:22:50 - Current assets: 289.65970500000003
+10:22:50 - Current Cash: 779.195295
+10:22:50 - Total Account Value: 1068.855
+
+10:22:50 - Bought 0.9607181942038456 shares of ABT @ 81.1055
+10:22:50 - Current assets: 367.57923450000004
+10:22:50 - Current Cash: 701.2757655
+10:22:50 - Total Account Value: 1068.855
+
+10:24:19 - Bought 8.484679929100324 shares of TEVA @ 8.2652
+10:24:19 - Current assets: 438.31816135426146
+10:24:19 - Current Cash: 631.1481889500001
+10:24:19 - Total Account Value: 1069.4663503042616
