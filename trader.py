@@ -55,7 +55,7 @@ class Stock_Trader:
             symbol: updated dict containing current stock information,
                 basically adds SMA information to stock information
     """
-    def getSMAhigh(self,symbol):
+    def getSMAhigh(self,symbol, current_calls):
         SMA_high = { "function": "SMA",
         "symbol": symbol['symbol'],
         "interval": "1min",
@@ -64,17 +64,60 @@ class Stock_Trader:
         "apikey":os.getenv("API_KEY") }
         data = {}
         try:
+            current_calls += 1
+            if(current_calls % 5 == 0):
+                print("API limit hit.. sleeping")
+                time.sleep(60)
             response = requests.get(self.API_URL, SMA_high)
+
             data = response.json()
             a = data['Technical Analysis: SMA']
             keys = a.keys()
             newest_key = list(keys)[0]
             symbol["SMA"] = float(a[newest_key]["SMA"])
-            return symbol
+            return symbol, current_calls
         except Exception as e:
-            print("Error getting SMA of {}, {}".format(symbol['symbol'],data['Error Message']))
-            symbol["SMA"] = 2**1000
-            return symbol
+            try:
+                current_calls += 1
+                if(current_calls % 5 == 0):
+                    print("API limit hit.. sleeping")
+                    time.sleep(60)
+                print("Initial call failed, retrying API call")
+                response = requests.get(self.API_URL, SMA_high)
+
+                data = response.json()
+                a = data['Technical Analysis: SMA']
+                keys = a.keys()
+                newest_key = list(keys)[0]
+                symbol["SMA"] = float(a[newest_key]["SMA"])
+                return symbol, current_calls
+            except:
+                print("Second API call failed... final try")
+                try:
+                    current_calls += 1
+                    if(current_calls % 5 == 0):
+                        print("API limit hit.. sleeping")
+                        time.sleep(60)
+                    print("Initial call failed, retrying API call")
+                    response = requests.get(self.API_URL, SMA_high)
+
+                    data = response.json()
+                    a = data['Technical Analysis: SMA']
+                    keys = a.keys()
+                    newest_key = list(keys)[0]
+                    symbol["SMA"] = float(a[newest_key]["SMA"])
+                    return symbol, current_calls
+                except:
+                    print("All API calls failed.. setting to 2^1000 for removal")
+                    try:
+                        print("Error getting SMA of {}, {}".format(symbol['symbol'],data['Error Message']))
+                        print(data)
+                    except:
+                        print("API Error... could not get error message")
+                        print(data)
+                    symbol["SMA"] = 2**1000
+                    return symbol, current_calls
+
     """
         Author: Ryan Davis
         Date: 3/23/2020
@@ -87,7 +130,7 @@ class Stock_Trader:
         Returns:
             None
     """
-    def getCurrentPrice(self,symbol):
+    def getCurrentPrice(self,symbol, current_calls):
         Current_Price = { "function": "TIME_SERIES_INTRADAY",
         "symbol": symbol['symbol'],
         "interval" : "1min",
@@ -95,28 +138,63 @@ class Stock_Trader:
         "apikey": os.getenv("API_KEY") }
         data = {}
         try:
+            current_calls += 1
+            if(current_calls % 5 == 0):
+                print("API limit hit.. sleeping")
+                time.sleep(60)
             response = requests.get(self.API_URL, Current_Price)
+
             data = response.json()
             a = (data['Time Series (1min)'])
             keys = (a.keys())
             newest_key = list(keys)[0]
-            #print(str(a[newest_key]))
             symbol["Current_Price"] = float(a[newest_key]["1. open"])
-            return symbol
+            return symbol, current_calls
         except Exception as e:
             try:
-                print("Error getting Current price of {}, {}".format(symbol['symbol'], data['Error Message']))
-                print(data)
+                current_calls += 1
+                print("API Call failed... retrying")
+                if(current_calls % 5 == 0):
+                    print("API limit hit.. sleeping")
+                    time.sleep(60)
+                response = requests.get(self.API_URL, Current_Price)
+
+                data = response.json()
+                a = (data['Time Series (1min)'])
+                keys = (a.keys())
+                newest_key = list(keys)[0]
+                symbol["Current_Price"] = float(a[newest_key]["1. open"])
+                return symbol, current_calls
             except:
-                print("API Error... could not get error message")
-                print(data)
-            try:
-                print("Setting current price to last price found...")
-                symbol["Current_Price"] = symbol["Last_Price"]
-            except:
-                print("No last price found... setting to -100")
-                symbol["Current_Price"] = -100
-            return symbol
+                try:
+                    current_calls += 1
+                    print("API call failed.. final retry")
+                    if(current_calls % 5 == 0):
+                        print("API limit hit.. sleeping")
+                        time.sleep(60)
+                    response = requests.get(self.API_URL, Current_Price)
+
+                    data = response.json()
+                    a = (data['Time Series (1min)'])
+                    keys = (a.keys())
+                    newest_key = list(keys)[0]
+                    symbol["Current_Price"] = float(a[newest_key]["1. open"])
+                    return symbol, current_calls
+                except:
+                    try:
+                        print("Error getting Current price of {}, {}".format(symbol['symbol'], data['Error Message']))
+                        print(data)
+                    except:
+                        print("API Error... could not get error message")
+                        print(data)
+                    try:
+                        print("Setting current price to last price found...")
+                        symbol["Current_Price"] = symbol["Last_Price"]
+                    except:
+                        print("No last price found... setting to -100")
+                        symbol["Current_Price"] = -100
+                    return symbol, current_calls
+
     """
         Author: Ryan Davis
         Date: 3/23/2020
@@ -259,9 +337,9 @@ def wait_until_next_day():
     print((future-now).seconds)
     time.sleep((future-now).seconds)
 
-def reset(total_assets, symbols):
+def reset(total_assets, symbols, current_calls):
     stocks_to_watch = []
-    return total_assets, stocks_to_watch, symbols
+    return total_assets, stocks_to_watch, symbols, 0
 
 def print_account_holdings(symbols):
     print("Current account summary: \n\tAssets: {} \n\tCash: {} \n\tTotal: {} \n\tgains/losses: {}\n".format(current_assets, trader.capital, current_assets + trader.capital, (current_assets + trader.capital) - start_balance))
@@ -278,17 +356,16 @@ if __name__ == "__main__":
     searched_stocks = []
     count = 0
     current_assets = 0
-
+    current_calls = 0
 
     start_balance = trader.capital
     stocks_to_watch = get_stocks_to_watch(trader.bought_stocks)
     trader.symbols = stocks_to_watch[:5]
 
     for symbol in trader.symbols:
-        symbol = trader.getSMAhigh(symbol)
+        symbol, current_calls = trader.getSMAhigh(symbol, current_calls)
         print(symbol)
 
-    time.sleep(60)
     trading = True
     while trading:
         total_assets = trader.capital + current_assets
@@ -312,15 +389,15 @@ if __name__ == "__main__":
                 symbol, current_assets = trader.sell_stock(symbol, current_assets)
                 stocks_to_remove.append(symbol)
             wait_until_next_day()
-            start_balance, stocks_to_remove, searched_stocks = reset(total_assets, trader.symbols)
+            start_balance, stocks_to_remove, searched_stocks, current_calls = reset(total_assets, trader.symbols, current_calls)
 
         if now < today930 or now > today4:
             print("not in trading hours... sleeping")
             wait_until_next_day()
-            start_balance, stocks_to_remove, searched_stocks = reset(total_assets, trader.symbols)
+            start_balance, stocks_to_remove, searched_stocks, current_calls = reset(total_assets, trader.symbols, current_calls)
 
         for symbol in trader.symbols:
-            symbol = trader.getCurrentPrice(symbol)
+            symbol, current_calls = trader.getCurrentPrice(symbol, current_calls)
             searched_stocks.append(symbol['symbol'])
             if symbol["Current_Price"] > symbol["SMA"]:
                 if symbol["symbol"] not in trader.bought_stocks:
@@ -362,7 +439,7 @@ if __name__ == "__main__":
             if len(new_stocks) == 0 and len(trader.symbols) == 0:
                 print("no new stocks found... will try again tomorrow")
                 wait_until_next_day()
-                start_balance, stocks_to_remove, searched_stocks = reset(total_assets, trader.symbols)
+                start_balance, stocks_to_remove, searched_stocks, current_calls = reset(total_assets, trader.symbols, current_calls)
             new_stock_ct = 0
             while len(trader.symbols) != 5 and len(new_stocks) != 0:
                 try:
@@ -371,11 +448,9 @@ if __name__ == "__main__":
                     print("No more new stocks... breaking loop")
                     break
                 new_stock_ct += 1
-            time.sleep(60)
             for symbol in trader.symbols:
                 try:
                     if symbol['SMA'] > 0:
                         continue
                 except:
-                    symbol = trader.getSMAhigh(symbol)
-        time.sleep(60)
+                    symbol, current_calls = trader.getSMAhigh(symbol, current_calls)

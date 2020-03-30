@@ -15,3 +15,6 @@ should i actually require at least 1M in volume?
 ... maybe if no stocks are found wait an hour and try again...
 
 logging system, have it email me a report at the end of every trading day with all trades attached...
+
+
+get dev and prod API keys
