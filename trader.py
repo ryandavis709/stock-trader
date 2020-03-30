@@ -62,7 +62,7 @@ class Stock_Trader:
         "time_period":"200",
         "series_type":"high",
         "apikey":os.getenv("API_KEY") }
-        data = {}
+        data = {"Error message":"Never populated..."}
         try:
             current_calls += 1
             if(current_calls % 5 == 0):
@@ -136,7 +136,7 @@ class Stock_Trader:
         "interval" : "1min",
         "datatype": "json",
         "apikey": os.getenv("API_KEY") }
-        data = {}
+        data = {"Error message":"Never populated..."}
         try:
             current_calls += 1
             if(current_calls % 5 == 0):
