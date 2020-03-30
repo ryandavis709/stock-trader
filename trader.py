@@ -39,7 +39,7 @@ class Stock_Trader:
         self.API_URL = "https://www.alphavantage.co/query"
         self.symbols = []
         self.bought_stocks = []
-        self.capital = 1099.9478
+        self.capital = 1125.6197
         self.risk = .2
     """
         Author: Ryan Davis
@@ -62,14 +62,13 @@ class Stock_Trader:
         "time_period":"200",
         "series_type":"high",
         "apikey":os.getenv("API_KEY") }
-        data = {"Error message":"Never populated..."}
+        data = {"Error message" : "Never populated..."}
         try:
-            current_calls += 1
+            current_calls = current_calls + 1
             if(current_calls % 5 == 0):
                 print("API limit hit.. sleeping")
                 time.sleep(60)
             response = requests.get(self.API_URL, SMA_high)
-
             data = response.json()
             a = data['Technical Analysis: SMA']
             keys = a.keys()
@@ -78,36 +77,38 @@ class Stock_Trader:
             return symbol, current_calls
         except Exception as e:
             try:
-                current_calls += 1
+                print(e)
+                current_calls = current_calls + 1
                 if(current_calls % 5 == 0):
                     print("API limit hit.. sleeping")
                     time.sleep(60)
                 print("Initial call failed, retrying API call")
                 response = requests.get(self.API_URL, SMA_high)
-
+                print(response)
                 data = response.json()
                 a = data['Technical Analysis: SMA']
                 keys = a.keys()
                 newest_key = list(keys)[0]
                 symbol["SMA"] = float(a[newest_key]["SMA"])
                 return symbol, current_calls
-            except:
+            except Exception as e:
+                print(e)
                 print("Second API call failed... final try")
                 try:
-                    current_calls += 1
+                    current_calls = current_calls + 1
                     if(current_calls % 5 == 0):
                         print("API limit hit.. sleeping")
                         time.sleep(60)
                     print("Initial call failed, retrying API call")
                     response = requests.get(self.API_URL, SMA_high)
-
                     data = response.json()
                     a = data['Technical Analysis: SMA']
                     keys = a.keys()
                     newest_key = list(keys)[0]
                     symbol["SMA"] = float(a[newest_key]["SMA"])
                     return symbol, current_calls
-                except:
+                except Exception as e:
+                    print(e)
                     print("All API calls failed.. setting to 2^1000 for removal")
                     try:
                         print("Error getting SMA of {}, {}".format(symbol['symbol'],data['Error Message']))
@@ -251,10 +252,10 @@ class Stock_Trader:
         print("Current account balance: {}\n".format(self.capital))
         change = (symbol["Shares_Bought"] * symbol["Current_Price"]) - (symbol["Shares_Bought"] * symbol["Bought_Price"])
         if change > 0:
-            print("Sold all of {} for {} in profit!".format(symbol['symbol'], change))
+            print("Sold all of {} ({}) shares for {} in profit!".format(symbol['symbol'], symbol["Shares_Bought"], change))
             print("{} was bought at {}".format(symbol['symbol'], symbol['Bought_Price']))
         else:
-            print("Sold all of {} for a {} loss!".format(symbol['symbol'], change))
+            print("Sold all of {} ({}) shares for a {} loss!".format(symbol['symbol'], symbol["Shares_Bought"],  change))
             print("{} was bought at {}".format(symbol['symbol'], symbol['Bought_Price']))
 
         today = datetime.datetime.today()
@@ -265,8 +266,8 @@ class Stock_Trader:
         file.write("{} - Current Cash: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital))
         file.write("{} - Total Account Value: {}\n\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
         file.close()
-
-        return current_assets
+        symbol["Shares_Bought"] = 0
+        return current_assets, symbol
 
     def update_stock(self, symbol, current_assets):
         current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Last_Price"])
@@ -416,7 +417,7 @@ if __name__ == "__main__":
             print("quitting for the day, too many losses")
             for symbol in trader.symbol:
                 if symbol['symbol'] in trader.bought_stocks:
-                    current_assets = trader.sell_stock(symbol, current_assets)
+                    current_assets, symbol = trader.sell_stock(symbol, current_assets)
                     stocks_to_remove.append(symbol)
             wait_until_next_day()
             start_balance = total_assets
@@ -429,8 +430,9 @@ if __name__ == "__main__":
         today345 = now.replace(hour=15, minute=45, second=0, microsecond=0)
         if now > today345:
             for symbol in trader.symbols:
-                current_assets = trader.sell_stock(symbol, current_assets)
+                current_assets, symbol = trader.sell_stock(symbol, current_assets)
                 stocks_to_remove.append(symbol)
+            print_account_holdings(trader.symbols)
             wait_until_next_day()
             start_balance, stocks_to_remove, searched_stocks, current_calls = reset(total_assets, trader.symbols, current_calls)
 
@@ -450,7 +452,7 @@ if __name__ == "__main__":
                     symbol, current_assets = trader.update_stock(symbol, current_assets)
 
                 if symbol["Current_Price"] <= symbol["Exit"]:
-                    current_assets = trader.sell_stock(symbol, current_assets)
+                    current_assets, symbol = trader.sell_stock(symbol, current_assets)
                     stocks_to_remove.append(symbol)
             else:
                 stocks_to_remove.append(symbol)
@@ -458,7 +460,7 @@ if __name__ == "__main__":
                 #accounts for the case that the stock value drops rapidly below SMA when it was previously above
                 #or accounts for case that stock value is just above SMA then falls just below
                 if symbol['symbol'] in trader.bought_stocks:
-                    current_assets = trader.sell_stock(symbol, current_assets)
+                    current_assets, symbol = trader.sell_stock(symbol, current_assets)
                     stocks_to_remove.append(symbol)
         for stock in stocks_to_remove:
             try:
