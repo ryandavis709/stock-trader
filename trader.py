@@ -39,7 +39,7 @@ class Stock_Trader:
         self.API_URL = "https://www.alphavantage.co/query"
         self.symbols = []
         self.bought_stocks = []
-        self.capital = 1082.2708
+        self.capital = 1099.9478
         self.risk = .2
     """
         Author: Ryan Davis
