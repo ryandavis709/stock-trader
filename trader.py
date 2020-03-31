@@ -257,13 +257,31 @@ class Stock_Trader:
         file.close()
         symbol["Shares_Bought"] = 0
         return current_assets, symbol
+    """
+        Author: Ryan Davis
+        Date: 3/30/2020
 
+        Updates the stock price and returns the stock, also updates current assets
+
+
+    """
     def update_stock(self, symbol, current_assets):
         current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Last_Price"])
         current_assets = current_assets + (symbol["Shares_Bought"] * symbol["Current_Price"])
         symbol["Last_Price"] = symbol["Current_Price"]
         symbol["Exit"] = symbol["Current_Price"] * .97
         print("\n{} rose from {} to {}, updating exit to {}\n".format(symbol['symbol'], symbol['Last_Price'], symbol['Current_Price'], symbol['Exit']))
+
+        today = datetime.datetime.today()
+        filename = "logs/{}-{}-{}.txt".format(today.year, today.month, today.day)
+        file = open(filename, "a")
+        file.write("\n{} - {} rose from {} to {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), symbol['symbol'], symbol['Last_Price'], symbol['Current_Price']))
+        file.write("{} - Current assets: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), current_assets))
+        file.write("{} - Current Cash: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital))
+        file.write("{} - Total Account Value: {}\n\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
+        file.close()
+
+
         return symbol, current_assets
 
 """
@@ -423,12 +441,12 @@ if __name__ == "__main__":
                 stocks_to_remove.append(symbol)
             print_account_holdings(trader.symbols)
             wait_until_next_day()
-            start_balance, stocks_to_remove, searched_stocks, current_calls = reset(total_assets, trader.symbols, current_calls)
+            start_balance, stocks_to_remove, searched_stocks, current_calls = reset(total_assets, trader.symbols)
 
         if now < today930 or now > today4:
             print("not in trading hours... sleeping")
             wait_until_next_day()
-            start_balance, stocks_to_remove, searched_stocks, current_calls = reset(total_assets, trader.symbols, current_calls)
+            start_balance, stocks_to_remove, searched_stocks, current_calls = reset(total_assets, trader.symbols)
 
         for symbol in trader.symbols:
             symbol, current_calls = trader.getCurrentPrice(symbol, current_calls)
