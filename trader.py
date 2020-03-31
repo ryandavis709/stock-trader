@@ -268,8 +268,7 @@ class Stock_Trader:
     def update_stock(self, symbol, current_assets):
         current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Last_Price"])
         current_assets = current_assets + (symbol["Shares_Bought"] * symbol["Current_Price"])
-        symbol["Last_Price"] = symbol["Current_Price"]
-        symbol["Exit"] = symbol["Current_Price"] * .97
+
         print("\n{} rose from {} to {}, updating exit to {}\n".format(symbol['symbol'], symbol['Last_Price'], symbol['Current_Price'], symbol['Exit']))
 
         today = datetime.datetime.today()
@@ -281,7 +280,9 @@ class Stock_Trader:
         file.write("{} - Total Account Value: {}\n\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
         file.close()
 
-
+        symbol["Last_Price"] = symbol["Current_Price"]
+        symbol["Exit"] = symbol["Current_Price"] * .97
+        
         return symbol, current_assets
 
 """
