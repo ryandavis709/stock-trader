@@ -241,10 +241,10 @@ class Stock_Trader:
         print("Current account balance: {}\n".format(self.capital))
         change = (symbol["Shares_Bought"] * symbol["Current_Price"]) - (symbol["Shares_Bought"] * symbol["Bought_Price"])
         if change > 0:
-            print("Sold all of {} ({}) shares for {} in profit!".format(symbol['symbol'], symbol["Shares_Bought"], change))
+            print("Sold all of {} ({}) shares @ {} for {} in profit!".format(symbol['symbol'], symbol["Shares_Bought"], symbol["Current_Price"], change))
             print("{} was bought at {}".format(symbol['symbol'], symbol['Bought_Price']))
         else:
-            print("Sold all of {} ({}) shares for a {} loss!".format(symbol['symbol'], symbol["Shares_Bought"],  change))
+            print("Sold all of {} ({}) shares @ {} for a {} loss!".format(symbol['symbol'], symbol["Shares_Bought"], symbol["Current_Price"],change))
             print("{} was bought at {}".format(symbol['symbol'], symbol['Bought_Price']))
 
         today = datetime.datetime.today()
@@ -282,7 +282,7 @@ class Stock_Trader:
 
         symbol["Last_Price"] = symbol["Current_Price"]
         symbol["Exit"] = symbol["Current_Price"] * .97
-        
+
         return symbol, current_assets
 
 """
@@ -393,7 +393,7 @@ def reset(total_assets, symbols):
     Returns:
         None
 """
-def print_account_holdings(symbols):
+def print_account_holdings(symbols, current_assets):
     print("Current account summary: \n\tAssets: {} \n\tCash: {} \n\tTotal: {} \n\tgains/losses: {}\n".format(current_assets, trader.capital, current_assets + trader.capital, (current_assets + trader.capital) - start_balance))
     print("Current Holdings: ")
     for symbol in symbols:
@@ -440,7 +440,7 @@ if __name__ == "__main__":
             for symbol in trader.symbols:
                 current_assets, symbol = trader.sell_stock(symbol, current_assets)
                 stocks_to_remove.append(symbol)
-            print_account_holdings(trader.symbols)
+            print_account_holdings(trader.symbols, current_assets)
             wait_until_next_day()
             start_balance, stocks_to_remove, searched_stocks, current_calls = reset(total_assets, trader.symbols)
 
@@ -481,7 +481,7 @@ if __name__ == "__main__":
                 print(stock)
                 print(trader.symbols)
         if count % 2 == 0:
-            print_account_holdings(trader.symbols)
+            print_account_holdings(trader.symbols, current_assets)
         count += 1
 
         if len(trader.symbols) < 5:

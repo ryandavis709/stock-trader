@@ -1,0 +1,612 @@
+10:06:19 - Bought 17.56036973478939 shares of CNQ @ 12.82
+10:06:19 - Current assets: 225.12393999999998
+10:06:19 - Current Cash: 900.49576
+10:06:19 - Total Account Value: 1125.6197
+
+10:06:19 - Bought 32.77509590536852 shares of PE @ 5.495
+10:06:19 - Current assets: 405.22309199999995
+10:06:19 - Current Cash: 720.396608
+10:06:19 - Total Account Value: 1125.6197
+
+10:06:20 - Bought 73.69786271099744 shares of CVE @ 1.955
+10:06:20 - Current assets: 549.3024135999999
+10:06:20 - Current Cash: 576.3172864000001
+10:06:20 - Total Account Value: 1125.6197
+
+10:06:20 - Bought 7.603130427440634 shares of SU @ 15.16
+10:06:20 - Current assets: 664.5658708799999
+10:06:20 - Current Cash: 461.05382912000005
+10:06:20 - Total Account Value: 1125.6197
+
+10:07:21 - Bought 2.6596701997115666 shares of RCL @ 34.67
+10:07:21 - Current assets: 756.7766367039999
+10:07:21 - Current Cash: 368.843063296
+10:07:21 - Total Account Value: 1125.6197
+
+
+10:07:22 - PE rose from 5.545 to 5.545
+10:07:22 - Current assets: 758.4153914992683
+10:07:22 - Current Cash: 368.843063296
+10:07:22 - Total Account Value: 1127.2584547952683
+
+
+10:07:23 - SU rose from 15.205 to 15.205
+10:07:23 - Current assets: 758.7575323685031
+10:07:23 - Current Cash: 368.843063296
+10:07:23 - Total Account Value: 1127.600595664503
+
+
+10:08:24 - PE rose from 5.555 to 5.555
+10:08:24 - Current assets: 759.0852833275567
+10:08:24 - Current Cash: 368.843063296
+10:08:24 - Total Account Value: 1127.9283466235568
+
+
+10:09:26 - CNQ rose from 12.885 to 12.885
+10:09:26 - Current assets: 760.226707360318
+10:09:26 - Current Cash: 368.843063296
+10:09:26 - Total Account Value: 1129.069770656318
+
+
+10:09:27 - CVE rose from 1.98 to 1.98
+10:09:27 - Current assets: 762.0691539280929
+10:09:27 - Current Cash: 368.843063296
+10:09:27 - Total Account Value: 1130.912217224093
+
+
+10:09:27 - SU rose from 15.22 to 15.22
+10:09:27 - Current assets: 762.1832008845045
+10:09:27 - Current Cash: 368.843063296
+10:09:27 - Total Account Value: 1131.0262641805045
+
+
+10:10:27 - RCL rose from 35.17 to 35.17
+10:10:27 - Current assets: 763.5130359843603
+10:10:27 - Current Cash: 368.843063296
+10:10:27 - Total Account Value: 1132.3560992803602
+
+
+10:10:29 - CVE rose from 1.99 to 1.99
+10:10:29 - Current assets: 764.2500146114702
+10:10:29 - Current Cash: 368.843063296
+10:10:29 - Total Account Value: 1133.0930779074702
+
+
+10:10:30 - SU rose from 15.3 to 15.3
+10:10:30 - Current assets: 764.8582650456655
+10:10:30 - Current Cash: 368.843063296
+10:10:30 - Total Account Value: 1133.7013283416654
+
+
+10:11:30 - RCL rose from 35.26 to 35.26
+10:11:30 - Current assets: 765.0976353636395
+10:11:30 - Current Cash: 368.843063296
+10:11:30 - Total Account Value: 1133.9406986596396
+
+10:12:33 - Sold 2.6596701997115666 shares of RCL @ 34.67
+10:12:33 - Current assets: 674.4560749574694
+10:12:33 - Current Cash: 459.4846237021702
+10:12:33 - Total Account Value: 1133.9406986596396
+
+10:12:53 - Sold 73.69786271099744 shares of CVE @ 1.955
+10:12:53 - Current assets: 533.8774018362417
+10:12:53 - Current Cash: 600.0632968233979
+10:12:53 - Total Account Value: 1133.9406986596396
+
+
+10:13:53 - SU rose from 15.35 to 15.35
+10:13:53 - Current assets: 534.2575583576137
+10:13:53 - Current Cash: 600.0632968233979
+10:13:53 - Total Account Value: 1134.3208551810117
+
+10:13:54 - Bought 16.76154460400553 shares of DVN @ 7.16
+10:13:54 - Current assets: 654.2702177222933
+10:13:54 - Current Cash: 480.05063745871826
+10:13:54 - Total Account Value: 1134.3208551810117
+
+
+10:15:12 - SU rose from 15.435 to 15.435
+10:15:12 - Current assets: 654.9164838086258
+10:15:12 - Current Cash: 480.05063745871826
+10:15:12 - Total Account Value: 1134.967121267344
+
+
+10:16:32 - SU rose from 15.51 to 15.51
+10:16:32 - Current assets: 655.4867185906838
+10:16:32 - Current Cash: 480.05063745871826
+10:16:32 - Total Account Value: 1135.5373560494022
+
+10:16:33 - Bought 7.947858236071495 shares of NCLH @ 12.08
+10:16:33 - Current assets: 751.4968460824275
+10:16:33 - Current Cash: 384.0405099669746
+10:16:33 - Total Account Value: 1135.5373560494022
+
+
+10:17:34 - NCLH rose from 12.15 to 12.15
+10:17:34 - Current assets: 752.0531961589525
+10:17:34 - Current Cash: 384.0405099669746
+10:17:34 - Total Account Value: 1136.093706125927
+
+
+10:20:40 - PE rose from 5.61 to 5.61
+10:20:40 - Current assets: 753.8558264337478
+10:20:40 - Current Cash: 384.0405099669746
+10:20:40 - Total Account Value: 1137.8963364007222
+
+
+10:20:41 - DVN rose from 7.255 to 7.255
+10:20:41 - Current assets: 755.4481731711282
+10:20:41 - Current Cash: 384.0405099669746
+10:20:41 - Total Account Value: 1139.4886831381027
+
+
+10:21:42 - SU rose from 15.615 to 15.615
+10:21:42 - Current assets: 756.2465018660095
+10:21:42 - Current Cash: 384.0405099669746
+10:21:42 - Total Account Value: 1140.287011832984
+
+
+10:21:43 - CNQ rose from 12.915 to 12.915
+10:21:43 - Current assets: 756.7733129580531
+10:21:43 - Current Cash: 384.0405099669746
+10:21:43 - Total Account Value: 1140.8138229250276
+
+
+10:22:44 - DVN rose from 7.2788 to 7.2788
+10:22:44 - Current assets: 757.1722377196285
+10:22:44 - Current Cash: 384.0405099669746
+10:22:44 - Total Account Value: 1141.212747686603
+
+
+10:23:46 - DVN rose from 7.295 to 7.295
+10:23:46 - Current assets: 757.4437747422133
+10:23:46 - Current Cash: 384.0405099669746
+10:23:46 - Total Account Value: 1141.484284709188
+
+10:29:57 - Sold 7.947858236071495 shares of NCLH @ 12.08
+10:29:57 - Current assets: 663.8180047212911
+10:29:57 - Current Cash: 477.6662799878968
+10:29:57 - Total Account Value: 1141.484284709188
+
+10:31:16 - Bought 4.065244936067208 shares of FANG @ 23.5
+10:31:16 - Current assets: 759.3512607188704
+10:31:16 - Current Cash: 382.13302399031744
+10:31:16 - Total Account Value: 1141.484284709188
+
+
+10:32:17 - DVN rose from 7.3 to 7.3
+10:32:17 - Current assets: 759.4350684418905
+10:32:17 - Current Cash: 382.13302399031744
+10:32:17 - Total Account Value: 1141.568092432208
+
+
+10:45:44 - SU rose from 15.64 to 15.64
+10:45:44 - Current assets: 759.6251467025766
+10:45:44 - Current Cash: 382.13302399031744
+10:45:44 - Total Account Value: 1141.758170692894
+
+
+10:46:47 - DVN rose from 7.31 to 7.31
+10:46:47 - Current assets: 759.7927621486166
+10:46:47 - Current Cash: 382.13302399031744
+10:46:47 - Total Account Value: 1141.925786138934
+
+
+10:49:54 - CNQ rose from 12.925 to 12.925
+10:49:54 - Current assets: 759.9683658459646
+10:49:54 - Current Cash: 382.13302399031744
+10:49:54 - Total Account Value: 1142.1013898362821
+
+
+10:49:55 - DVN rose from 7.3318 to 7.3318
+10:49:55 - Current assets: 760.3337675183319
+10:49:55 - Current Cash: 382.13302399031744
+10:49:55 - Total Account Value: 1142.4667915086493
+
+
+10:51:01 - CNQ rose from 12.99 to 12.99
+10:51:01 - Current assets: 761.4751915510933
+10:51:01 - Current Cash: 382.13302399031744
+10:51:01 - Total Account Value: 1143.6082155414108
+
+
+10:51:06 - DVN rose from 7.345 to 7.345
+10:51:06 - Current assets: 761.6964439398662
+10:51:06 - Current Cash: 382.13302399031744
+10:51:06 - Total Account Value: 1143.8294679301837
+
+
+10:52:10 - CNQ rose from 13.05 to 13.05
+10:52:10 - Current assets: 762.7500661239535
+10:52:10 - Current Cash: 382.13302399031744
+10:52:10 - Total Account Value: 1144.883090114271
+
+
+10:53:13 - PE rose from 5.655 to 5.655
+10:53:13 - Current assets: 764.2249454396951
+10:53:13 - Current Cash: 382.13302399031744
+10:53:13 - Total Account Value: 1146.3579694300126
+
+
+10:54:16 - CNQ rose from 13.3 to 13.3
+10:54:16 - Current assets: 768.6150378733926
+10:54:16 - Current Cash: 382.13302399031744
+10:54:16 - Total Account Value: 1150.74806186371
+
+
+10:54:17 - SU rose from 15.745 to 15.745
+10:54:17 - Current assets: 769.4133665682739
+10:54:17 - Current Cash: 382.13302399031744
+10:54:17 - Total Account Value: 1151.5463905585914
+
+
+10:54:17 - DVN rose from 7.36 to 7.36
+10:54:17 - Current assets: 769.664789737334
+10:54:17 - Current Cash: 382.13302399031744
+10:54:17 - Total Account Value: 1151.7978137276514
+
+
+10:55:19 - PE rose from 5.6599 to 5.6599
+10:55:19 - Current assets: 769.8253877072704
+10:55:19 - Current Cash: 382.13302399031744
+10:55:19 - Total Account Value: 1151.9584116975877
+
+
+10:55:20 - SU rose from 15.77 to 15.77
+10:55:20 - Current assets: 770.0154659679563
+10:55:20 - Current Cash: 382.13302399031744
+10:55:20 - Total Account Value: 1152.1484899582738
+
+
+10:55:20 - DVN rose from 7.41 to 7.41
+10:55:20 - Current assets: 770.8535431981566
+10:55:20 - Current Cash: 382.13302399031744
+10:55:20 - Total Account Value: 1152.986567188474
+
+
+10:56:21 - PE rose from 5.66 to 5.66
+10:56:21 - Current assets: 770.8568207077471
+10:56:21 - Current Cash: 382.13302399031744
+10:56:21 - Total Account Value: 1152.9898446980646
+
+
+10:57:22 - CNQ rose from 13.33 to 13.33
+10:57:22 - Current assets: 771.3836317997908
+10:57:22 - Current Cash: 382.13302399031744
+10:57:22 - Total Account Value: 1153.5166557901082
+
+
+10:57:23 - PE rose from 5.67 to 5.67
+10:57:23 - Current assets: 771.7113827588445
+10:57:23 - Current Cash: 382.13302399031744
+10:57:23 - Total Account Value: 1153.8444067491619
+
+
+10:57:23 - SU rose from 15.775 to 15.775
+10:57:23 - Current assets: 771.7493984109817
+10:57:23 - Current Cash: 382.13302399031744
+10:57:23 - Total Account Value: 1153.8824224012992
+
+
+10:58:24 - CNQ rose from 13.37 to 13.37
+10:58:24 - Current assets: 772.4518132003732
+10:58:24 - Current Cash: 382.13302399031744
+10:58:24 - Total Account Value: 1154.5848371906907
+
+
+10:58:25 - DVN rose from 7.42 to 7.42
+10:58:25 - Current assets: 772.6194286464132
+10:58:25 - Current Cash: 382.13302399031744
+10:58:25 - Total Account Value: 1154.7524526367306
+
+
+10:59:27 - SU rose from 15.88 to 15.88
+10:59:27 - Current assets: 773.4177573412944
+10:59:27 - Current Cash: 382.13302399031744
+10:59:27 - Total Account Value: 1155.550781331612
+
+
+11:00:30 - DVN rose from 7.435 to 7.435
+11:00:30 - Current assets: 773.6691805103545
+11:00:30 - Current Cash: 382.13302399031744
+11:00:30 - Total Account Value: 1155.802204500672
+
+
+11:10:50 - CNQ rose from 13.395 to 13.395
+11:10:50 - Current assets: 774.1081897537243
+11:10:50 - Current Cash: 382.13302399031744
+11:10:50 - Total Account Value: 1156.2412137440417
+
+
+11:14:58 - CNQ rose from 13.4 to 13.4
+11:14:58 - Current assets: 774.1959916023983
+11:14:58 - Current Cash: 382.13302399031744
+11:14:58 - Total Account Value: 1156.3290155927157
+
+
+11:15:59 - CNQ rose from 13.455 to 13.455
+11:15:59 - Current assets: 775.1618119378118
+11:15:59 - Current Cash: 382.13302399031744
+11:15:59 - Total Account Value: 1157.2948359281293
+
+
+11:18:12 - CNQ rose from 13.48 to 13.48
+11:18:12 - Current assets: 775.6008211811815
+11:18:12 - Current Cash: 382.13302399031744
+11:18:12 - Total Account Value: 1157.7338451714988
+
+11:22:31 - Sold 16.76154460400553 shares of DVN @ 7.16
+11:22:31 - Current assets: 654.7500845863016
+11:22:31 - Current Cash: 502.9837605851973
+11:22:31 - Total Account Value: 1157.7338451714988
+
+11:24:51 - Bought 47.33964805507739 shares of CX @ 2.125
+11:24:51 - Current assets: 755.3468367033411
+11:24:51 - Current Cash: 402.38700846815783
+11:24:51 - Total Account Value: 1157.7338451714988
+
+
+11:25:53 - CX rose from 2.145 to 2.145
+11:25:53 - Current assets: 756.2936296644426
+11:25:53 - Current Cash: 402.38700846815783
+11:25:53 - Total Account Value: 1158.6806381326005
+
+
+11:31:14 - CNQ rose from 13.5 to 13.5
+11:31:14 - Current assets: 756.6448370591384
+11:31:14 - Current Cash: 402.38700846815783
+11:31:14 - Total Account Value: 1159.0318455272961
+
+
+11:32:18 - PE rose from 5.695 to 5.695
+11:32:18 - Current assets: 757.4642144567725
+11:32:18 - Current Cash: 402.38700846815783
+11:32:18 - Total Account Value: 1159.8512229249304
+
+
+11:33:20 - CX rose from 2.15 to 2.15
+11:33:20 - Current assets: 757.7009126970479
+11:33:20 - Current Cash: 402.38700846815783
+11:33:20 - Total Account Value: 1160.0879211652057
+
+
+11:33:20 - CNQ rose from 13.54 to 13.54
+11:33:20 - Current assets: 758.4033274864395
+11:33:20 - Current Cash: 402.38700846815783
+11:33:20 - Total Account Value: 1160.7903359545974
+
+
+11:35:25 - CNQ rose from 13.595 to 13.595
+11:35:25 - Current assets: 759.369147821853
+11:35:25 - Current Cash: 402.38700846815783
+11:35:25 - Total Account Value: 1161.7561562900107
+
+
+11:37:31 - CNQ rose from 13.675 to 13.675
+11:37:31 - Current assets: 760.7739774006361
+11:37:31 - Current Cash: 402.38700846815783
+11:37:31 - Total Account Value: 1163.160985868794
+
+
+11:38:33 - CNQ rose from 13.705 to 13.705
+11:38:33 - Current assets: 761.3007884926798
+11:38:33 - Current Cash: 402.38700846815783
+11:38:33 - Total Account Value: 1163.6877969608377
+
+
+11:52:14 - PE rose from 5.72 to 5.72
+11:52:14 - Current assets: 762.120165890314
+11:52:14 - Current Cash: 402.38700846815783
+11:52:14 - Total Account Value: 1164.5071743584717
+
+
+11:53:16 - PE rose from 5.75 to 5.75
+11:53:16 - Current assets: 763.103418767475
+11:53:16 - Current Cash: 402.38700846815783
+11:53:16 - Total Account Value: 1165.4904272356328
+
+
+11:56:26 - PE rose from 5.775 to 5.775
+11:56:26 - Current assets: 763.9227961651092
+11:56:26 - Current Cash: 402.38700846815783
+11:56:26 - Total Account Value: 1166.309804633267
+
+
+12:00:35 - CX rose from 2.16 to 2.16
+12:00:35 - Current assets: 764.3961926456599
+12:00:35 - Current Cash: 402.38700846815783
+12:00:35 - Total Account Value: 1166.7832011138178
+
+
+12:01:39 - CX rose from 2.17 to 2.17
+12:01:39 - Current assets: 764.8695891262107
+12:01:39 - Current Cash: 402.38700846815783
+12:01:39 - Total Account Value: 1167.2565975943685
+
+
+12:03:43 - CX rose from 2.18 to 2.18
+12:03:43 - Current assets: 765.3429856067614
+12:03:43 - Current Cash: 402.38700846815783
+12:03:43 - Total Account Value: 1167.7299940749192
+
+
+12:03:44 - CNQ rose from 13.77 to 13.77
+12:03:44 - Current assets: 766.4844096395227
+12:03:44 - Current Cash: 402.38700846815783
+12:03:44 - Total Account Value: 1168.8714181076805
+
+12:31:18 - Sold 32.77509590536852 shares of PE @ 5.495
+12:31:18 - Current assets: 583.2716235285127
+12:31:18 - Current Cash: 585.5997945791678
+12:31:18 - Total Account Value: 1168.8714181076805
+
+12:33:40 - Sold 47.33964805507739 shares of CX @ 2.125
+12:33:40 - Current assets: 484.0950608531256
+12:33:40 - Current Cash: 684.7763572545549
+12:33:40 - Total Account Value: 1168.8714181076805
+
+12:33:40 - Bought 26.037123849983082 shares of NBL @ 5.26
+12:33:40 - Current assets: 621.0503323040366
+12:33:40 - Current Cash: 547.8210858036439
+12:33:40 - Total Account Value: 1168.8714181076805
+
+12:35:00 - Bought 5.570117801765571 shares of PBA @ 19.67
+12:35:00 - Current assets: 730.6145494647653
+12:35:00 - Current Cash: 438.2568686429151
+12:35:00 - Total Account Value: 1168.8714181076805
+
+
+12:38:13 - PBA rose from 19.71 to 19.71
+12:38:13 - Current assets: 730.837354176836
+12:38:13 - Current Cash: 438.2568686429151
+12:38:13 - Total Account Value: 1169.0942228197512
+
+12:39:16 - Sold 5.570117801765571 shares of PBA @ 19.67
+12:39:16 - Current assets: 624.6152076971666
+12:39:16 - Current Cash: 544.4790151225845
+12:39:16 - Total Account Value: 1169.0942228197512
+
+12:40:36 - Bought 5.9964649242575385 shares of TSG @ 18.16
+12:40:36 - Current assets: 733.5110107216835
+12:40:36 - Current Cash: 435.58321209806763
+12:40:36 - Total Account Value: 1169.0942228197512
+
+12:43:43 - Sold 7.603130427440634 shares of SU @ 15.16
+12:43:43 - Current assets: 616.4988334433722
+12:43:43 - Current Cash: 552.595389376379
+12:43:43 - Total Account Value: 1169.0942228197512
+
+12:47:34 - Bought 9.577043143438111 shares of IMO @ 11.54
+12:47:34 - Current assets: 727.017911318648
+12:47:34 - Current Cash: 442.0763115011032
+12:47:34 - Total Account Value: 1169.0942228197512
+
+12:48:37 - Sold 9.577043143438111 shares of IMO @ 11.54
+12:48:37 - Current assets: 616.7382595219581
+12:48:37 - Current Cash: 552.3559632977931
+12:48:37 - Total Account Value: 1169.0942228197512
+
+12:49:59 - Bought 16.15146755845412 shares of FCX @ 6.8397
+12:49:59 - Current assets: 727.2094521815167
+12:49:59 - Current Cash: 441.8847706382345
+12:49:59 - Total Account Value: 1169.0942228197512
+
+
+12:51:06 - FCX rose from 6.86 to 6.86
+12:51:06 - Current assets: 727.5373269729533
+12:51:06 - Current Cash: 441.8847706382345
+12:51:06 - Total Account Value: 1169.4220976111878
+
+13:01:39 - Sold 17.56036973478939 shares of CNQ @ 12.82
+13:01:39 - Current assets: 493.106391013515
+13:01:39 - Current Cash: 676.3157065976728
+13:01:39 - Total Account Value: 1169.4220976111878
+
+13:08:15 - Sold 16.15146755845412 shares of FCX @ 6.8397
+13:08:15 - Current assets: 384.24549966953424
+13:08:15 - Current Cash: 785.1765979416537
+13:08:15 - Total Account Value: 1169.4220976111878
+
+13:39:53 - Bought 1.4349643129559166 shares of VMC @ 109.435
+13:39:53 - Current assets: 541.280819257865
+13:39:53 - Current Cash: 628.141278353323
+13:39:53 - Total Account Value: 1169.4220976111878
+
+
+13:41:10 - VMC rose from 112.03 to 112.03
+13:41:10 - Current assets: 545.0045516499856
+13:41:10 - Current Cash: 628.141278353323
+13:41:10 - Total Account Value: 1173.1458300033087
+
+14:54:51 - Bought 1.2026446072244363 shares of URI @ 104.46
+14:54:51 - Current assets: 670.6328073206503
+14:54:51 - Current Cash: 502.51302268265835
+14:54:51 - Total Account Value: 1173.1458300033087
+
+
+14:56:57 - URI rose from 104.58 to 104.58
+14:56:57 - Current assets: 670.7771246735172
+14:56:57 - Current Cash: 502.51302268265835
+14:56:57 - Total Account Value: 1173.2901473561756
+
+
+14:57:59 - URI rose from 104.69 to 104.69
+14:57:59 - Current assets: 670.9094155803118
+14:57:59 - Current Cash: 502.51302268265835
+14:57:59 - Total Account Value: 1173.4224382629702
+
+15:12:50 - Sold 1.4349643129559166 shares of VMC @ 109.435
+15:12:50 - Current assets: 515.2157876245949
+15:12:50 - Current Cash: 658.2066506383753
+15:12:50 - Total Account Value: 1173.4224382629702
+
+15:14:15 - Bought 11.203517457674474 shares of EQM @ 11.75
+15:14:15 - Current assets: 646.8571177522699
+15:14:15 - Current Cash: 526.5653205107003
+15:14:15 - Total Account Value: 1173.4224382629702
+
+15:21:36 - Sold 1.2026446072244363 shares of URI @ 104.46
+15:21:36 - Current assets: 523.2613314678146
+15:21:36 - Current Cash: 650.1611067951557
+15:21:36 - Total Account Value: 1173.4224382629702
+
+15:23:57 - Bought 11.492021330890953 shares of MPLX @ 11.315
+15:23:57 - Current assets: 653.2935528268457
+15:23:57 - Current Cash: 520.1288854361245
+15:23:57 - Total Account Value: 1173.4224382629702
+
+
+15:25:00 - MPLX rose from 11.3298 to 11.3298
+15:25:00 - Current assets: 653.4636347425429
+15:25:00 - Current Cash: 520.1288854361245
+15:25:00 - Total Account Value: 1173.5925201786674
+
+
+15:29:21 - MPLX rose from 11.33 to 11.33
+15:29:21 - Current assets: 653.465933146809
+15:29:21 - Current Cash: 520.1288854361245
+15:29:21 - Total Account Value: 1173.5948185829334
+
+
+15:36:47 - MPLX rose from 11.335 to 11.335
+15:36:47 - Current assets: 653.5233932534634
+15:36:47 - Current Cash: 520.1288854361245
+15:36:47 - Total Account Value: 1173.652278689588
+
+
+15:41:18 - MPLX rose from 11.34 to 11.34
+15:41:18 - Current assets: 653.5808533601179
+15:41:18 - Current Cash: 520.1288854361245
+15:41:18 - Total Account Value: 1173.7097387962424
+
+
+15:42:23 - MPLX rose from 11.36 to 11.36
+15:42:23 - Current assets: 653.8106937867357
+15:42:23 - Current Cash: 520.1288854361245
+15:42:23 - Total Account Value: 1173.9395792228602
+
+15:45:35 - Sold 4.065244936067208 shares of FANG @ 23.5
+15:45:35 - Current assets: 558.2774377891562
+15:45:35 - Current Cash: 615.6621414337039
+15:45:35 - Total Account Value: 1173.9395792228602
+
+15:45:35 - Sold 26.037123849983082 shares of NBL @ 5.26
+15:45:35 - Current assets: 421.3221663382452
+15:45:35 - Current Cash: 752.617412884615
+15:45:35 - Total Account Value: 1173.9395792228602
+
+15:45:35 - Sold 5.9964649242575385 shares of TSG @ 18.16
+15:45:35 - Current assets: 312.4263633137283
+15:45:35 - Current Cash: 861.5132159091319
+15:45:35 - Total Account Value: 1173.9395792228602
+
+15:45:35 - Sold 11.203517457674474 shares of EQM @ 11.75
+15:45:35 - Current assets: 182.24149045555092
+15:45:35 - Current Cash: 991.6980887673093
+15:45:35 - Total Account Value: 1173.9395792228602
+
+15:45:35 - Sold 11.492021330890953 shares of MPLX @ 11.315
+15:45:35 - Current assets: 52.55402973644652
+15:45:35 - Current Cash: 1121.3855494864138
+15:45:35 - Total Account Value: 1173.9395792228602
+
