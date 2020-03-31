@@ -1,24 +1,13 @@
 import os
 import settings
 from pprint import pprint
-#import alphavantage
-#import alpha_vantage
 import json
 import requests
 from selenium import webdriver
 import time
 import datetime
-
-#todo
-# only run when market is open
-# give portfolio update every hour
-#   current holdings, current profit holdings are stock and cash balances
-# repeat the cycle upon market open every morning
-
-
-
 #NOTES
-#maybe remove sell stock loop from SMA check? as with update?
+#maybe remove sell stock loop from yuh8b0SMA check? as with update?
 """
     Author: Ryan Davis
     Date: 3/25/2020
