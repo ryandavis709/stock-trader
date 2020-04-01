@@ -202,7 +202,7 @@ class Stock_Trader:
     """
     def buy_stock(self, symbol, current_assets):
         self.bought_stocks.append(symbol['symbol'])
-        num_shares = self.capital * self.risk / symbol['Current_Price']
+        num_shares = (self.capital * self.risk) / symbol['Current_Price']
         print("Bought {} shares of {}".format(num_shares,symbol['symbol']))
         print("\nBuying {} @ {} per share".format(symbol["symbol"], symbol["Current_Price"]))
         symbol["Shares_Bought"] = num_shares
@@ -269,6 +269,7 @@ class Stock_Trader:
 
     """
     def update_stock(self, symbol, current_assets):
+        # bug has to be here...
         current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Last_Price"])
         current_assets = current_assets + (symbol["Shares_Bought"] * symbol["Current_Price"])
 
