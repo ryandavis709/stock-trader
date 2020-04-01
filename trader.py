@@ -45,6 +45,12 @@ class Stock_Trader:
                 basically adds SMA information to stock information
     """
     def getSMAhigh(self,symbol, current_calls):
+        try:
+            test = symbol['symbol']
+        except:
+            print("Error with symbol.... ")
+            print(symbol)
+
         SMA_high = { "function": "SMA",
         "symbol": symbol['symbol'],
         "interval": "1min",
@@ -124,6 +130,11 @@ class Stock_Trader:
             None
     """
     def getCurrentPrice(self,symbol, current_calls):
+        try:
+            test = symbol['symbol']
+        except:
+            print("Error with symbol.... ")
+            print(symbol)
         Current_Price = { "function": "TIME_SERIES_INTRADAY",
         "symbol": symbol['symbol'],
         "interval" : "1min",
