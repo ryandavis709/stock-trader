@@ -28,8 +28,8 @@ class Stock_Trader:
         self.API_URL = "https://www.alphavantage.co/query"
         self.symbols = []
         self.bought_stocks = []
-        self.capital = 1125.6197
-        self.risk = .2
+        self.capital = 1173.939
+        self.risk = .25
     """
         Author: Ryan Davis
         Date: 3/25/2020
@@ -53,11 +53,12 @@ class Stock_Trader:
         "apikey":os.getenv("API_KEY") }
         data = {"Error message" : "Never populated..."}
         try:
-            current_calls = current_calls + 1
+
             if(current_calls % 5 == 0):
                 print("API limit hit.. sleeping")
                 time.sleep(60)
             response = requests.get(self.API_URL, SMA_high)
+            current_calls = current_calls + 1
             data = response.json()
             a = data['Technical Analysis: SMA']
             keys = a.keys()
@@ -67,12 +68,13 @@ class Stock_Trader:
         except Exception as e:
             try:
                 print(e)
-                current_calls = current_calls + 1
+
                 if(current_calls % 5 == 0):
                     print("API limit hit.. sleeping")
                     time.sleep(60)
                 print("Initial call failed, retrying API call")
                 response = requests.get(self.API_URL, SMA_high)
+                current_calls = current_calls + 1
                 print(response)
                 data = response.json()
                 a = data['Technical Analysis: SMA']
@@ -84,12 +86,13 @@ class Stock_Trader:
                 print(e)
                 print("Second API call failed... final try")
                 try:
-                    current_calls = current_calls + 1
+
                     if(current_calls % 5 == 0):
                         print("API limit hit.. sleeping")
                         time.sleep(60)
                     print("Initial call failed, retrying API call")
                     response = requests.get(self.API_URL, SMA_high)
+                    current_calls = current_calls + 1
                     data = response.json()
                     a = data['Technical Analysis: SMA']
                     keys = a.keys()
@@ -128,12 +131,12 @@ class Stock_Trader:
         "apikey": os.getenv("API_KEY") }
         data = {"Error message":"Never populated..."}
         try:
-            current_calls += 1
+
             if(current_calls % 5 == 0):
                 print("API limit hit.. sleeping")
                 time.sleep(60)
             response = requests.get(self.API_URL, Current_Price)
-
+            current_calls += 1
             data = response.json()
             a = (data['Time Series (1min)'])
             keys = (a.keys())
@@ -142,13 +145,13 @@ class Stock_Trader:
             return symbol, current_calls
         except Exception as e:
             try:
-                current_calls += 1
+
                 print("API Call failed... retrying")
                 if(current_calls % 5 == 0):
                     print("API limit hit.. sleeping")
                     time.sleep(60)
                 response = requests.get(self.API_URL, Current_Price)
-
+                current_calls += 1
                 data = response.json()
                 a = (data['Time Series (1min)'])
                 keys = (a.keys())
@@ -157,13 +160,13 @@ class Stock_Trader:
                 return symbol, current_calls
             except:
                 try:
-                    current_calls += 1
+
                     print("API call failed.. final retry")
                     if(current_calls % 5 == 0):
                         print("API limit hit.. sleeping")
                         time.sleep(60)
                     response = requests.get(self.API_URL, Current_Price)
-
+                    current_calls += 1
                     data = response.json()
                     a = (data['Time Series (1min)'])
                     keys = (a.keys())
