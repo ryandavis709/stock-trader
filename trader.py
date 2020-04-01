@@ -28,7 +28,7 @@ class Stock_Trader:
         self.API_URL = "https://www.alphavantage.co/query"
         self.symbols = []
         self.bought_stocks = []
-        self.capital = 1173.939
+        self.capital = 1191.35
         self.risk = .25
     """
         Author: Ryan Davis
@@ -277,14 +277,22 @@ class Stock_Trader:
         today = datetime.datetime.today()
         filename = "logs/{}-{}-{}.txt".format(today.year, today.month, today.day)
         file = open(filename, "a")
-        file.write("\n{} - {} rose from {} to {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), symbol['symbol'], symbol['Last_Price'], symbol['Current_Price']))
+
+        if symbol['Last_Price'] > symbol["Current_Price"]:
+            file.write("\n{} - {} fell from {} to {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), symbol['symbol'], symbol['Last_Price'], symbol['Current_Price']))
+            print("\n{} rose from {} to {}, exit is {}\n".format(symbol['symbol'], symbol['Last_Price'], symbol['Current_Price'], symbol['Exit']))
+        else:
+            file.write("\n{} - {} rose from {} to {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), symbol['symbol'], symbol['Last_Price'], symbol['Current_Price']))
+            print("\n{} rose from {} to {}, updating exit to {}\n".format(symbol['symbol'], symbol['Last_Price'], symbol['Current_Price'], symbol['Exit']))
+            symbol["Exit"] = symbol["Current_Price"] * .97
+
         file.write("{} - Current assets: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), current_assets))
         file.write("{} - Current Cash: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital))
         file.write("{} - Total Account Value: {}\n\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
         file.close()
 
         symbol["Last_Price"] = symbol["Current_Price"]
-        symbol["Exit"] = symbol["Current_Price"] * .97
+
 
         return symbol, current_assets
 
@@ -453,15 +461,18 @@ if __name__ == "__main__":
             start_balance, stocks_to_remove, searched_stocks, current_calls = reset(total_assets, trader.symbols)
 
         for symbol in trader.symbols:
-            symbol, current_calls = trader.getCurrentPrice(symbol, current_calls)
+            try:
+                symbol, current_calls = trader.getCurrentPrice(symbol, current_calls)
+            except:
+                print("Error occured in getting current price...")
+                print(symbol)
+                current_calls = 5
             searched_stocks.append(symbol['symbol'])
             if symbol["Current_Price"] > symbol["SMA"]:
                 if symbol["symbol"] not in trader.bought_stocks:
                     symbol, current_assets = trader.buy_stock(symbol, current_assets)
-
-                if symbol["Current_Price"] > symbol["Last_Price"]:
+                if symbol["Current_Price"] > symbol["Last_Price"] or symbol["Current_Price"] < symbol["Last_Price"]:
                     symbol, current_assets = trader.update_stock(symbol, current_assets)
-
                 if symbol["Current_Price"] <= symbol["Exit"]:
                     current_assets, symbol = trader.sell_stock(symbol, current_assets)
                     stocks_to_remove.append(symbol)

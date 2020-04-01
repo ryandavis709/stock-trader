@@ -1,0 +1,573 @@
+09:30:59 - Bought 21.627468680913783 shares of CNQ @ 13.57
+09:30:59 - Current assets: 293.48475
+09:30:59 - Current Cash: 880.45425
+09:30:59 - Total Account Value: 1173.939
+
+09:30:59 - Bought 38.548785026269705 shares of PE @ 5.71
+09:30:59 - Current assets: 513.5983125
+09:30:59 - Current Cash: 660.3406875
+09:30:59 - Total Account Value: 1173.9389999999999
+
+09:31:00 - Bought 81.32274476600985 shares of CVE @ 2.03
+09:31:00 - Current assets: 678.683484375
+09:31:00 - Current Cash: 495.25551562499993
+09:31:00 - Total Account Value: 1173.9389999999999
+
+09:31:00 - Bought 7.836321449762657 shares of SU @ 15.8
+09:31:00 - Current assets: 802.49736328125
+09:31:00 - Current Cash: 371.4416367187499
+09:31:00 - Total Account Value: 1173.9389999999999
+
+09:31:01 - Bought 43.59643623459506 shares of CX @ 2.13
+09:31:01 - Current assets: 895.3577724609376
+09:31:01 - Current Cash: 278.5812275390624
+09:31:01 - Total Account Value: 1173.9389999999999
+
+10:19:39 - Bought 28.356014492753626 shares of FRO @ 10.35
+10:19:39 - Current assets: 293.48475
+10:19:39 - Current Cash: 880.45425
+10:19:39 - Total Account Value: 1173.939
+
+10:19:40 - Bought 16.9318125 shares of EQNR @ 13.0
+10:19:40 - Current assets: 513.5983125
+10:19:40 - Current Cash: 660.3406875000001
+10:19:40 - Total Account Value: 1173.939
+
+10:19:41 - Bought 4.794806037612548 shares of RDS-B @ 34.43
+10:19:41 - Current assets: 678.683484375
+10:19:41 - Current Cash: 495.25551562500004
+10:19:41 - Total Account Value: 1173.939
+
+10:19:41 - Bought 3.3736751745572207 shares of RDS-A @ 36.7
+10:19:41 - Current assets: 802.49736328125
+10:19:41 - Current Cash: 371.44163671875003
+10:19:41 - Total Account Value: 1173.939
+
+10:19:41 - Bought 22.188867187500005 shares of KGC @ 4.185
+10:19:41 - Current assets: 895.3577724609376
+10:19:41 - Current Cash: 278.5812275390625
+10:19:41 - Total Account Value: 1173.939
+
+
+10:20:45 - RDS-A rose from 36.7 to 36.76
+10:20:45 - Current assets: 895.560192971411
+10:20:45 - Current Cash: 278.5812275390625
+10:20:45 - Total Account Value: 1174.1414205104734
+
+
+10:23:50 - KGC rose from 4.185 to 4.22
+10:23:50 - Current assets: 896.3368033229735
+10:23:50 - Current Cash: 278.5812275390625
+10:23:50 - Total Account Value: 1174.9180308620362
+
+
+10:25:54 - KGC rose from 4.22 to 4.23
+10:25:54 - Current assets: 896.5586919948486
+10:25:54 - Current Cash: 278.5812275390625
+10:25:54 - Total Account Value: 1175.139919533911
+
+
+10:29:01 - FRO rose from 10.35 to 10.4301
+10:29:01 - Current assets: 898.8300087557182
+10:29:01 - Current Cash: 278.5812275390625
+10:29:01 - Total Account Value: 1177.4112362947808
+
+
+10:29:01 - EQNR rose from 13.0 to 13.03
+10:29:01 - Current assets: 899.3379631307182
+10:29:01 - Current Cash: 278.5812275390625
+10:29:01 - Total Account Value: 1177.9191906697806
+
+
+10:32:17 - FRO rose from 10.4301 to 10.44
+10:32:17 - Current assets: 899.6186876741965
+10:32:17 - Current Cash: 278.5812275390625
+10:32:17 - Total Account Value: 1178.199915213259
+
+
+10:33:20 - FRO rose from 10.44 to 10.535
+10:33:20 - Current assets: 902.3125090510082
+10:33:20 - Current Cash: 278.5812275390625
+10:33:20 - Total Account Value: 1180.8937365900706
+
+
+10:34:23 - FRO rose from 10.535 to 10.5498
+10:34:23 - Current assets: 902.7321780655009
+10:34:23 - Current Cash: 278.5812275390625
+10:34:23 - Total Account Value: 1181.3134056045633
+
+
+10:35:26 - FRO rose from 10.5498 to 10.58
+10:35:26 - Current assets: 903.5885297031821
+10:35:26 - Current Cash: 278.5812275390625
+10:35:26 - Total Account Value: 1182.1697572422445
+
+
+10:38:34 - FRO rose from 10.58 to 10.625
+10:38:34 - Current assets: 904.864550355356
+10:38:34 - Current Cash: 278.5812275390625
+10:38:34 - Total Account Value: 1183.4457778944184
+
+
+10:39:37 - FRO rose from 10.625 to 10.6301
+10:39:37 - Current assets: 905.009166029269
+10:39:37 - Current Cash: 278.5812275390625
+10:39:37 - Total Account Value: 1183.5903935683314
+
+
+10:49:59 - KGC rose from 4.23 to 4.24
+10:49:59 - Current assets: 905.231054701144
+10:49:59 - Current Cash: 278.5812275390625
+10:49:59 - Total Account Value: 1183.8122822402065
+
+
+10:51:00 - RDS-B rose from 34.43 to 34.45
+10:51:00 - Current assets: 905.3269508218963
+10:51:00 - Current Cash: 278.5812275390625
+10:51:00 - Total Account Value: 1183.9081783609588
+
+
+10:51:00 - RDS-A rose from 36.76 to 36.775
+10:51:00 - Current assets: 905.3775559495147
+10:51:00 - Current Cash: 278.5812275390625
+10:51:00 - Total Account Value: 1183.9587834885772
+
+
+10:52:03 - RDS-B rose from 34.45 to 34.5
+10:52:03 - Current assets: 905.6172962513953
+10:52:03 - Current Cash: 278.5812275390625
+10:52:03 - Total Account Value: 1184.1985237904578
+
+
+10:52:05 - RDS-A rose from 36.775 to 36.83
+10:52:05 - Current assets: 905.8028483859958
+10:52:05 - Current Cash: 278.5812275390625
+10:52:05 - Total Account Value: 1184.3840759250584
+
+
+10:52:08 - KGC rose from 4.24 to 4.25
+10:52:08 - Current assets: 906.0247370578709
+10:52:08 - Current Cash: 278.5812275390625
+10:52:08 - Total Account Value: 1184.6059645969335
+
+
+10:53:13 - KGC rose from 4.25 to 4.28
+10:53:13 - Current assets: 906.6904030734959
+10:53:13 - Current Cash: 278.5812275390625
+10:53:13 - Total Account Value: 1185.2716306125585
+
+
+10:54:14 - KGC rose from 4.28 to 4.285
+10:54:14 - Current assets: 906.8013474094333
+10:54:14 - Current Cash: 278.5812275390625
+10:54:14 - Total Account Value: 1185.3825749484959
+
+
+10:55:17 - RDS-B rose from 34.5 to 34.51
+10:55:17 - Current assets: 906.8492954698095
+10:55:17 - Current Cash: 278.5812275390625
+10:55:17 - Total Account Value: 1185.4305230088721
+
+
+10:55:17 - KGC rose from 4.285 to 4.3
+10:55:17 - Current assets: 907.182128477622
+10:55:17 - Current Cash: 278.5812275390625
+10:55:17 - Total Account Value: 1185.7633560166846
+
+11:14:09 - Sold 28.356014492753626 shares of FRO @ 10.35
+11:14:09 - Current assets: 615.1151792022596
+11:14:09 - Current Cash: 570.6481768144249
+11:14:09 - Total Account Value: 1185.7633560166846
+
+11:16:32 - Bought 26.176521872221326 shares of AGI @ 5.45
+11:16:32 - Current assets: 757.7772234058658
+11:16:32 - Current Cash: 427.9861326108187
+11:16:32 - Total Account Value: 1185.7633560166846
+
+
+11:18:41 - KGC rose from 4.3 to 4.31
+11:18:41 - Current assets: 757.9991120777408
+11:18:41 - Current Cash: 427.9861326108187
+11:18:41 - Total Account Value: 1185.9852446885595
+
+
+11:18:41 - AGI rose from 5.45 to 5.465
+11:18:41 - Current assets: 758.3917599058242
+11:18:41 - Current Cash: 427.9861326108187
+11:18:41 - Total Account Value: 1186.377892516643
+
+
+11:19:44 - KGC rose from 4.31 to 4.32
+11:19:44 - Current assets: 758.6136485776992
+11:19:44 - Current Cash: 427.9861326108187
+11:19:44 - Total Account Value: 1186.599781188518
+
+
+11:19:44 - AGI rose from 5.465 to 5.51
+11:19:44 - Current assets: 759.7915920619491
+11:19:44 - Current Cash: 427.9861326108187
+11:19:44 - Total Account Value: 1187.7777246727678
+
+
+11:20:47 - KGC rose from 4.32 to 4.335
+11:20:47 - Current assets: 760.1244250697615
+11:20:47 - Current Cash: 427.9861326108187
+11:20:47 - Total Account Value: 1188.1105576805803
+
+
+11:20:47 - AGI rose from 5.51 to 5.54
+11:20:47 - Current assets: 760.9097207259282
+11:20:47 - Current Cash: 427.9861326108187
+11:20:47 - Total Account Value: 1188.8958533367468
+
+
+11:21:49 - AGI rose from 5.54 to 5.565
+11:21:49 - Current assets: 761.5641337727337
+11:21:49 - Current Cash: 427.9861326108187
+11:21:49 - Total Account Value: 1189.5502663835523
+
+
+11:22:51 - KGC rose from 4.335 to 4.345
+11:22:51 - Current assets: 761.7860224446088
+11:22:51 - Current Cash: 427.9861326108187
+11:22:51 - Total Account Value: 1189.7721550554274
+
+
+11:22:51 - AGI rose from 5.565 to 5.59
+11:22:51 - Current assets: 762.4404354914143
+11:22:51 - Current Cash: 427.9861326108187
+11:22:51 - Total Account Value: 1190.426568102233
+
+
+11:23:53 - KGC rose from 4.345 to 4.3488
+11:23:53 - Current assets: 762.5247531867268
+11:23:53 - Current Cash: 427.9861326108187
+11:23:53 - Total Account Value: 1190.5108857975456
+
+
+11:23:53 - AGI rose from 5.59 to 5.615
+11:23:53 - Current assets: 763.1791662335323
+11:23:53 - Current Cash: 427.9861326108187
+11:23:53 - Total Account Value: 1191.1652988443511
+
+11:27:01 - Sold 16.9318125 shares of EQNR @ 13.0
+11:27:01 - Current assets: 549.2457152960324
+11:27:01 - Current Cash: 641.9195835483187
+11:27:01 - Total Account Value: 1191.1652988443511
+
+11:29:26 - Sold 3.3736751745572207 shares of RDS-A @ 36.7
+11:29:26 - Current assets: 428.73803806084845
+11:29:26 - Current Cash: 762.4272607835026
+11:29:26 - Total Account Value: 1191.1652988443511
+
+11:29:28 - Bought 7.533866213275717 shares of NET @ 25.3
+11:29:28 - Current assets: 619.344853256724
+11:29:28 - Current Cash: 571.8204455876269
+11:29:28 - Total Account Value: 1191.165298844351
+
+11:30:46 - Sold 26.176521872221326 shares of AGI @ 5.45
+11:30:46 - Current assets: 476.94457427184
+11:30:46 - Current Cash: 714.2207245725109
+11:30:46 - Total Account Value: 1191.165298844351
+
+11:31:47 - Bought 61.25392148992375 shares of AUY @ 2.915
+11:31:47 - Current assets: 655.4997554149677
+11:31:47 - Current Cash: 535.6655434293832
+11:31:47 - Total Account Value: 1191.165298844351
+
+
+11:34:31 - NET rose from 25.3 to 25.31
+11:34:31 - Current assets: 655.5750940771004
+11:34:31 - Current Cash: 535.6655434293832
+11:34:31 - Total Account Value: 1191.2406375064836
+
+11:34:32 - Bought 0.8153204618407659 shares of TDOC @ 164.25
+11:34:32 - Current assets: 789.4914799344463
+11:34:32 - Current Cash: 401.7491575720374
+11:34:32 - Total Account Value: 1191.2406375064836
+
+
+11:36:36 - TDOC rose from 164.25 to 164.3
+11:36:36 - Current assets: 789.5322459575382
+11:36:36 - Current Cash: 401.7491575720374
+11:36:36 - Total Account Value: 1191.2814035295755
+
+11:36:36 - Sold 4.794806037612548 shares of RDS-B @ 34.43
+11:36:36 - Current assets: 629.1939320597746
+11:36:36 - Current Cash: 562.087471469801
+11:36:36 - Total Account Value: 1191.2814035295755
+
+
+11:38:56 - TDOC rose from 164.3 to 164.39
+11:38:56 - Current assets: 629.2673109013404
+11:38:56 - Current Cash: 562.087471469801
+11:38:56 - Total Account Value: 1191.3547823711415
+
+11:39:57 - Bought 43.23749780536931 shares of BTG @ 3.25
+11:39:57 - Current assets: 769.7891787687906
+11:39:57 - Current Cash: 421.56560360235073
+11:39:57 - Total Account Value: 1191.3547823711415
+
+11:44:14 - Sold 7.533866213275717 shares of NET @ 25.3
+11:44:14 - Current assets: 584.9834405571373
+11:44:14 - Current Cash: 606.371341814004
+11:44:14 - Total Account Value: 1191.3547823711415
+
+13:28:59 - Bought 1.8165253720419612 shares of TDOC @ 163.96
+13:28:59 - Current assets: 297.8375
+13:28:59 - Current Cash: 893.5124999999999
+13:28:59 - Total Account Value: 1191.35
+
+13:29:00 - Bought 11.996676960257785 shares of NCR @ 18.62
+13:29:00 - Current assets: 521.2156249999999
+13:29:00 - Current Cash: 670.134375
+13:29:00 - Total Account Value: 1191.35
+
+
+13:33:53 - NCR rose from 18.62 to 18.68
+13:33:53 - Current assets: 521.9354256176155
+13:33:53 - Current Cash: 670.134375
+13:33:53 - Total Account Value: 1192.0698006176153
+
+
+13:36:06 - TDOC rose from 163.96 to 163.99
+13:36:06 - Current assets: 521.9899213787767
+13:36:06 - Current Cash: 670.134375
+13:36:06 - Total Account Value: 1192.1242963787768
+
+
+13:40:32 - NCR rose from 18.68 to 18.72
+13:40:32 - Current assets: 522.469788457187
+13:40:32 - Current Cash: 670.134375
+13:40:32 - Total Account Value: 1192.604163457187
+
+
+13:42:09 - NCR rose from 18.72 to 18.76
+13:42:09 - Current assets: 522.9496555355972
+13:42:09 - Current Cash: 670.134375
+13:42:09 - Total Account Value: 1193.0840305355973
+
+
+13:44:07 - NCR rose from 18.76 to 18.8
+13:44:07 - Current assets: 523.4295226140075
+13:44:07 - Current Cash: 670.134375
+13:44:07 - Total Account Value: 1193.5638976140076
+
+
+13:45:38 - NCR rose from 18.8 to 18.83
+13:45:38 - Current assets: 523.7894229228152
+13:45:38 - Current Cash: 670.134375
+13:45:38 - Total Account Value: 1193.923797922815
+
+
+13:47:31 - NCR rose from 18.83 to 18.845
+13:47:31 - Current assets: 523.9693730772192
+13:47:31 - Current Cash: 670.134375
+13:47:31 - Total Account Value: 1194.1037480772193
+
+
+13:49:26 - TDOC rose from 163.99 to 164.185
+13:49:26 - Current assets: 524.3235955247674
+13:49:26 - Current Cash: 670.134375
+13:49:26 - Total Account Value: 1194.4579705247675
+
+
+13:54:31 - NCR rose from 18.845 to 18.88
+13:54:31 - Current assets: 524.7434792183764
+13:54:31 - Current Cash: 670.134375
+13:54:31 - Total Account Value: 1194.8778542183763
+
+
+13:57:57 - TDOC rose from 164.185 to 165.77
+13:57:57 - Current assets: 527.6226719330629
+13:57:57 - Current Cash: 670.134375
+13:57:57 - Total Account Value: 1197.7570469330628
+
+
+13:57:59 - NCR rose from 18.88 to 18.8937
+13:57:59 - Current assets: 527.7870264074184
+13:57:59 - Current Cash: 670.134375
+13:57:59 - Total Account Value: 1197.9214014074182
+
+
+13:58:14 - NCR rose from 18.8937 to 18.975
+13:58:14 - Current assets: 528.7623562442874
+13:58:14 - Current Cash: 670.134375
+13:58:14 - Total Account Value: 1198.8967312442874
+
+
+14:03:27 - TDOC rose from 165.77 to 165.96
+14:03:27 - Current assets: 529.1074960649753
+14:03:27 - Current Cash: 670.134375
+14:03:27 - Total Account Value: 1199.2418710649754
+
+
+14:05:10 - NCR rose from 18.975 to 19.185
+14:05:10 - Current assets: 531.6267982266294
+14:05:10 - Current Cash: 670.134375
+14:05:10 - Total Account Value: 1201.7611732266294
+
+
+14:07:00 - TDOC rose from 165.96 to 166.3339
+14:07:00 - Current assets: 532.3059970632358
+14:07:00 - Current Cash: 670.134375
+14:07:00 - Total Account Value: 1202.4403720632358
+
+
+14:08:38 - NCR rose from 19.185 to 19.29
+14:08:38 - Current assets: 533.565648144063
+14:08:38 - Current Cash: 670.134375
+14:08:38 - Total Account Value: 1203.700023144063
+
+14:36:26 - Bought 34.54443353334158 shares of ET @ 4.8498
+14:36:26 - Current assets: 701.099241894063
+14:36:26 - Current Cash: 502.60078124999995
+14:36:26 - Total Account Value: 1203.700023144063
+
+
+14:37:42 - ET rose from 4.8498 to 4.865
+14:37:42 - Current assets: 701.6243172837698
+14:37:42 - Current Cash: 502.60078124999995
+14:37:42 - Total Account Value: 1204.2250985337696
+
+
+14:39:21 - ET rose from 4.865 to 4.87
+14:39:21 - Current assets: 701.7970394514365
+14:39:21 - Current Cash: 502.60078124999995
+14:39:21 - Total Account Value: 1204.3978207014366
+
+
+14:40:37 - ET rose from 4.87 to 4.8733
+14:40:37 - Current assets: 701.9110360820965
+14:40:37 - Current Cash: 502.60078124999995
+14:40:37 - Total Account Value: 1204.5118173320966
+
+
+14:48:11 - ET rose from 4.8733 to 4.88
+14:48:11 - Current assets: 702.1424837867698
+14:48:11 - Current Cash: 502.60078124999995
+14:48:11 - Total Account Value: 1204.7432650367698
+
+14:49:12 - Bought 23.707584021226413 shares of AGI @ 5.3
+14:49:12 - Current assets: 827.7926790992699
+14:49:12 - Current Cash: 376.95058593749997
+14:49:12 - Total Account Value: 1204.7432650367698
+
+
+14:50:27 - ET rose from 4.88 to 4.895
+14:50:27 - Current assets: 828.3108456022701
+14:50:27 - Current Cash: 376.95058593749997
+14:50:27 - Total Account Value: 1205.26143153977
+
+
+14:50:30 - AGI rose from 5.3 to 5.32
+14:50:30 - Current assets: 828.7849972826946
+14:50:30 - Current Cash: 376.95058593749997
+14:50:30 - Total Account Value: 1205.7355832201945
+
+
+14:51:50 - AGI rose from 5.32 to 5.3228
+14:51:50 - Current assets: 828.851378517954
+14:51:50 - Current Cash: 376.95058593749997
+14:51:50 - Total Account Value: 1205.801964455454
+
+
+14:57:26 - ET rose from 4.895 to 4.915
+14:57:26 - Current assets: 829.5422671886208
+14:57:26 - Current Cash: 376.95058593749997
+14:57:26 - Total Account Value: 1206.4928531261207
+
+
+15:01:11 - AGI rose from 5.3228 to 5.34
+15:01:11 - Current assets: 829.9500376337859
+15:01:11 - Current Cash: 376.95058593749997
+15:01:11 - Total Account Value: 1206.900623571286
+
+15:04:10 - Bought 28.99619891826923 shares of BTG @ 3.25
+15:04:10 - Current assets: 924.1876841181609
+15:04:10 - Current Cash: 282.712939453125
+15:04:10 - Total Account Value: 1206.900623571286
+
+15:09:25 - Sold 1.8165253720419612 shares of TDOC @ 163.96
+15:09:25 - Current assets: 629.0658895493636
+15:09:25 - Current Cash: 577.8347340219223
+15:09:25 - Total Account Value: 1206.900623571286
+
+
+15:18:37 - AGI rose from 5.34 to 5.35
+15:18:37 - Current assets: 629.3029653895759
+15:18:37 - Current Cash: 577.8347340219223
+15:18:37 - Total Account Value: 1207.137699411498
+
+
+15:21:09 - AGI rose from 5.35 to 5.365
+15:21:09 - Current assets: 629.6585791498943
+15:21:09 - Current Cash: 577.8347340219223
+15:21:09 - Total Account Value: 1207.4933131718167
+
+15:21:11 - Bought 49.64215928023387 shares of AUY @ 2.91
+15:21:11 - Current assets: 774.1172626553748
+15:21:11 - Current Cash: 433.3760505164417
+15:21:11 - Total Account Value: 1207.4933131718165
+
+
+15:22:14 - AUY rose from 2.91 to 2.92
+15:22:14 - Current assets: 774.6136842481772
+15:22:14 - Current Cash: 433.3760505164417
+15:22:14 - Total Account Value: 1207.9897347646188
+
+
+15:23:16 - AGI rose from 5.365 to 5.38
+15:23:16 - Current assets: 774.9692980084956
+15:23:16 - Current Cash: 433.3760505164417
+15:23:16 - Total Account Value: 1208.3453485249372
+
+
+15:24:39 - AGI rose from 5.38 to 5.4
+15:24:39 - Current assets: 775.44344968892
+15:24:39 - Current Cash: 433.3760505164417
+15:24:39 - Total Account Value: 1208.8195002053617
+
+
+15:25:40 - AUY rose from 2.92 to 2.925
+15:25:40 - Current assets: 775.6916604853211
+15:25:40 - Current Cash: 433.3760505164417
+15:25:40 - Total Account Value: 1209.0677110017627
+
+
+15:25:41 - AGI rose from 5.4 to 5.4099
+15:25:41 - Current assets: 775.9263655671311
+15:25:41 - Current Cash: 433.3760505164417
+15:25:41 - Total Account Value: 1209.3024160835728
+
+
+15:26:42 - AUY rose from 2.925 to 2.93
+15:26:42 - Current assets: 776.1745763635324
+15:26:42 - Current Cash: 433.3760505164417
+15:26:42 - Total Account Value: 1209.550626879974
+
+15:45:46 - Sold 11.996676960257785 shares of NCR @ 18.62
+15:45:46 - Current assets: 550.9969498194938
+15:45:46 - Current Cash: 658.5536770604804
+15:45:46 - Total Account Value: 1209.550626879974
+
+15:45:46 - Sold 34.54443353334158 shares of ET @ 4.8498
+15:45:46 - Current assets: 381.3837811707866
+15:45:46 - Current Cash: 828.1668457091876
+15:45:46 - Total Account Value: 1209.550626879974
+
+15:45:46 - Sold 23.707584021226413 shares of AGI @ 5.3
+15:45:46 - Current assets: 254.07405497680077
+15:45:46 - Current Cash: 955.4765719031734
+15:45:46 - Total Account Value: 1209.550626879974
+
+15:45:46 - Sold 28.99619891826923 shares of BTG @ 3.25
+15:45:46 - Current assets: 161.14123744374788
+15:45:46 - Current Cash: 1048.4093894362263
+15:45:46 - Total Account Value: 1209.5506268799743
+
+15:45:46 - Sold 49.64215928023387 shares of AUY @ 2.91
+15:45:46 - Current assets: 16.43434314186615
+15:45:46 - Current Cash: 1193.116283738108
+15:45:46 - Total Account Value: 1209.550626879974
+
