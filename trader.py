@@ -25,11 +25,13 @@ class Stock_Trader:
 
     """
     def __init__(self):
+        print("ENTERED INIT...")
         self.API_URL = "https://www.alphavantage.co/query"
         self.symbols = []
         self.bought_stocks = []
-        self.capital = 1191.35
+        self.capital = 1000
         self.risk = .25
+        print("LEFT INIT...")
     """
         Author: Ryan Davis
         Date: 3/25/2020
@@ -45,6 +47,7 @@ class Stock_Trader:
                 basically adds SMA information to stock information
     """
     def getSMAhigh(self,symbol, current_calls):
+        print("ENTERED getSMAHIGH...")
         try:
             test = symbol['symbol']
         except:
@@ -60,7 +63,7 @@ class Stock_Trader:
         data = {"Error message" : "Never populated..."}
         try:
 
-            if(current_calls % 5 == 0):
+            if(current_calls % 5 == 0 and current_calls != 0):
                 print("API limit hit.. sleeping")
                 time.sleep(60)
             response = requests.get(self.API_URL, SMA_high)
@@ -70,12 +73,13 @@ class Stock_Trader:
             keys = a.keys()
             newest_key = list(keys)[0]
             symbol["SMA"] = float(a[newest_key]["SMA"])
+            print("LEFT GETSMAHIGH...")
             return symbol, current_calls
         except Exception as e:
             try:
                 print(e)
 
-                if(current_calls % 5 == 0):
+                if(current_calls % 5 == 0 and current_calls != 0):
                     print("API limit hit.. sleeping")
                     time.sleep(60)
                 print("Initial call failed, retrying API call")
@@ -87,13 +91,14 @@ class Stock_Trader:
                 keys = a.keys()
                 newest_key = list(keys)[0]
                 symbol["SMA"] = float(a[newest_key]["SMA"])
+                print("LEFT GETSMAHIGH...")
                 return symbol, current_calls
             except Exception as e:
                 print(e)
                 print("Second API call failed... final try")
                 try:
 
-                    if(current_calls % 5 == 0):
+                    if(current_calls % 5 == 0 and current_calls != 0):
                         print("API limit hit.. sleeping")
                         time.sleep(60)
                     print("Initial call failed, retrying API call")
@@ -104,6 +109,7 @@ class Stock_Trader:
                     keys = a.keys()
                     newest_key = list(keys)[0]
                     symbol["SMA"] = float(a[newest_key]["SMA"])
+                    print("LEFT GETSMAHIGH...")
                     return symbol, current_calls
                 except Exception as e:
                     print(e)
@@ -115,6 +121,7 @@ class Stock_Trader:
                         print("API Error... could not get error message")
                         print(data)
                     symbol["SMA"] = 2**1000
+                    print("LEFT GETSMAHIGH...")
                     return symbol, current_calls
 
     """
@@ -130,6 +137,7 @@ class Stock_Trader:
             None
     """
     def getCurrentPrice(self,symbol, current_calls):
+        print("ENTERED GET CURRENT PRICE")
         try:
             test = symbol['symbol']
         except:
@@ -143,7 +151,7 @@ class Stock_Trader:
         data = {"Error message":"Never populated..."}
         try:
 
-            if(current_calls % 5 == 0):
+            if(current_calls % 5 == 0 and current_calls != 0):
                 print("API limit hit.. sleeping")
                 time.sleep(60)
             response = requests.get(self.API_URL, Current_Price)
@@ -153,12 +161,13 @@ class Stock_Trader:
             keys = (a.keys())
             newest_key = list(keys)[0]
             symbol["Current_Price"] = float(a[newest_key]["1. open"])
+            print("LEFT GET CURRENT PRICE")
             return symbol, current_calls
         except Exception as e:
             try:
 
                 print("API Call failed... retrying")
-                if(current_calls % 5 == 0):
+                if(current_calls % 5 == 0 and current_calls != 0):
                     print("API limit hit.. sleeping")
                     time.sleep(60)
                 response = requests.get(self.API_URL, Current_Price)
@@ -168,12 +177,13 @@ class Stock_Trader:
                 keys = (a.keys())
                 newest_key = list(keys)[0]
                 symbol["Current_Price"] = float(a[newest_key]["1. open"])
+                print("LEFT GET CURRENT PRICE")
                 return symbol, current_calls
             except:
                 try:
 
                     print("API call failed.. final retry")
-                    if(current_calls % 5 == 0):
+                    if(current_calls % 5 == 0 and current_calls != 0):
                         print("API limit hit.. sleeping")
                         time.sleep(60)
                     response = requests.get(self.API_URL, Current_Price)
@@ -183,6 +193,7 @@ class Stock_Trader:
                     keys = (a.keys())
                     newest_key = list(keys)[0]
                     symbol["Current_Price"] = float(a[newest_key]["1. open"])
+                    print("LEFT GET CURRENT PRICE")
                     return symbol, current_calls
                 except:
                     try:
@@ -197,6 +208,7 @@ class Stock_Trader:
                     except:
                         print("No last price found... setting to -100")
                         symbol["Current_Price"] = -100
+                    print("LEFT GET CURRENT PRICE")
                     return symbol, current_calls
 
     """
@@ -212,6 +224,7 @@ class Stock_Trader:
             num_shares: number of shares bought of current stock
     """
     def buy_stock(self, symbol, current_assets):
+        print("ENTERED BUY STOCK")
         self.bought_stocks.append(symbol['symbol'])
         num_shares = (self.capital * self.risk) / symbol['Current_Price']
         print("Bought {} shares of {}".format(num_shares,symbol['symbol']))
@@ -234,7 +247,7 @@ class Stock_Trader:
         file.write("{} - Current Cash: {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital))
         file.write("{} - Total Account Value: {}\n\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
         file.close()
-
+        print("LEFT BUY STOCK")
         return symbol, current_assets
     """
         Author: Ryan Davis
@@ -249,6 +262,7 @@ class Stock_Trader:
             None
     """
     def sell_stock(self, symbol, current_assets):
+        print("ENTERED SELL STOCK")
         print("\nSold {} @ {}".format(symbol['symbol'], symbol['Current_Price']))
         self.capital += (symbol["Shares_Bought"] * symbol["Current_Price"])
         current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Current_Price"])
@@ -270,6 +284,8 @@ class Stock_Trader:
         file.write("{} - Total Account Value: {}\n\n".format(datetime.datetime.now().strftime("%H:%M:%S"), self.capital + current_assets))
         file.close()
         symbol["Shares_Bought"] = 0
+
+        print("LEFT SELL STOCK")
         return current_assets, symbol
     """
         Author: Ryan Davis
@@ -281,10 +297,9 @@ class Stock_Trader:
     """
     def update_stock(self, symbol, current_assets):
         # bug has to be here...
+        print("ENTERED UPDATE STOCK")
         current_assets = current_assets - (symbol["Shares_Bought"] * symbol["Last_Price"])
         current_assets = current_assets + (symbol["Shares_Bought"] * symbol["Current_Price"])
-
-        print("\n{} rose from {} to {}, updating exit to {}\n".format(symbol['symbol'], symbol['Last_Price'], symbol['Current_Price'], symbol['Exit']))
 
         today = datetime.datetime.today()
         filename = "logs/{}-{}-{}.txt".format(today.year, today.month, today.day)
@@ -292,7 +307,7 @@ class Stock_Trader:
 
         if symbol['Last_Price'] > symbol["Current_Price"]:
             file.write("\n{} - {} fell from {} to {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), symbol['symbol'], symbol['Last_Price'], symbol['Current_Price']))
-            print("\n{} rose from {} to {}, exit is {}\n".format(symbol['symbol'], symbol['Last_Price'], symbol['Current_Price'], symbol['Exit']))
+            print("\n{} fell from {} to {}, exit is {}\n".format(symbol['symbol'], symbol['Last_Price'], symbol['Current_Price'], symbol['Exit']))
         else:
             file.write("\n{} - {} rose from {} to {}\n".format(datetime.datetime.now().strftime("%H:%M:%S"), symbol['symbol'], symbol['Last_Price'], symbol['Current_Price']))
             print("\n{} rose from {} to {}, updating exit to {}\n".format(symbol['symbol'], symbol['Last_Price'], symbol['Current_Price'], symbol['Exit']))
@@ -305,7 +320,7 @@ class Stock_Trader:
 
         symbol["Last_Price"] = symbol["Current_Price"]
 
-
+        print("LEFT UPDATE STOCK")
         return symbol, current_assets
 
 """
@@ -330,21 +345,26 @@ def get_stocks_to_watch(searched_stocks):
     table = driver.find_element_by_xpath("//table[@class='W(100%)']/tbody")
     row = table.find_element_by_xpath(".//tr[@class='simpTblRow Bgc($extraLightBlue):h BdB Bdbc($finLightGrayAlt) Bdbc($tableBorderBlue):h H(32px) Bgc(white) ']")
     while row:
-        symbol = row.find_element_by_xpath(".//td[1]").text
-        price = row.find_element_by_xpath(".//td[3]").text
-        change = row.find_element_by_xpath(".//td[5]").text
-        volume = row.find_element_by_xpath(".//td[6]").text
-        print(symbol, price, change, volume)
-        if symbol not in searched_stocks:
-            if "M" in volume and "+" in change:
-                stock = {"symbol":symbol, "price":price,"change":change, "volume":volume}
-                stocks_to_watch.append(stock)
+        #print(row)
+        try:
+            symbol = row.find_element_by_xpath(".//td[1]").text
+            price = row.find_element_by_xpath(".//td[3]").text
+            change = row.find_element_by_xpath(".//td[5]").text
+            volume = row.find_element_by_xpath(".//td[6]").text
+            if symbol not in searched_stocks:
+                if "M" in volume and "+" in change:
+                    stock = {"symbol":symbol, "price":price,"change":change, "volume":volume}
+                    stocks_to_watch.append(stock)
+        except:
+            print("Error locating new stocks...")
         try:
             row = row.find_element_by_xpath(".//following-sibling::tr")
         except:
             print("no more rows!\n")
-            driver.close()
-            return stocks_to_watch
+            break
+            #driver.close()
+    print(stocks_to_watch)
+    return stocks_to_watch
 """
     Author: Ryan Davis
     Date: 3/26/2020
@@ -446,7 +466,7 @@ if __name__ == "__main__":
         total_assets = trader.capital + current_assets
         if total_assets < start_balance * .985:
             print("quitting for the day, too many losses")
-            for symbol in trader.symbol:
+            for symbol in trader.symbols:
                 if symbol['symbol'] in trader.bought_stocks:
                     current_assets, symbol = trader.sell_stock(symbol, current_assets)
                     stocks_to_remove.append(symbol)

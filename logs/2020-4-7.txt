@@ -1,0 +1,232 @@
+10:19:44 - Bought 58.80554183426246 shares of SSL @ 4.2513
+10:19:44 - Current assets: 250.0
+10:19:44 - Current Cash: 750.0
+10:19:44 - Total Account Value: 1000.0
+
+10:19:44 - Bought 13.909495548961424 shares of CPRI @ 13.48
+10:19:44 - Current assets: 437.5
+10:19:44 - Current Cash: 562.5
+10:19:44 - Total Account Value: 1000.0
+
+10:19:44 - Bought 7.976460578559275 shares of KSS @ 17.63
+10:19:44 - Current assets: 578.125
+10:19:44 - Current Cash: 421.875
+10:19:44 - Total Account Value: 1000.0
+
+10:19:45 - Bought 2.873025061291201 shares of RCL @ 36.71
+10:19:45 - Current assets: 683.59375
+10:19:45 - Current Cash: 316.40625
+10:19:45 - Total Account Value: 1000.0
+
+10:19:45 - Bought 16.478462283607275 shares of WES @ 4.8003
+10:19:45 - Current assets: 762.6953125
+10:19:45 - Current Cash: 237.3046875
+10:19:45 - Total Account Value: 1000.0
+
+
+10:20:46 - SSL fell from 4.2513 to 4.16
+10:20:46 - Current assets: 757.3263665305319
+10:20:46 - Current Cash: 237.3046875
+10:20:46 - Total Account Value: 994.6310540305319
+
+
+10:20:46 - CPRI rose from 13.48 to 14.1
+10:20:46 - Current assets: 765.9502537708879
+10:20:46 - Current Cash: 237.3046875
+10:20:46 - Total Account Value: 1003.2549412708879
+
+
+10:20:46 - KSS fell from 17.63 to 17.62
+10:20:46 - Current assets: 765.8704891651023
+10:20:46 - Current Cash: 237.3046875
+10:20:46 - Total Account Value: 1003.1751766651023
+
+
+10:20:46 - RCL rose from 36.71 to 37.249
+10:20:46 - Current assets: 767.4190496731383
+10:20:46 - Current Cash: 237.3046875
+10:20:46 - Total Account Value: 1004.7237371731383
+
+
+10:20:47 - WES fell from 4.8003 to 4.73
+10:20:47 - Current assets: 766.2606137746006
+10:20:47 - Current Cash: 237.3046875
+10:20:47 - Total Account Value: 1003.5653012746006
+
+
+10:21:47 - SSL rose from 4.16 to 4.2413
+10:21:47 - Current assets: 771.0415043257261
+10:21:47 - Current Cash: 237.3046875
+10:21:47 - Total Account Value: 1008.3461918257261
+
+
+10:21:48 - CPRI fell from 14.1 to 14.0799
+10:21:48 - Current assets: 770.761923465192
+10:21:48 - Current Cash: 237.3046875
+10:21:48 - Total Account Value: 1008.066610965192
+
+
+10:21:48 - KSS fell from 17.62 to 17.59
+10:21:48 - Current assets: 770.5226296478353
+10:21:48 - Current Cash: 237.3046875
+10:21:48 - Total Account Value: 1007.8273171478353
+
+
+10:21:48 - RCL fell from 37.249 to 36.93
+10:21:48 - Current assets: 769.6061346532833
+10:21:48 - Current Cash: 237.3046875
+10:21:48 - Total Account Value: 1006.9108221532833
+
+
+10:21:49 - WES rose from 4.73 to 4.75
+10:21:49 - Current assets: 769.9357038989555
+10:21:49 - Current Cash: 237.3046875
+10:21:49 - Total Account Value: 1007.2403913989555
+
+
+10:22:49 - SSL fell from 4.2413 to 3.95
+10:22:49 - Current assets: 752.8056495626348
+10:22:49 - Current Cash: 237.3046875
+10:22:49 - Total Account Value: 990.1103370626348
+
+10:22:49 - Sold 58.80554183426246 shares of SSL @ 4.2513
+10:22:49 - Current assets: 520.5237593172981
+10:22:49 - Current Cash: 469.58657774533674
+10:22:49 - Total Account Value: 990.1103370626348
+
+
+10:22:49 - CPRI fell from 14.0799 to 13.895
+10:22:49 - Current assets: 517.9518935902951
+10:22:49 - Current Cash: 469.58657774533674
+10:22:49 - Total Account Value: 987.5384713356318
+
+
+10:22:50 - KSS rose from 17.59 to 17.69
+10:22:50 - Current assets: 518.749539648151
+10:22:50 - Current Cash: 469.58657774533674
+10:22:50 - Total Account Value: 988.3361173934877
+
+
+10:22:50 - RCL rose from 36.93 to 37.695
+10:22:50 - Current assets: 520.9474038200387
+10:22:50 - Current Cash: 469.58657774533674
+10:22:50 - Total Account Value: 990.5339815653755
+
+
+10:22:50 - WES rose from 4.75 to 4.87
+10:22:50 - Current assets: 522.9248192940715
+10:22:50 - Current Cash: 469.58657774533674
+10:22:50 - Total Account Value: 992.5113970394083
+
+
+10:24:08 - CPRI rose from 13.895 to 14.07
+10:24:08 - Current assets: 525.3589810151398
+10:24:08 - Current Cash: 469.58657774533674
+10:24:08 - Total Account Value: 994.9455587604765
+
+
+10:24:08 - KSS fell from 17.69 to 17.49
+10:24:08 - Current assets: 523.763688899428
+10:24:08 - Current Cash: 469.58657774533674
+10:24:08 - Total Account Value: 993.3502666447647
+
+
+10:24:08 - RCL fell from 37.695 to 37.153
+10:24:08 - Current assets: 522.2065093162081
+10:24:08 - Current Cash: 469.58657774533674
+10:24:08 - Total Account Value: 991.7930870615448
+
+10:25:10 - Bought 6.059556949918663 shares of JWN @ 19.3738
+10:25:10 - Current assets: 639.6031537525423
+10:25:10 - Current Cash: 352.1899333090025
+10:25:10 - Total Account Value: 991.7930870615448
+
+
+10:25:10 - CPRI fell from 14.07 to 13.81
+10:25:10 - Current assets: 635.9866849098123
+10:25:10 - Current Cash: 352.1899333090025
+10:25:10 - Total Account Value: 988.1766182188148
+
+
+10:25:11 - KSS fell from 17.49 to 17.46
+10:25:11 - Current assets: 635.7473910924556
+10:25:11 - Current Cash: 352.1899333090025
+10:25:11 - Total Account Value: 987.9373244014581
+
+
+10:25:11 - RCL fell from 37.153 to 36.1471
+10:25:11 - Current assets: 632.8574151833027
+10:25:11 - Current Cash: 352.1899333090025
+10:25:11 - Total Account Value: 985.0473484923052
+
+10:25:11 - Sold 2.873025061291201 shares of RCL @ 36.71
+10:25:11 - Current assets: 529.0058909903036
+10:25:11 - Current Cash: 456.0414575020017
+10:25:11 - Total Account Value: 985.0473484923052
+
+
+10:25:11 - WES rose from 4.87 to 4.871
+10:25:11 - Current assets: 529.0223694525872
+10:25:11 - Current Cash: 456.0414575020017
+10:25:11 - Total Account Value: 985.0638269545889
+
+
+10:26:12 - JWN rose from 19.3738 to 19.46
+10:26:12 - Current assets: 529.5447032616702
+10:26:12 - Current Cash: 456.0414575020017
+10:26:12 - Total Account Value: 985.5861607636718
+
+
+10:26:29 - CPRI fell from 13.81 to 13.64
+10:26:29 - Current assets: 527.1800890183467
+10:26:29 - Current Cash: 456.0414575020017
+10:26:29 - Total Account Value: 983.2215465203485
+
+10:26:29 - Sold 13.909495548961424 shares of CPRI @ 13.48
+10:26:29 - Current assets: 337.4545697305129
+10:26:29 - Current Cash: 645.7669767898356
+10:26:29 - Total Account Value: 983.2215465203485
+
+
+10:26:29 - KSS rose from 17.46 to 17.55
+10:26:29 - Current assets: 338.17245118258325
+10:26:29 - Current Cash: 645.7669767898356
+10:26:29 - Total Account Value: 983.9394279724188
+
+
+10:26:29 - WES fell from 4.871 to 4.86
+10:26:29 - Current assets: 337.9911880974636
+10:26:29 - Current Cash: 645.7669767898356
+10:26:29 - Total Account Value: 983.7581648872991
+
+
+10:27:30 - JWN fell from 19.46 to 19.42
+10:27:30 - Current assets: 337.74880581946684
+10:27:30 - Current Cash: 645.7669767898356
+10:27:30 - Total Account Value: 983.5157826093024
+
+10:27:30 - Bought 13.629526736805309 shares of CCL @ 11.845
+10:27:30 - Current assets: 499.1905500169257
+10:27:30 - Current Cash: 484.32523259237666
+10:27:30 - Total Account Value: 983.5157826093024
+
+10:27:47 - Sold 7.976460578559275 shares of KSS @ 17.63
+10:27:47 - Current assets: 359.20366686321046
+10:27:47 - Current Cash: 624.3121157460919
+10:27:47 - Total Account Value: 983.5157826093023
+
+10:27:47 - Sold 16.478462283607275 shares of WES @ 4.8003
+10:27:47 - Current assets: 279.1183401648791
+10:27:47 - Current Cash: 704.3974424444232
+10:27:47 - Total Account Value: 983.5157826093023
+
+10:27:47 - Sold 6.059556949918663 shares of JWN @ 19.3738
+10:27:47 - Current assets: 161.44174419745866
+10:27:47 - Current Cash: 822.0740384118436
+10:27:47 - Total Account Value: 983.5157826093023
+
+10:27:47 - Sold 13.629526736805309 shares of CCL @ 11.845
+10:27:47 - Current assets: -2.2737367544323206e-13
+10:27:47 - Current Cash: 983.5157826093025
+10:27:47 - Total Account Value: 983.5157826093023
+

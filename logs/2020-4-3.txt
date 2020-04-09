@@ -1,0 +1,3919 @@
+
+09:30:59 - AMRN rose from 4.97 to 5.24
+09:30:59 - Current assets: -3.836930773104541e-13
+09:30:59 - Current Cash: 1184.9186433442853
+09:30:59 - Total Account Value: 1184.9186433442849
+
+
+09:31:00 - FANG rose from 25.11 to 29.1
+09:31:00 - Current assets: -3.836930773104541e-13
+09:31:00 - Current Cash: 1184.9186433442853
+09:31:00 - Total Account Value: 1184.9186433442849
+
+
+09:31:00 - SU rose from 16.88 to 16.9
+09:31:00 - Current assets: -3.836930773104541e-13
+09:31:00 - Current Cash: 1184.9186433442853
+09:31:00 - Total Account Value: 1184.9186433442849
+
+
+09:31:01 - PBR fell from 6.01 to 5.81
+09:31:01 - Current assets: -3.836930773104541e-13
+09:31:01 - Current Cash: 1184.9186433442853
+09:31:01 - Total Account Value: 1184.9186433442849
+
+09:31:01 - Sold 0 shares of PBR @ 6.1137
+09:31:01 - Current assets: -3.836930773104541e-13
+09:31:01 - Current Cash: 1184.9186433442853
+09:31:01 - Total Account Value: 1184.9186433442849
+
+
+09:31:01 - CXO rose from 46.1 to 46.65
+09:31:01 - Current assets: -3.836930773104541e-13
+09:31:01 - Current Cash: 1184.9186433442853
+09:31:01 - Total Account Value: 1184.9186433442849
+
+10:18:47 - Bought 8.546269727403155 shares of ETSY @ 34.85
+10:18:47 - Current assets: 297.8375
+10:18:47 - Current Cash: 893.5124999999999
+10:18:47 - Total Account Value: 1191.35
+
+10:18:48 - Bought 33.9480433130699 shares of DOYU @ 6.58
+10:18:48 - Current assets: 521.2156249999999
+10:18:48 - Current Cash: 670.134375
+10:18:48 - Total Account Value: 1191.35
+
+10:18:49 - Bought 3.6168737856217614 shares of SPG @ 46.32
+10:18:49 - Current assets: 688.74921875
+10:18:49 - Current Cash: 502.60078124999995
+10:18:49 - Total Account Value: 1191.35
+
+10:18:49 - Bought 14.661804141530236 shares of TEVA @ 8.5699
+10:18:49 - Current assets: 814.3994140624999
+10:18:49 - Current Cash: 376.95058593749997
+10:18:49 - Total Account Value: 1191.35
+
+
+10:21:11 - SPG fell from 46.32 to 46.12
+10:21:11 - Current assets: 813.6760393053755
+10:21:11 - Current Cash: 376.95058593749997
+10:21:11 - Total Account Value: 1190.6266252428754
+
+
+10:21:11 - TEVA fell from 8.5699 to 8.525
+10:21:11 - Current assets: 813.0177242994208
+10:21:11 - Current Cash: 376.95058593749997
+10:21:11 - Total Account Value: 1189.9683102369208
+
+10:21:12 - Bought 11.381358271059783 shares of CCL @ 8.28
+10:21:12 - Current assets: 907.2553707837958
+10:21:12 - Current Cash: 282.712939453125
+10:21:12 - Total Account Value: 1189.9683102369208
+
+
+10:22:15 - CCL fell from 8.28 to 8.27
+10:22:15 - Current assets: 907.1415572010852
+10:22:15 - Current Cash: 282.712939453125
+10:22:15 - Total Account Value: 1189.8544966542102
+
+
+10:23:17 - SPG fell from 46.12 to 45.98
+10:23:17 - Current assets: 906.6351948710982
+10:23:17 - Current Cash: 282.712939453125
+10:23:17 - Total Account Value: 1189.348134324223
+
+
+10:23:18 - TEVA fell from 8.525 to 8.4601
+10:23:18 - Current assets: 905.6836437823129
+10:23:18 - Current Cash: 282.712939453125
+10:23:18 - Total Account Value: 1188.396583235438
+
+
+10:23:18 - CCL rose from 8.27 to 8.275
+10:23:18 - Current assets: 905.7405505736682
+10:23:18 - Current Cash: 282.712939453125
+10:23:18 - Total Account Value: 1188.4534900267931
+
+
+10:24:21 - SPG fell from 45.98 to 45.66
+10:24:21 - Current assets: 904.5831509622692
+10:24:21 - Current Cash: 282.712939453125
+10:24:21 - Total Account Value: 1187.2960904153942
+
+
+10:24:21 - TEVA fell from 8.4601 to 8.435
+10:24:21 - Current assets: 904.2151396783167
+10:24:21 - Current Cash: 282.712939453125
+10:24:21 - Total Account Value: 1186.9280791314418
+
+
+10:25:22 - CCL fell from 8.275 to 8.26
+10:25:22 - Current assets: 904.0444193042508
+10:25:22 - Current Cash: 282.712939453125
+10:25:22 - Total Account Value: 1186.7573587573759
+
+
+10:25:24 - TEVA rose from 8.435 to 8.44
+10:25:24 - Current assets: 904.1177283249584
+10:25:24 - Current Cash: 282.712939453125
+10:25:24 - Total Account Value: 1186.8306677780834
+
+
+10:26:24 - CCL fell from 8.26 to 8.2531
+10:26:24 - Current assets: 904.0391969528881
+10:26:24 - Current Cash: 282.712939453125
+10:26:24 - Total Account Value: 1186.752136406013
+
+
+10:26:26 - SPG rose from 45.66 to 45.97
+10:26:26 - Current assets: 905.1604278264308
+10:26:26 - Current Cash: 282.712939453125
+10:26:26 - Total Account Value: 1187.8733672795559
+
+
+10:27:27 - TEVA rose from 8.44 to 8.48
+10:27:27 - Current assets: 905.746899992092
+10:27:27 - Current Cash: 282.712939453125
+10:27:27 - Total Account Value: 1188.459839445217
+
+
+10:27:27 - CCL rose from 8.2531 to 8.315
+10:27:27 - Current assets: 906.4514060690706
+10:27:27 - Current Cash: 282.712939453125
+10:27:27 - Total Account Value: 1189.1643455221956
+
+
+10:28:29 - TEVA rose from 8.48 to 8.4891
+10:28:29 - Current assets: 906.5848284867585
+10:28:29 - Current Cash: 282.712939453125
+10:28:29 - Total Account Value: 1189.2977679398834
+
+
+10:28:29 - CCL fell from 8.315 to 8.3
+10:28:29 - Current assets: 906.4141081126927
+10:28:29 - Current Cash: 282.712939453125
+10:28:29 - Total Account Value: 1189.1270475658177
+
+
+10:28:30 - SPG fell from 45.97 to 45.83
+10:28:30 - Current assets: 905.9077457827057
+10:28:30 - Current Cash: 282.712939453125
+10:28:30 - Total Account Value: 1188.6206852358307
+
+
+10:29:31 - TEVA fell from 8.4891 to 8.453
+10:29:31 - Current assets: 905.3784546531964
+10:29:31 - Current Cash: 282.712939453125
+10:29:31 - Total Account Value: 1188.0913941063213
+
+
+10:29:33 - SPG rose from 45.83 to 45.855
+10:29:33 - Current assets: 905.4688764978368
+10:29:33 - Current Cash: 282.712939453125
+10:29:33 - Total Account Value: 1188.181815950962
+
+
+10:30:35 - SPG fell from 45.855 to 45.7416
+10:30:35 - Current assets: 905.0587230105474
+10:30:35 - Current Cash: 282.712939453125
+10:30:35 - Total Account Value: 1187.7716624636723
+
+
+10:31:35 - TEVA fell from 8.453 to 8.44
+10:31:35 - Current assets: 904.8681195567075
+10:31:35 - Current Cash: 282.712939453125
+10:31:35 - Total Account Value: 1187.5810590098324
+
+
+10:31:35 - CCL rose from 8.3 to 8.315
+10:31:35 - Current assets: 905.0388399307733
+10:31:35 - Current Cash: 282.712939453125
+10:31:35 - Total Account Value: 1187.7517793838983
+
+
+10:32:38 - SPG fell from 45.7416 to 45.695
+10:32:38 - Current assets: 904.8702936123633
+10:32:38 - Current Cash: 282.712939453125
+10:32:38 - Total Account Value: 1187.5832330654882
+
+
+10:33:39 - TEVA fell from 8.44 to 8.42
+10:33:39 - Current assets: 904.5770575295327
+10:33:39 - Current Cash: 282.712939453125
+10:33:39 - Total Account Value: 1187.2899969826576
+
+
+10:33:39 - CCL fell from 8.315 to 8.24
+10:33:39 - Current assets: 903.7234556592032
+10:33:39 - Current Cash: 282.712939453125
+10:33:39 - Total Account Value: 1186.4363951123282
+
+
+10:33:41 - SPG fell from 45.695 to 45.605
+10:33:41 - Current assets: 903.3979370184973
+10:33:41 - Current Cash: 282.712939453125
+10:33:41 - Total Account Value: 1186.1108764716223
+
+
+10:34:41 - TEVA rose from 8.42 to 8.45
+10:34:41 - Current assets: 903.8377911427432
+10:34:41 - Current Cash: 282.712939453125
+10:34:41 - Total Account Value: 1186.5507305958681
+
+10:34:42 - Sold 11.381358271059783 shares of CCL @ 8.28
+10:34:42 - Current assets: 811.3642551903824
+10:34:42 - Current Cash: 375.18647540548574
+10:34:42 - Total Account Value: 1186.5507305958681
+
+
+10:35:59 - SPG fell from 45.605 to 45.47
+10:35:59 - Current assets: 810.8759772293234
+10:35:59 - Current Cash: 375.18647540548574
+10:35:59 - Total Account Value: 1186.0624526348092
+
+10:35:59 - Bought 1.895264070547008 shares of W @ 49.49
+10:35:59 - Current assets: 904.6725960806949
+10:35:59 - Current Cash: 281.3898565541143
+10:35:59 - Total Account Value: 1186.0624526348092
+
+
+10:37:01 - SPG fell from 45.47 to 45.0701
+10:37:01 - Current assets: 903.2262082538248
+10:37:01 - Current Cash: 281.3898565541143
+10:37:01 - Total Account Value: 1184.616064807939
+
+
+10:37:03 - TEVA rose from 8.45 to 8.455
+10:37:03 - Current assets: 903.2995172745325
+10:37:03 - Current Cash: 281.3898565541143
+10:37:03 - Total Account Value: 1184.6893738286467
+
+
+10:37:07 - W fell from 49.49 to 49.22
+10:37:07 - Current assets: 902.7877959754848
+10:37:07 - Current Cash: 281.3898565541143
+10:37:07 - Total Account Value: 1184.177652529599
+
+
+10:38:11 - SPG rose from 45.0701 to 45.28
+10:38:11 - Current assets: 903.5469777830867
+10:38:11 - Current Cash: 281.3898565541143
+10:38:11 - Total Account Value: 1184.9368343372012
+
+
+10:38:12 - TEVA fell from 8.455 to 8.44
+10:38:12 - Current assets: 903.3270507209637
+10:38:12 - Current Cash: 281.3898565541143
+10:38:12 - Total Account Value: 1184.716907275078
+
+
+10:38:12 - W fell from 49.22 to 49.2
+10:38:12 - Current assets: 903.2891454395527
+10:38:12 - Current Cash: 281.3898565541143
+10:38:12 - Total Account Value: 1184.679001993667
+
+
+10:39:14 - SPG rose from 45.28 to 45.379
+10:39:14 - Current assets: 903.6472159443293
+10:39:14 - Current Cash: 281.3898565541143
+10:39:14 - Total Account Value: 1185.0370724984436
+
+
+10:39:14 - TEVA fell from 8.44 to 8.405
+10:39:14 - Current assets: 903.1340527993758
+10:39:14 - Current Cash: 281.3898565541143
+10:39:14 - Total Account Value: 1184.5239093534901
+
+
+10:39:15 - W rose from 49.2 to 49.5588
+10:39:15 - Current assets: 903.8140735478881
+10:39:15 - Current Cash: 281.3898565541143
+10:39:15 - Total Account Value: 1185.2039301020025
+
+
+10:40:17 - SPG fell from 45.379 to 45.27
+10:40:17 - Current assets: 903.4198343052553
+10:40:17 - Current Cash: 281.3898565541143
+10:40:17 - Total Account Value: 1184.8096908593698
+
+
+10:40:18 - TEVA fell from 8.405 to 8.38
+10:40:18 - Current assets: 903.0532892017171
+10:40:18 - Current Cash: 281.3898565541143
+10:40:18 - Total Account Value: 1184.4431457558314
+
+
+10:40:18 - W fell from 49.5588 to 49.3425
+10:40:18 - Current assets: 902.6433435832578
+10:40:18 - Current Cash: 281.3898565541143
+10:40:18 - Total Account Value: 1184.0332001373722
+
+
+10:41:21 - SPG fell from 45.27 to 45.26
+10:41:21 - Current assets: 902.6071748454016
+10:41:21 - Current Cash: 281.3898565541143
+10:41:21 - Total Account Value: 1183.997031399516
+
+
+10:42:23 - SPG fell from 45.26 to 45.01
+10:42:23 - Current assets: 901.7029563989961
+10:42:23 - Current Cash: 281.3898565541143
+10:42:23 - Total Account Value: 1183.0928129531103
+
+
+10:42:23 - TEVA fell from 8.38 to 8.37
+10:42:23 - Current assets: 901.5563383575808
+10:42:23 - Current Cash: 281.3898565541143
+10:42:23 - Total Account Value: 1182.946194911695
+
+
+10:42:24 - W rose from 49.3425 to 49.565
+10:42:24 - Current assets: 901.9780346132775
+10:42:24 - Current Cash: 281.3898565541143
+10:42:24 - Total Account Value: 1183.367891167392
+
+
+10:43:26 - SPG fell from 45.01 to 44.81
+10:43:26 - Current assets: 901.2546598561532
+10:43:26 - Current Cash: 281.3898565541143
+10:43:26 - Total Account Value: 1182.6445164102674
+
+
+10:44:29 - SPG fell from 44.81 to 44.75
+10:44:29 - Current assets: 901.0376474290159
+10:44:29 - Current Cash: 281.3898565541143
+10:44:29 - Total Account Value: 1182.4275039831302
+
+
+10:44:29 - TEVA fell from 8.37 to 8.3385
+10:44:29 - Current assets: 900.5758005985576
+10:44:29 - Current Cash: 281.3898565541143
+10:44:29 - Total Account Value: 1181.965657152672
+
+
+10:44:29 - W rose from 49.565 to 49.64
+10:44:29 - Current assets: 900.7179454038487
+10:44:29 - Current Cash: 281.3898565541143
+10:44:29 - Total Account Value: 1182.1078019579631
+
+
+10:45:31 - TEVA fell from 8.3385 to 8.31
+10:45:31 - Current assets: 900.3000839858151
+10:45:31 - Current Cash: 281.3898565541143
+10:45:31 - Total Account Value: 1181.6899405399295
+
+
+10:45:31 - W fell from 49.64 to 49.4881
+10:45:31 - Current assets: 900.012193373499
+10:45:31 - Current Cash: 281.3898565541143
+10:45:31 - Total Account Value: 1181.4020499276135
+
+
+10:46:33 - SPG rose from 44.75 to 45.155
+10:46:33 - Current assets: 901.4770272566758
+10:46:33 - Current Cash: 281.3898565541143
+10:46:33 - Total Account Value: 1182.8668838107901
+
+
+10:46:33 - TEVA rose from 8.31 to 8.34
+10:46:33 - Current assets: 901.9168813809217
+10:46:33 - Current Cash: 281.3898565541143
+10:46:33 - Total Account Value: 1183.306737935036
+
+
+10:46:34 - W rose from 49.4881 to 49.665
+10:46:34 - Current assets: 902.2521535950015
+10:46:34 - Current Cash: 281.3898565541143
+10:46:34 - Total Account Value: 1183.6420101491158
+
+
+10:47:35 - SPG fell from 45.155 to 45.02
+10:47:35 - Current assets: 901.7638756339426
+10:47:35 - Current Cash: 281.3898565541143
+10:47:35 - Total Account Value: 1183.153732188057
+
+
+10:47:36 - W rose from 49.665 to 49.78
+10:47:36 - Current assets: 901.9818310020555
+10:47:36 - Current Cash: 281.3898565541143
+10:47:36 - Total Account Value: 1183.37168755617
+
+
+10:48:37 - SPG rose from 45.02 to 45.19
+10:48:37 - Current assets: 902.5966995456112
+10:48:37 - Current Cash: 281.3898565541143
+10:48:37 - Total Account Value: 1183.9865560997255
+
+
+10:48:37 - TEVA rose from 8.34 to 8.35
+10:48:37 - Current assets: 902.7433175870265
+10:48:37 - Current Cash: 281.3898565541143
+10:48:37 - Total Account Value: 1184.133174141141
+
+
+10:49:39 - SPG rose from 45.19 to 45.37
+10:49:39 - Current assets: 903.3943548684384
+10:49:39 - Current Cash: 281.3898565541143
+10:49:39 - Total Account Value: 1184.7842114225527
+
+
+10:49:40 - W rose from 49.78 to 49.94
+10:49:40 - Current assets: 903.697597119726
+10:49:40 - Current Cash: 281.3898565541143
+10:49:40 - Total Account Value: 1185.0874536738402
+
+
+10:50:42 - SPG fell from 45.37 to 45.26
+10:50:42 - Current assets: 903.2997410033075
+10:50:42 - Current Cash: 281.3898565541143
+10:50:42 - Total Account Value: 1184.6895975574218
+
+
+10:50:42 - TEVA rose from 8.35 to 8.355
+10:50:42 - Current assets: 903.3730500240151
+10:50:42 - Current Cash: 281.3898565541143
+10:50:42 - Total Account Value: 1184.7629065781293
+
+
+10:50:43 - W rose from 49.94 to 50.0
+10:50:43 - Current assets: 903.4867658682479
+10:50:43 - Current Cash: 281.3898565541143
+10:50:43 - Total Account Value: 1184.8766224223623
+
+
+10:51:45 - SPG rose from 45.26 to 45.37
+10:51:45 - Current assets: 903.8846219846663
+10:51:45 - Current Cash: 281.3898565541143
+10:51:45 - Total Account Value: 1185.2744785387806
+
+
+10:52:46 - TEVA fell from 8.355 to 8.336
+10:52:46 - Current assets: 903.6060477059773
+10:52:46 - Current Cash: 281.3898565541143
+10:52:46 - Total Account Value: 1184.9959042600917
+
+
+10:52:46 - W fell from 50.0 to 49.985
+10:52:46 - Current assets: 903.5776187449192
+10:52:46 - Current Cash: 281.3898565541143
+10:52:46 - Total Account Value: 1184.9674752990336
+
+
+10:53:49 - SPG rose from 45.37 to 45.42
+10:53:49 - Current assets: 903.7584624342003
+10:53:49 - Current Cash: 281.3898565541143
+10:53:49 - Total Account Value: 1185.1483189883147
+
+
+10:53:49 - TEVA fell from 8.336 to 8.3333
+10:53:49 - Current assets: 903.7188755630181
+10:53:49 - Current Cash: 281.3898565541143
+10:53:49 - Total Account Value: 1185.1087321171324
+
+
+10:53:49 - W fell from 49.985 to 49.94
+10:53:49 - Current assets: 903.6335886798435
+10:53:49 - Current Cash: 281.3898565541143
+10:53:49 - Total Account Value: 1185.0234452339578
+
+
+10:54:52 - TEVA fell from 8.3333 to 8.33
+10:54:52 - Current assets: 903.5852047261765
+10:54:52 - Current Cash: 281.3898565541143
+10:54:52 - Total Account Value: 1184.975061280291
+
+
+10:54:52 - W rose from 49.94 to 49.99
+10:54:52 - Current assets: 903.6799679297038
+10:54:52 - Current Cash: 281.3898565541143
+10:54:52 - Total Account Value: 1185.0698244838181
+
+
+10:55:54 - SPG rose from 45.42 to 45.57
+10:55:54 - Current assets: 904.2224989975472
+10:55:54 - Current Cash: 281.3898565541143
+10:55:54 - Total Account Value: 1185.6123555516615
+
+
+10:55:55 - TEVA rose from 8.33 to 8.34
+10:55:55 - Current assets: 904.3691170389625
+10:55:55 - Current Cash: 281.3898565541143
+10:55:55 - Total Account Value: 1185.758973593077
+
+
+10:56:57 - SPG fell from 45.57 to 45.44
+10:56:57 - Current assets: 903.8989234468316
+10:56:57 - Current Cash: 281.3898565541143
+10:56:57 - Total Account Value: 1185.288780000946
+
+
+10:56:57 - TEVA fell from 8.34 to 8.3
+10:56:57 - Current assets: 903.3124512811704
+10:56:57 - Current Cash: 281.3898565541143
+10:56:57 - Total Account Value: 1184.7023078352847
+
+
+10:56:58 - W fell from 49.99 to 49.8601
+10:56:58 - Current assets: 903.0662564784063
+10:56:58 - Current Cash: 281.3898565541143
+10:56:58 - Total Account Value: 1184.4561130325205
+
+
+10:58:00 - W rose from 49.8601 to 50.05
+10:58:00 - Current assets: 903.4261671254031
+10:58:00 - Current Cash: 281.3898565541143
+10:58:00 - Total Account Value: 1184.8160236795175
+
+
+10:59:03 - SPG rose from 45.44 to 45.54
+10:59:03 - Current assets: 903.7878545039653
+10:59:03 - Current Cash: 281.3898565541143
+10:59:03 - Total Account Value: 1185.1777110580797
+
+
+10:59:05 - TEVA rose from 8.3 to 8.35
+10:59:05 - Current assets: 904.5209447110418
+10:59:05 - Current Cash: 281.3898565541143
+10:59:05 - Total Account Value: 1185.9108012651561
+
+
+10:59:08 - W fell from 50.05 to 49.95
+10:59:08 - Current assets: 904.3314183039872
+10:59:08 - Current Cash: 281.3898565541143
+10:59:08 - Total Account Value: 1185.7212748581014
+
+
+11:00:11 - SPG rose from 45.54 to 45.62
+11:00:11 - Current assets: 904.620768206837
+11:00:11 - Current Cash: 281.3898565541143
+11:00:11 - Total Account Value: 1186.0106247609515
+
+
+11:00:13 - W rose from 49.95 to 49.97
+11:00:13 - Current assets: 904.658673488248
+11:00:13 - Current Cash: 281.3898565541143
+11:00:13 - Total Account Value: 1186.0485300423625
+
+
+11:01:15 - SPG fell from 45.62 to 45.45
+11:01:15 - Current assets: 904.0438049446924
+11:01:15 - Current Cash: 281.3898565541143
+11:01:15 - Total Account Value: 1185.4336614988067
+
+
+11:01:16 - TEVA rose from 8.35 to 8.38
+11:01:16 - Current assets: 904.4836590689383
+11:01:16 - Current Cash: 281.3898565541143
+11:01:16 - Total Account Value: 1185.8735156230528
+
+
+11:01:16 - W rose from 49.97 to 50.12
+11:01:16 - Current assets: 904.7679486795204
+11:01:16 - Current Cash: 281.3898565541143
+11:01:16 - Total Account Value: 1186.1578052336347
+
+
+11:02:19 - TEVA rose from 8.38 to 8.415
+11:02:19 - Current assets: 905.2811118244739
+11:02:19 - Current Cash: 281.3898565541143
+11:02:19 - Total Account Value: 1186.6709683785882
+
+
+11:03:23 - SPG rose from 45.45 to 45.4701
+11:03:23 - Current assets: 905.3538109875649
+11:03:23 - Current Cash: 281.3898565541143
+11:03:23 - Total Account Value: 1186.7436675416793
+
+
+11:04:23 - TEVA rose from 8.415 to 8.46
+11:04:23 - Current assets: 906.0135921739337
+11:04:23 - Current Cash: 281.3898565541143
+11:04:23 - Total Account Value: 1187.403448728048
+
+
+11:04:25 - W fell from 50.12 to 50.1
+11:04:25 - Current assets: 905.9756868925228
+11:04:25 - Current Cash: 281.3898565541143
+11:04:25 - Total Account Value: 1187.3655434466373
+
+
+11:05:27 - TEVA rose from 8.46 to 8.47
+11:05:27 - Current assets: 906.1223049339382
+11:05:27 - Current Cash: 281.3898565541143
+11:05:27 - Total Account Value: 1187.5121614880525
+
+
+11:05:28 - W fell from 50.1 to 49.96
+11:05:28 - Current assets: 905.8569679640616
+11:05:28 - Current Cash: 281.3898565541143
+11:05:28 - Total Account Value: 1187.2468245181758
+
+
+11:05:30 - SPG fell from 45.4701 to 45.42
+11:05:30 - Current assets: 905.675762587402
+11:05:30 - Current Cash: 281.3898565541143
+11:05:30 - Total Account Value: 1187.0656191415164
+
+
+11:06:30 - TEVA rose from 8.47 to 8.48
+11:06:30 - Current assets: 905.8223806288173
+11:06:30 - Current Cash: 281.3898565541143
+11:06:30 - Total Account Value: 1187.2122371829316
+
+
+11:06:31 - W rose from 49.96 to 50.24
+11:06:31 - Current assets: 906.3530545685705
+11:06:31 - Current Cash: 281.3898565541143
+11:06:31 - Total Account Value: 1187.7429111226847
+
+
+11:07:33 - SPG fell from 45.42 to 45.335
+11:07:33 - Current assets: 906.0456202967927
+11:07:33 - Current Cash: 281.3898565541143
+11:07:33 - Total Account Value: 1187.435476850907
+
+
+11:07:33 - TEVA rose from 8.48 to 8.495
+11:07:33 - Current assets: 906.2655473589156
+11:07:33 - Current Cash: 281.3898565541143
+11:07:33 - Total Account Value: 1187.6554039130299
+
+
+11:07:34 - W fell from 50.24 to 50.11
+11:07:34 - Current assets: 906.0191630297444
+11:07:34 - Current Cash: 281.3898565541143
+11:07:34 - Total Account Value: 1187.4090195838587
+
+
+11:08:37 - W rose from 50.11 to 50.25
+11:08:37 - Current assets: 906.284499999621
+11:08:37 - Current Cash: 281.3898565541143
+11:08:37 - Total Account Value: 1187.6743565537354
+
+
+11:09:39 - SPG fell from 45.335 to 45.17
+11:09:39 - Current assets: 905.6877158249933
+11:09:39 - Current Cash: 281.3898565541143
+11:09:39 - Total Account Value: 1187.0775723791076
+
+
+11:09:40 - TEVA fell from 8.495 to 8.485
+11:09:40 - Current assets: 905.5410977835782
+11:09:40 - Current Cash: 281.3898565541143
+11:09:40 - Total Account Value: 1186.9309543376926
+
+
+11:09:40 - W fell from 50.25 to 50.17
+11:09:40 - Current assets: 905.3894766579344
+11:09:40 - Current Cash: 281.3898565541143
+11:09:40 - Total Account Value: 1186.7793332120486
+
+
+11:10:42 - TEVA fell from 8.485 to 8.475
+11:10:42 - Current assets: 905.2428586165192
+11:10:42 - Current Cash: 281.3898565541143
+11:10:42 - Total Account Value: 1186.6327151706337
+
+
+11:10:43 - W rose from 50.17 to 50.26
+11:10:43 - Current assets: 905.4134323828685
+11:10:43 - Current Cash: 281.3898565541143
+11:10:43 - Total Account Value: 1186.8032889369829
+
+
+11:11:45 - SPG rose from 45.17 to 45.33
+11:11:45 - Current assets: 905.9921321885679
+11:11:45 - Current Cash: 281.3898565541143
+11:11:45 - Total Account Value: 1187.381988742682
+
+
+11:12:48 - SPG fell from 45.33 to 45.28
+11:12:48 - Current assets: 905.8112884992868
+11:12:48 - Current Cash: 281.3898565541143
+11:12:48 - Total Account Value: 1187.201145053401
+
+
+11:12:48 - TEVA rose from 8.475 to 8.5
+11:12:48 - Current assets: 906.177833602825
+11:12:48 - Current Cash: 281.3898565541143
+11:12:48 - Total Account Value: 1187.5676901569393
+
+
+11:12:49 - W fell from 50.26 to 50.18
+11:12:49 - Current assets: 906.0262124771813
+11:12:49 - Current Cash: 281.3898565541143
+11:12:49 - Total Account Value: 1187.4160690312956
+
+
+11:13:51 - TEVA fell from 8.5 to 8.49
+11:13:51 - Current assets: 905.879594435766
+11:13:51 - Current Cash: 281.3898565541143
+11:13:51 - Total Account Value: 1187.2694509898802
+
+
+11:13:51 - W fell from 50.18 to 50.01
+11:13:51 - Current assets: 905.5573995437729
+11:13:51 - Current Cash: 281.3898565541143
+11:13:51 - Total Account Value: 1186.9472560978872
+
+
+11:14:53 - SPG rose from 45.28 to 45.3048
+11:14:53 - Current assets: 905.6470980136564
+11:14:53 - Current Cash: 281.3898565541143
+11:14:53 - Total Account Value: 1187.0369545677709
+
+
+11:14:54 - TEVA fell from 8.49 to 8.475
+11:14:54 - Current assets: 905.4271709515335
+11:14:54 - Current Cash: 281.3898565541143
+11:14:54 - Total Account Value: 1186.8170275056477
+
+
+11:15:54 - W rose from 50.01 to 50.17
+11:15:54 - Current assets: 905.7304132028211
+11:15:54 - Current Cash: 281.3898565541143
+11:15:54 - Total Account Value: 1187.1202697569354
+
+
+11:15:56 - SPG fell from 45.3048 to 45.02
+11:15:56 - Current assets: 904.700327548676
+11:15:56 - Current Cash: 281.3898565541143
+11:15:56 - Total Account Value: 1186.0901841027903
+
+
+11:15:56 - TEVA fell from 8.475 to 8.435
+11:15:56 - Current assets: 904.1138553830148
+11:15:56 - Current Cash: 281.3898565541143
+11:15:56 - Total Account Value: 1185.503711937129
+
+
+11:16:57 - W fell from 50.17 to 50.0
+11:16:57 - Current assets: 903.7916604910217
+11:16:57 - Current Cash: 281.3898565541143
+11:16:57 - Total Account Value: 1185.181517045136
+
+
+11:16:59 - TEVA fell from 8.435 to 8.43
+11:16:59 - Current assets: 903.718351470314
+11:16:59 - Current Cash: 281.3898565541143
+11:16:59 - Total Account Value: 1185.1082080244282
+
+
+11:18:03 - W rose from 50.0 to 50.02
+11:18:03 - Current assets: 903.756256751725
+11:18:03 - Current Cash: 281.3898565541143
+11:18:03 - Total Account Value: 1185.1461133058392
+
+
+11:18:16 - SPG rose from 45.02 to 45.145
+11:18:16 - Current assets: 904.2083659749277
+11:18:16 - Current Cash: 281.3898565541143
+11:18:16 - Total Account Value: 1185.598222529042
+
+
+11:19:16 - TEVA fell from 8.43 to 8.4158
+11:19:16 - Current assets: 904.000168356118
+11:19:16 - Current Cash: 281.3898565541143
+11:19:16 - Total Account Value: 1185.3900249102323
+
+
+11:19:17 - W rose from 50.02 to 50.13
+11:19:17 - Current assets: 904.2086474038782
+11:19:17 - Current Cash: 281.3898565541143
+11:19:17 - Total Account Value: 1185.5985039579925
+
+
+11:20:19 - SPG rose from 45.145 to 45.279
+11:20:19 - Current assets: 904.6933084911516
+11:20:19 - Current Cash: 281.3898565541143
+11:20:19 - Total Account Value: 1186.083165045266
+
+
+11:20:20 - TEVA fell from 8.4158 to 8.37
+11:20:20 - Current assets: 904.0217978614695
+11:20:20 - Current Cash: 281.3898565541143
+11:20:20 - Total Account Value: 1185.4116544155838
+
+
+11:21:23 - SPG fell from 45.279 to 45.225
+11:21:23 - Current assets: 903.8264866770459
+11:21:23 - Current Cash: 281.3898565541143
+11:21:23 - Total Account Value: 1185.2163432311602
+
+
+11:22:26 - SPG rose from 45.225 to 45.245
+11:22:26 - Current assets: 903.8988241527584
+11:22:26 - Current Cash: 281.3898565541143
+11:22:26 - Total Account Value: 1185.2886807068726
+
+
+11:22:27 - W fell from 50.13 to 50.085
+11:22:27 - Current assets: 903.8135372695838
+11:22:27 - Current Cash: 281.3898565541143
+11:22:27 - Total Account Value: 1185.2033938236982
+
+
+11:23:28 - SPG rose from 45.245 to 45.28
+11:23:28 - Current assets: 903.9401278520806
+11:23:28 - Current Cash: 281.3898565541143
+11:23:28 - Total Account Value: 1185.3299844061949
+
+
+11:23:29 - TEVA rose from 8.37 to 8.39
+11:23:29 - Current assets: 904.2333639349113
+11:23:29 - Current Cash: 281.3898565541143
+11:23:29 - Total Account Value: 1185.6232204890257
+
+
+11:23:29 - W rose from 50.085 to 50.19
+11:23:29 - Current assets: 904.4323666623187
+11:23:29 - Current Cash: 281.3898565541143
+11:23:29 - Total Account Value: 1185.822223216433
+
+
+11:24:31 - SPG fell from 45.28 to 45.0694
+11:24:31 - Current assets: 903.6706530430669
+11:24:31 - Current Cash: 281.3898565541143
+11:24:31 - Total Account Value: 1185.0605095971812
+
+
+11:24:31 - TEVA fell from 8.39 to 8.36
+11:24:31 - Current assets: 903.2307989188209
+11:24:31 - Current Cash: 281.3898565541143
+11:24:31 - Total Account Value: 1184.6206554729351
+
+
+11:24:32 - W fell from 50.19 to 50.12
+11:24:32 - Current assets: 903.0981304338826
+11:24:32 - Current Cash: 281.3898565541143
+11:24:32 - Total Account Value: 1184.487986987997
+
+
+11:25:34 - SPG rose from 45.0694 to 45.07
+11:25:34 - Current assets: 903.100300558154
+11:25:34 - Current Cash: 281.3898565541143
+11:25:34 - Total Account Value: 1184.4901571122682
+
+
+11:25:34 - TEVA fell from 8.36 to 8.335
+11:25:34 - Current assets: 902.7337554546157
+11:25:34 - Current Cash: 281.3898565541143
+11:25:34 - Total Account Value: 1184.12361200873
+
+
+11:26:37 - SPG fell from 45.07 to 45.045
+11:26:37 - Current assets: 902.6433336099751
+11:26:37 - Current Cash: 281.3898565541143
+11:26:37 - Total Account Value: 1184.0331901640893
+
+
+11:27:37 - TEVA rose from 8.335 to 8.345
+11:27:37 - Current assets: 902.7899516513904
+11:27:37 - Current Cash: 281.3898565541143
+11:27:37 - Total Account Value: 1184.1798082055047
+
+
+11:27:38 - W fell from 50.12 to 49.79
+11:27:38 - Current assets: 902.16451450811
+11:27:38 - Current Cash: 281.3898565541143
+11:27:38 - Total Account Value: 1183.5543710622242
+
+
+11:27:40 - SPG fell from 45.045 to 44.96
+11:27:40 - Current assets: 901.8570802363321
+11:27:40 - Current Cash: 281.3898565541143
+11:27:40 - Total Account Value: 1183.2469367904464
+
+
+11:28:40 - TEVA rose from 8.345 to 8.355
+11:28:40 - Current assets: 902.0036982777474
+11:28:40 - Current Cash: 281.3898565541143
+11:28:40 - Total Account Value: 1183.3935548318618
+
+
+11:28:41 - W rose from 49.79 to 50.035
+11:28:41 - Current assets: 902.4680379750314
+11:28:41 - Current Cash: 281.3898565541143
+11:28:41 - Total Account Value: 1183.8578945291456
+
+
+11:28:43 - SPG rose from 44.96 to 45.055
+11:28:43 - Current assets: 902.8116409846655
+11:28:43 - Current Cash: 281.3898565541143
+11:28:43 - Total Account Value: 1184.2014975387797
+
+
+11:29:43 - TEVA rose from 8.355 to 8.365
+11:29:43 - Current assets: 902.9582590260808
+11:29:43 - Current Cash: 281.3898565541143
+11:29:43 - Total Account Value: 1184.348115580195
+
+
+11:29:44 - W rose from 50.035 to 50.4
+11:29:44 - Current assets: 903.6500304118304
+11:29:44 - Current Cash: 281.3898565541143
+11:29:44 - Total Account Value: 1185.0398869659448
+
+
+11:30:46 - SPG rose from 45.055 to 45.2
+11:30:46 - Current assets: 904.1744771107456
+11:30:46 - Current Cash: 281.3898565541143
+11:30:46 - Total Account Value: 1185.56433366486
+
+
+11:30:46 - TEVA rose from 8.365 to 8.38
+11:30:46 - Current assets: 904.3944041728686
+11:30:46 - Current Cash: 281.3898565541143
+11:30:46 - Total Account Value: 1185.784260726983
+
+
+11:30:47 - W rose from 50.4 to 51.43
+11:30:47 - Current assets: 906.346526165532
+11:30:47 - Current Cash: 281.3898565541143
+11:30:47 - Total Account Value: 1187.7363827196464
+
+
+11:31:49 - SPG rose from 45.2 to 45.3
+11:31:49 - Current assets: 906.7082135440942
+11:31:49 - Current Cash: 281.3898565541143
+11:31:49 - Total Account Value: 1188.0980700982086
+
+
+11:31:50 - TEVA rose from 8.38 to 8.39
+11:31:50 - Current assets: 906.8548315855095
+11:31:50 - Current Cash: 281.3898565541143
+11:31:50 - Total Account Value: 1188.2446881396238
+
+
+11:31:50 - W fell from 51.43 to 51.245
+11:31:50 - Current assets: 906.5042077324583
+11:31:50 - Current Cash: 281.3898565541143
+11:31:50 - Total Account Value: 1187.8940642865728
+
+
+11:32:52 - SPG fell from 45.3 to 45.2
+11:32:52 - Current assets: 906.1425203538961
+11:32:52 - Current Cash: 281.3898565541143
+11:32:52 - Total Account Value: 1187.5323769080105
+
+
+11:32:53 - W fell from 51.245 to 50.98
+11:32:53 - Current assets: 905.6402753752011
+11:32:53 - Current Cash: 281.3898565541143
+11:32:53 - Total Account Value: 1187.0301319293153
+
+
+11:33:54 - SPG rose from 45.2 to 45.38
+11:33:54 - Current assets: 906.2913126566131
+11:33:54 - Current Cash: 281.3898565541143
+11:33:54 - Total Account Value: 1187.6811692107274
+
+
+11:33:54 - TEVA fell from 8.39 to 8.37
+11:33:54 - Current assets: 905.9980765737824
+11:33:54 - Current Cash: 281.3898565541143
+11:33:54 - Total Account Value: 1187.3879331278968
+
+
+11:34:56 - SPG fell from 45.38 to 45.36
+11:34:56 - Current assets: 905.92573909807
+11:34:56 - Current Cash: 281.3898565541143
+11:34:56 - Total Account Value: 1187.3155956521844
+
+
+11:34:57 - TEVA rose from 8.37 to 8.38
+11:34:57 - Current assets: 906.0723571394853
+11:34:57 - Current Cash: 281.3898565541143
+11:34:57 - Total Account Value: 1187.4622136935996
+
+
+11:34:57 - W fell from 50.98 to 50.64
+11:34:57 - Current assets: 905.4279673554994
+11:34:57 - Current Cash: 281.3898565541143
+11:34:57 - Total Account Value: 1186.8178239096137
+
+
+11:35:59 - SPG rose from 45.36 to 45.6923
+11:35:59 - Current assets: 906.6298545144615
+11:35:59 - Current Cash: 281.3898565541143
+11:35:59 - Total Account Value: 1188.0197110685758
+
+
+11:37:01 - SPG rose from 45.6923 to 45.74
+11:37:01 - Current assets: 906.8023793940356
+11:37:01 - Current Cash: 281.3898565541143
+11:37:01 - Total Account Value: 1188.19223594815
+
+
+11:37:02 - TEVA rose from 8.38 to 8.4
+11:37:02 - Current assets: 907.0956154768662
+11:37:02 - Current Cash: 281.3898565541143
+11:37:02 - Total Account Value: 1188.4854720309804
+
+
+11:37:05 - W rose from 50.64 to 50.865
+11:37:05 - Current assets: 907.5220498927392
+11:37:05 - Current Cash: 281.3898565541143
+11:37:05 - Total Account Value: 1188.9119064468537
+
+
+11:38:10 - SPG fell from 45.74 to 45.665
+11:38:10 - Current assets: 907.2507843588176
+11:38:10 - Current Cash: 281.3898565541143
+11:38:10 - Total Account Value: 1188.6406409129318
+
+
+11:38:11 - W fell from 50.865 to 50.65
+11:38:11 - Current assets: 906.84330258365
+11:38:11 - Current Cash: 281.3898565541143
+11:38:11 - Total Account Value: 1188.2331591377642
+
+
+11:39:13 - SPG fell from 45.665 to 45.55
+11:39:13 - Current assets: 906.4273620983035
+11:39:13 - Current Cash: 281.3898565541143
+11:39:13 - Total Account Value: 1187.817218652418
+
+
+11:40:17 - SPG rose from 45.55 to 45.61
+11:40:17 - Current assets: 906.6443745254409
+11:40:17 - Current Cash: 281.3898565541143
+11:40:17 - Total Account Value: 1188.0342310795552
+
+
+11:40:17 - TEVA rose from 8.4 to 8.42
+11:40:17 - Current assets: 906.9376106082714
+11:40:17 - Current Cash: 281.3898565541143
+11:40:17 - Total Account Value: 1188.3274671623858
+
+
+11:40:18 - W rose from 50.65 to 51.24
+11:40:18 - Current assets: 908.0558164098942
+11:40:18 - Current Cash: 281.3898565541143
+11:40:18 - Total Account Value: 1189.4456729640085
+
+
+11:41:20 - SPG rose from 45.61 to 45.64
+11:41:20 - Current assets: 908.1643226234629
+11:41:20 - Current Cash: 281.3898565541143
+11:41:20 - Total Account Value: 1189.5541791775772
+
+
+11:42:21 - TEVA fell from 8.42 to 8.4
+11:42:21 - Current assets: 907.8710865406324
+11:42:21 - Current Cash: 281.3898565541143
+11:42:21 - Total Account Value: 1189.2609430947468
+
+
+11:42:21 - W fell from 51.24 to 51.05
+11:42:21 - Current assets: 907.5109863672285
+11:42:21 - Current Cash: 281.3898565541143
+11:42:21 - Total Account Value: 1188.9008429213427
+
+
+11:43:24 - SPG fell from 45.64 to 45.41
+11:43:24 - Current assets: 906.6791053965354
+11:43:24 - Current Cash: 281.3898565541143
+11:43:24 - Total Account Value: 1188.0689619506497
+
+
+11:43:24 - TEVA fell from 8.4 to 8.39
+11:43:24 - Current assets: 906.5324873551201
+11:43:24 - Current Cash: 281.3898565541143
+11:43:24 - Total Account Value: 1187.9223439092343
+
+
+11:43:24 - W rose from 51.05 to 51.4
+11:43:24 - Current assets: 907.1958297798117
+11:43:24 - Current Cash: 281.3898565541143
+11:43:24 - Total Account Value: 1188.5856863339259
+
+
+11:44:27 - SPG rose from 45.41 to 45.425
+11:44:27 - Current assets: 907.250082886596
+11:44:27 - Current Cash: 281.3898565541143
+11:44:27 - Total Account Value: 1188.6399394407104
+
+
+11:44:28 - W rose from 51.4 to 51.48
+11:44:28 - Current assets: 907.4017040122399
+11:44:28 - Current Cash: 281.3898565541143
+11:44:28 - Total Account Value: 1188.7915605663543
+
+
+11:45:30 - TEVA fell from 8.39 to 8.385
+11:45:30 - Current assets: 907.3283949915322
+11:45:30 - Current Cash: 281.3898565541143
+11:45:30 - Total Account Value: 1188.7182515456466
+
+
+11:45:31 - W fell from 51.48 to 51.3801
+11:45:31 - Current assets: 907.1390581108844
+11:45:31 - Current Cash: 281.3898565541143
+11:45:31 - Total Account Value: 1188.5289146649989
+
+
+11:46:33 - SPG rose from 45.425 to 45.4825
+11:46:33 - Current assets: 907.3470283535577
+11:46:33 - Current Cash: 281.3898565541143
+11:46:33 - Total Account Value: 1188.736884907672
+
+
+11:46:34 - W rose from 51.3801 to 51.44
+11:46:34 - Current assets: 907.4605546713834
+11:46:34 - Current Cash: 281.3898565541143
+11:46:34 - Total Account Value: 1188.8504112254977
+
+
+11:47:36 - SPG fell from 45.4825 to 45.25
+11:47:36 - Current assets: 906.6196315162264
+11:47:36 - Current Cash: 281.3898565541143
+11:47:36 - Total Account Value: 1188.0094880703407
+
+
+11:47:37 - TEVA fell from 8.385 to 8.38
+11:47:37 - Current assets: 906.5463224955188
+11:47:37 - Current Cash: 281.3898565541143
+11:47:37 - Total Account Value: 1187.9361790496332
+
+
+11:47:37 - W fell from 51.44 to 50.77
+11:47:37 - Current assets: 905.2764955682522
+11:47:37 - Current Cash: 281.3898565541143
+11:47:37 - Total Account Value: 1186.6663521223666
+
+
+11:48:40 - W rose from 50.77 to 50.78
+11:48:40 - Current assets: 905.2954482089577
+11:48:40 - Current Cash: 281.3898565541143
+11:48:40 - Total Account Value: 1186.685304763072
+
+
+11:49:42 - SPG fell from 45.25 to 45.23
+11:49:42 - Current assets: 905.2231107332453
+11:49:42 - Current Cash: 281.3898565541143
+11:49:42 - Total Account Value: 1186.6129672873597
+
+
+11:49:42 - TEVA fell from 8.38 to 8.355
+11:49:42 - Current assets: 904.856565629707
+11:49:42 - Current Cash: 281.3898565541143
+11:49:42 - Total Account Value: 1186.2464221838213
+
+
+11:50:44 - TEVA fell from 8.355 to 8.35
+11:50:44 - Current assets: 904.7832566089994
+11:50:44 - Current Cash: 281.3898565541143
+11:50:44 - Total Account Value: 1186.1731131631136
+
+
+11:50:44 - W fell from 50.78 to 50.74
+11:50:44 - Current assets: 904.7074460461776
+11:50:44 - Current Cash: 281.3898565541143
+11:50:44 - Total Account Value: 1186.0973026002919
+
+
+11:51:47 - TEVA rose from 8.35 to 8.3571
+11:51:47 - Current assets: 904.8115448555824
+11:51:47 - Current Cash: 281.3898565541143
+11:51:47 - Total Account Value: 1186.2014014096967
+
+
+11:52:48 - W fell from 50.74 to 50.09
+11:52:48 - Current assets: 903.5796232097268
+11:52:48 - Current Cash: 281.3898565541143
+11:52:48 - Total Account Value: 1184.9694797638413
+
+
+11:52:49 - SPG fell from 45.23 to 45.21
+11:52:49 - Current assets: 903.5072857340144
+11:52:49 - Current Cash: 281.3898565541143
+11:52:49 - Total Account Value: 1184.8971422881286
+
+
+11:52:49 - TEVA fell from 8.3571 to 8.34
+11:52:49 - Current assets: 903.2565688831943
+11:52:49 - Current Cash: 281.3898565541143
+11:52:49 - Total Account Value: 1184.6464254373086
+
+
+11:53:50 - W rose from 50.09 to 50.49
+11:53:50 - Current assets: 904.0146745114131
+11:53:50 - Current Cash: 281.3898565541143
+11:53:50 - Total Account Value: 1185.4045310655274
+
+
+11:53:51 - SPG fell from 45.21 to 45.145
+11:53:51 - Current assets: 903.7795777153477
+11:53:51 - Current Cash: 281.3898565541143
+11:53:51 - Total Account Value: 1185.169434269462
+
+
+11:54:52 - W fell from 50.49 to 50.31
+11:54:52 - Current assets: 903.4384301826492
+11:54:52 - Current Cash: 281.3898565541143
+11:54:52 - Total Account Value: 1184.8282867367634
+
+
+11:54:54 - SPG fell from 45.145 to 45.03
+11:54:54 - Current assets: 903.0224896973027
+11:54:54 - Current Cash: 281.3898565541143
+11:54:54 - Total Account Value: 1184.4123462514171
+
+
+11:55:55 - TEVA rose from 8.34 to 8.355
+11:55:55 - Current assets: 903.2424167594256
+11:55:55 - Current Cash: 281.3898565541143
+11:55:55 - Total Account Value: 1184.6322733135398
+
+
+11:55:55 - W fell from 50.31 to 50.2
+11:55:55 - Current assets: 903.0339377116654
+11:55:55 - Current Cash: 281.3898565541143
+11:55:55 - Total Account Value: 1184.4237942657796
+
+
+11:56:01 - SPG fell from 45.03 to 45.025
+11:56:01 - Current assets: 903.0158533427373
+11:56:01 - Current Cash: 281.3898565541143
+11:56:01 - Total Account Value: 1184.4057098968515
+
+
+11:57:02 - TEVA rose from 8.355 to 8.37
+11:57:02 - Current assets: 903.2357804048603
+11:57:02 - Current Cash: 281.3898565541143
+11:57:02 - Total Account Value: 1184.6256369589746
+
+
+11:57:05 - W rose from 50.2 to 50.43
+11:57:05 - Current assets: 903.6716911410862
+11:57:05 - Current Cash: 281.3898565541143
+11:57:05 - Total Account Value: 1185.0615476952005
+
+
+11:57:11 - SPG rose from 45.025 to 45.16
+11:57:11 - Current assets: 904.1599691021452
+11:57:11 - Current Cash: 281.3898565541143
+11:57:11 - Total Account Value: 1185.5498256562596
+
+
+11:58:11 - TEVA rose from 8.37 to 8.4
+11:58:11 - Current assets: 904.5998232263911
+11:58:11 - Current Cash: 281.3898565541143
+11:58:11 - Total Account Value: 1185.9896797805054
+
+
+11:58:12 - W rose from 50.43 to 50.45
+11:58:12 - Current assets: 904.637728507802
+11:58:12 - Current Cash: 281.3898565541143
+11:58:12 - Total Account Value: 1186.0275850619164
+
+
+11:59:14 - SPG rose from 45.16 to 45.365
+11:59:14 - Current assets: 905.3791876338544
+11:59:14 - Current Cash: 281.3898565541143
+11:59:14 - Total Account Value: 1186.7690441879686
+
+
+11:59:15 - TEVA fell from 8.4 to 8.395
+11:59:15 - Current assets: 905.3058786131467
+11:59:15 - Current Cash: 281.3898565541143
+11:59:15 - Total Account Value: 1186.6957351672609
+
+
+11:59:15 - W fell from 50.45 to 50.36
+11:59:15 - Current assets: 905.1353048467975
+11:59:15 - Current Cash: 281.3898565541143
+11:59:15 - Total Account Value: 1186.5251614009117
+
+
+12:00:18 - SPG rose from 45.365 to 45.4501
+12:00:18 - Current assets: 905.4431008059539
+12:00:18 - Current Cash: 281.3898565541143
+12:00:18 - Total Account Value: 1186.8329573600681
+
+
+12:00:19 - W fell from 50.36 to 50.27
+12:00:19 - Current assets: 905.2725270396047
+12:00:19 - Current Cash: 281.3898565541143
+12:00:19 - Total Account Value: 1186.662383593719
+
+
+12:01:23 - SPG rose from 45.4501 to 45.56
+12:01:23 - Current assets: 905.6700214686446
+12:01:23 - Current Cash: 281.3898565541143
+12:01:23 - Total Account Value: 1187.0598780227588
+
+
+12:01:23 - TEVA rose from 8.395 to 8.4
+12:01:23 - Current assets: 905.7433304893523
+12:01:23 - Current Cash: 281.3898565541143
+12:01:23 - Total Account Value: 1187.1331870434665
+
+
+12:01:24 - W rose from 50.27 to 50.36
+12:01:24 - Current assets: 905.9139042557015
+12:01:24 - Current Cash: 281.3898565541143
+12:01:24 - Total Account Value: 1187.3037608098157
+
+
+12:02:26 - SPG rose from 45.56 to 45.595
+12:02:26 - Current assets: 906.0404948381981
+12:02:26 - Current Cash: 281.3898565541143
+12:02:26 - Total Account Value: 1187.4303513923123
+
+
+12:02:26 - TEVA fell from 8.4 to 8.395
+12:02:26 - Current assets: 905.9671858174904
+12:02:26 - Current Cash: 281.3898565541143
+12:02:26 - Total Account Value: 1187.3570423716046
+
+
+12:02:29 - W rose from 50.36 to 50.39
+12:02:29 - Current assets: 906.0240437396069
+12:02:29 - Current Cash: 281.3898565541143
+12:02:29 - Total Account Value: 1187.4139002937213
+
+
+12:03:31 - SPG fell from 45.595 to 45.41
+12:03:31 - Current assets: 905.3549220892669
+12:03:31 - Current Cash: 281.3898565541143
+12:03:31 - Total Account Value: 1186.7447786433813
+
+
+12:03:32 - W fell from 50.39 to 50.23
+12:03:32 - Current assets: 905.0516798379793
+12:03:32 - Current Cash: 281.3898565541143
+12:03:32 - Total Account Value: 1186.4415363920937
+
+
+12:04:34 - SPG fell from 45.41 to 45.4
+12:04:34 - Current assets: 905.0155111001231
+12:04:34 - Current Cash: 281.3898565541143
+12:04:34 - Total Account Value: 1186.4053676542376
+
+
+12:04:34 - TEVA fell from 8.395 to 8.39
+12:04:34 - Current assets: 904.9422020794156
+12:04:34 - Current Cash: 281.3898565541143
+12:04:34 - Total Account Value: 1186.3320586335299
+
+
+12:04:35 - W rose from 50.23 to 50.45
+12:04:35 - Current assets: 905.3591601749358
+12:04:35 - Current Cash: 281.3898565541143
+12:04:35 - Total Account Value: 1186.7490167290503
+
+
+12:05:37 - SPG fell from 45.4 to 45.37
+12:05:37 - Current assets: 905.2506539613672
+12:05:37 - Current Cash: 281.3898565541143
+12:05:37 - Total Account Value: 1186.6405105154815
+
+
+12:05:37 - TEVA fell from 8.39 to 8.37
+12:05:37 - Current assets: 904.9574178785366
+12:05:37 - Current Cash: 281.3898565541143
+12:05:37 - Total Account Value: 1186.347274432651
+
+
+12:05:37 - W rose from 50.45 to 50.61
+12:05:37 - Current assets: 905.260660129824
+12:05:37 - Current Cash: 281.3898565541143
+12:05:37 - Total Account Value: 1186.6505166839383
+
+
+12:06:41 - SPG rose from 45.37 to 45.44
+12:06:41 - Current assets: 905.5138412948176
+12:06:41 - Current Cash: 281.3898565541143
+12:06:41 - Total Account Value: 1186.9036978489319
+
+
+12:06:41 - TEVA rose from 8.37 to 8.38
+12:06:41 - Current assets: 905.6604593362329
+12:06:41 - Current Cash: 281.3898565541143
+12:06:41 - Total Account Value: 1187.050315890347
+
+
+12:06:42 - W fell from 50.61 to 50.2
+12:06:42 - Current assets: 904.8834010673086
+12:06:42 - Current Cash: 281.3898565541143
+12:06:42 - Total Account Value: 1186.273257621423
+
+
+12:07:45 - W fell from 50.2 to 49.9993
+12:07:45 - Current assets: 904.5030215683497
+12:07:45 - Current Cash: 281.3898565541143
+12:07:45 - Total Account Value: 1185.892878122464
+
+
+12:08:47 - SPG rose from 45.44 to 45.465
+12:08:47 - Current assets: 904.5934434129903
+12:08:47 - Current Cash: 281.3898565541143
+12:08:47 - Total Account Value: 1185.9832999671046
+
+
+12:08:47 - TEVA fell from 8.38 to 8.36
+12:08:47 - Current assets: 904.3002073301597
+12:08:47 - Current Cash: 281.3898565541143
+12:08:47 - Total Account Value: 1185.690063884274
+
+
+12:09:50 - SPG rose from 45.465 to 45.585
+12:09:50 - Current assets: 904.7342321844342
+12:09:50 - Current Cash: 281.3898565541143
+12:09:50 - Total Account Value: 1186.1240887385484
+
+
+12:10:50 - TEVA fell from 8.36 to 8.3306
+12:10:50 - Current assets: 904.3031751426731
+12:10:50 - Current Cash: 281.3898565541143
+12:10:50 - Total Account Value: 1185.6930316967873
+
+
+12:10:51 - W fell from 49.9993 to 49.8378
+12:10:51 - Current assets: 903.9970899952798
+12:10:51 - Current Cash: 281.3898565541143
+12:10:51 - Total Account Value: 1185.386946549394
+
+
+12:10:53 - SPG fell from 45.585 to 45.51
+12:10:53 - Current assets: 903.7258244613581
+12:10:53 - Current Cash: 281.3898565541143
+12:10:53 - Total Account Value: 1185.1156810154725
+
+
+12:11:53 - TEVA rose from 8.3306 to 8.335
+12:11:53 - Current assets: 903.7903363995808
+12:11:53 - Current Cash: 281.3898565541143
+12:11:53 - Total Account Value: 1185.180192953695
+
+
+12:11:54 - W rose from 49.8378 to 49.875
+12:11:54 - Current assets: 903.8608402230052
+12:11:54 - Current Cash: 281.3898565541143
+12:11:54 - Total Account Value: 1185.2506967771196
+
+
+12:12:56 - TEVA rose from 8.335 to 8.34
+12:12:56 - Current assets: 903.9341492437129
+12:12:56 - Current Cash: 281.3898565541143
+12:12:56 - Total Account Value: 1185.3240057978273
+
+
+12:12:56 - W rose from 49.875 to 50.035
+12:12:56 - Current assets: 904.2373914950005
+12:12:56 - Current Cash: 281.3898565541143
+12:12:56 - Total Account Value: 1185.6272480491148
+
+
+12:12:58 - SPG fell from 45.51 to 45.45
+12:12:58 - Current assets: 904.0203790678631
+12:12:58 - Current Cash: 281.3898565541143
+12:12:58 - Total Account Value: 1185.4102356219773
+
+
+12:15:01 - SPG rose from 45.45 to 45.47
+12:15:01 - Current assets: 904.0927165435755
+12:15:01 - Current Cash: 281.3898565541143
+12:15:01 - Total Account Value: 1185.48257309769
+
+
+12:15:02 - TEVA fell from 8.34 to 8.305
+12:15:02 - Current assets: 903.579553398622
+12:15:02 - Current Cash: 281.3898565541143
+12:15:02 - Total Account Value: 1184.9694099527364
+
+
+12:15:05 - W fell from 50.035 to 49.75
+12:15:05 - Current assets: 903.039403138516
+12:15:05 - Current Cash: 281.3898565541143
+12:15:05 - Total Account Value: 1184.4292596926302
+
+
+12:16:09 - SPG fell from 45.47 to 45.45
+12:16:09 - Current assets: 902.9670656628036
+12:16:09 - Current Cash: 281.3898565541143
+12:16:09 - Total Account Value: 1184.356922216918
+
+
+12:16:10 - TEVA fell from 8.305 to 8.295
+12:16:10 - Current assets: 902.8204476213883
+12:16:10 - Current Cash: 281.3898565541143
+12:16:10 - Total Account Value: 1184.2103041755026
+
+
+12:16:10 - W fell from 49.75 to 49.595
+12:16:10 - Current assets: 902.5266816904536
+12:16:10 - Current Cash: 281.3898565541143
+12:16:10 - Total Account Value: 1183.916538244568
+
+
+12:18:12 - TEVA fell from 8.295 to 8.28
+12:18:12 - Current assets: 902.3067546283306
+12:18:12 - Current Cash: 281.3898565541143
+12:18:12 - Total Account Value: 1183.696611182445
+
+
+12:18:13 - W fell from 49.595 to 49.51
+12:18:13 - Current assets: 902.145657182334
+12:18:13 - Current Cash: 281.3898565541143
+12:18:13 - Total Account Value: 1183.5355137364484
+
+
+12:19:16 - TEVA fell from 8.28 to 8.275
+12:19:16 - Current assets: 902.0723481616265
+12:19:16 - Current Cash: 281.3898565541143
+12:19:16 - Total Account Value: 1183.4622047157409
+
+
+12:19:16 - W rose from 49.51 to 49.68
+12:19:16 - Current assets: 902.3945430536195
+12:19:16 - Current Cash: 281.3898565541143
+12:19:16 - Total Account Value: 1183.7843996077338
+
+
+12:20:19 - SPG fell from 45.45 to 45.37
+12:20:19 - Current assets: 902.1051931507698
+12:20:19 - Current Cash: 281.3898565541143
+12:20:19 - Total Account Value: 1183.495049704884
+
+
+12:20:20 - TEVA fell from 8.275 to 8.2365
+12:20:20 - Current assets: 901.5407136913208
+12:20:20 - Current Cash: 281.3898565541143
+12:20:20 - Total Account Value: 1182.930570245435
+
+
+12:20:20 - W fell from 49.68 to 49.45
+12:20:20 - Current assets: 901.1048029550949
+12:20:20 - Current Cash: 281.3898565541143
+12:20:20 - Total Account Value: 1182.4946595092092
+
+
+12:21:22 - SPG rose from 45.37 to 45.65
+12:21:22 - Current assets: 902.117527615069
+12:21:22 - Current Cash: 281.3898565541143
+12:21:22 - Total Account Value: 1183.5073841691833
+
+
+12:21:23 - TEVA fell from 8.2365 to 8.235
+12:21:23 - Current assets: 902.0955349088567
+12:21:23 - Current Cash: 281.3898565541143
+12:21:23 - Total Account Value: 1183.4853914629712
+
+
+12:21:23 - W rose from 49.45 to 49.48
+12:21:23 - Current assets: 902.1523928309732
+12:21:23 - Current Cash: 281.3898565541143
+12:21:23 - Total Account Value: 1183.5422493850874
+
+
+12:22:26 - SPG rose from 45.65 to 45.79
+12:22:26 - Current assets: 902.6587551609603
+12:22:26 - Current Cash: 281.3898565541143
+12:22:26 - Total Account Value: 1184.0486117150745
+
+
+12:22:26 - TEVA rose from 8.235 to 8.245
+12:22:26 - Current assets: 902.8053732023756
+12:22:26 - Current Cash: 281.3898565541143
+12:22:26 - Total Account Value: 1184.1952297564899
+
+
+12:23:29 - SPG rose from 45.79 to 45.825
+12:23:29 - Current assets: 902.9319637848723
+12:23:29 - Current Cash: 281.3898565541143
+12:23:29 - Total Account Value: 1184.3218203389865
+
+
+12:23:29 - TEVA fell from 8.245 to 8.235
+12:23:29 - Current assets: 902.785345743457
+12:23:29 - Current Cash: 281.3898565541143
+12:23:29 - Total Account Value: 1184.1752022975713
+
+
+12:23:30 - W rose from 49.48 to 49.62
+12:23:30 - Current assets: 903.0506827133336
+12:23:30 - Current Cash: 281.3898565541143
+12:23:30 - Total Account Value: 1184.440539267448
+
+
+12:24:32 - SPG rose from 45.825 to 46.055
+12:24:32 - Current assets: 903.8825636840265
+12:24:32 - Current Cash: 281.3898565541143
+12:24:32 - Total Account Value: 1185.272420238141
+
+
+12:24:32 - W rose from 49.62 to 49.6799
+12:24:32 - Current assets: 903.9960900018523
+12:24:32 - Current Cash: 281.3898565541143
+12:24:32 - Total Account Value: 1185.3859465559667
+
+
+12:25:35 - SPG fell from 46.055 to 46.0101
+12:25:35 - Current assets: 903.8336923688779
+12:25:35 - Current Cash: 281.3898565541143
+12:25:35 - Total Account Value: 1185.2235489229922
+
+
+12:25:35 - W fell from 49.6799 to 49.46
+12:25:35 - Current assets: 903.4169237997646
+12:25:35 - Current Cash: 281.3898565541143
+12:25:35 - Total Account Value: 1184.8067803538788
+
+
+12:26:38 - TEVA fell from 8.235 to 8.22
+12:26:38 - Current assets: 903.1969967376417
+12:26:38 - Current Cash: 281.3898565541143
+12:26:38 - Total Account Value: 1184.5868532917561
+
+
+12:26:38 - W fell from 49.46 to 49.43
+12:26:38 - Current assets: 903.1401388155253
+12:26:38 - Current Cash: 281.3898565541143
+12:26:38 - Total Account Value: 1184.5299953696397
+
+
+12:27:40 - SPG fell from 46.0101 to 45.815
+12:27:40 - Current assets: 902.4344867399506
+12:27:40 - Current Cash: 281.3898565541143
+12:27:40 - Total Account Value: 1183.8243432940649
+
+
+12:27:41 - TEVA fell from 8.22 to 8.215
+12:27:41 - Current assets: 902.3611777192428
+12:27:41 - Current Cash: 281.3898565541143
+12:27:41 - Total Account Value: 1183.7510342733572
+
+
+12:27:41 - W fell from 49.43 to 49.2
+12:27:41 - Current assets: 901.925266983017
+12:27:41 - Current Cash: 281.3898565541143
+12:27:41 - Total Account Value: 1183.3151235371313
+
+
+12:28:43 - TEVA fell from 8.215 to 8.195
+12:28:43 - Current assets: 901.6320309001864
+12:28:43 - Current Cash: 281.3898565541143
+12:28:43 - Total Account Value: 1183.0218874543007
+
+
+12:29:47 - SPG fell from 45.815 to 45.66
+12:29:47 - Current assets: 901.071415463415
+12:29:47 - Current Cash: 281.3898565541143
+12:29:47 - Total Account Value: 1182.4612720175292
+
+
+12:29:47 - TEVA rose from 8.195 to 8.21
+12:29:47 - Current assets: 901.291342525538
+12:29:47 - Current Cash: 281.3898565541143
+12:29:47 - Total Account Value: 1182.6811990796523
+
+
+12:30:48 - W rose from 49.2 to 49.46
+12:30:48 - Current assets: 901.7841111838802
+12:30:48 - Current Cash: 281.3898565541143
+12:30:48 - Total Account Value: 1183.1739677379946
+
+
+12:30:50 - TEVA rose from 8.21 to 8.215
+12:30:50 - Current assets: 901.8574202045878
+12:30:50 - Current Cash: 281.3898565541143
+12:30:50 - Total Account Value: 1183.2472767587021
+
+
+12:31:50 - W rose from 49.46 to 49.6
+12:31:50 - Current assets: 902.1227571744644
+12:31:50 - Current Cash: 281.3898565541143
+12:31:50 - Total Account Value: 1183.5126137285788
+
+
+12:31:52 - SPG rose from 45.66 to 45.75
+12:31:52 - Current assets: 902.4482758151703
+12:31:52 - Current Cash: 281.3898565541143
+12:31:52 - Total Account Value: 1183.8381323692847
+
+
+12:31:52 - TEVA rose from 8.215 to 8.235
+12:31:52 - Current assets: 902.7415118980009
+12:31:52 - Current Cash: 281.3898565541143
+12:31:52 - Total Account Value: 1184.131368452115
+
+
+12:32:53 - W fell from 49.6 to 49.57
+12:32:53 - Current assets: 902.6846539758845
+12:32:53 - Current Cash: 281.3898565541143
+12:32:53 - Total Account Value: 1184.0745105299989
+
+
+12:32:54 - SPG rose from 45.75 to 45.82
+12:32:54 - Current assets: 902.9378351408782
+12:32:54 - Current Cash: 281.3898565541143
+12:32:54 - Total Account Value: 1184.3276916949926
+
+
+12:32:55 - TEVA rose from 8.235 to 8.24
+12:32:55 - Current assets: 903.0111441615859
+12:32:55 - Current Cash: 281.3898565541143
+12:32:55 - Total Account Value: 1184.4010007157003
+
+
+12:33:55 - W rose from 49.57 to 49.75
+12:33:55 - Current assets: 903.3522916942843
+12:33:55 - Current Cash: 281.3898565541143
+12:33:55 - Total Account Value: 1184.7421482483987
+
+
+12:33:57 - SPG fell from 45.82 to 45.76
+12:33:57 - Current assets: 903.1352792671469
+12:33:57 - Current Cash: 281.3898565541143
+12:33:57 - Total Account Value: 1184.5251358212613
+
+
+12:35:00 - SPG rose from 45.76 to 45.88
+12:35:00 - Current assets: 903.5693041214215
+12:35:00 - Current Cash: 281.3898565541143
+12:35:00 - Total Account Value: 1184.9591606755357
+
+
+12:36:01 - W fell from 49.75 to 49.53
+12:36:01 - Current assets: 903.1523460259012
+12:36:01 - Current Cash: 281.3898565541143
+12:36:01 - Total Account Value: 1184.5422025800156
+
+
+12:36:09 - SPG fell from 45.88 to 45.66
+12:36:09 - Current assets: 902.3566337930645
+12:36:09 - Current Cash: 281.3898565541143
+12:36:09 - Total Account Value: 1183.7464903471787
+
+
+12:37:09 - TEVA rose from 8.24 to 8.245
+12:37:09 - Current assets: 902.4299428137722
+12:37:09 - Current Cash: 281.3898565541143
+12:37:09 - Total Account Value: 1183.8197993678864
+
+
+12:37:10 - W rose from 49.53 to 49.85
+12:37:10 - Current assets: 903.0364273163472
+12:37:10 - Current Cash: 281.3898565541143
+12:37:10 - Total Account Value: 1184.4262838704615
+
+
+12:38:12 - SPG fell from 45.66 to 45.63
+12:38:12 - Current assets: 902.9279211027786
+12:38:12 - Current Cash: 281.3898565541143
+12:38:12 - Total Account Value: 1184.3177776568928
+
+
+12:39:16 - SPG fell from 45.63 to 45.6
+12:39:16 - Current assets: 902.8194148892098
+12:39:16 - Current Cash: 281.3898565541143
+12:39:16 - Total Account Value: 1184.2092714433243
+
+
+12:39:17 - W fell from 49.85 to 49.835
+12:39:17 - Current assets: 902.7909859281517
+12:39:17 - Current Cash: 281.3898565541143
+12:39:17 - Total Account Value: 1184.1808424822661
+
+
+12:40:19 - SPG rose from 45.6 to 45.63
+12:40:19 - Current assets: 902.8994921417204
+12:40:19 - Current Cash: 281.3898565541143
+12:40:19 - Total Account Value: 1184.2893486958346
+
+
+12:40:20 - W fell from 49.835 to 49.7
+12:40:20 - Current assets: 902.6436314921966
+12:40:20 - Current Cash: 281.3898565541143
+12:40:20 - Total Account Value: 1184.033488046311
+
+
+12:41:22 - SPG rose from 45.63 to 45.735
+12:41:22 - Current assets: 903.0234032396869
+12:41:22 - Current Cash: 281.3898565541143
+12:41:22 - Total Account Value: 1184.4132597938012
+
+
+12:41:22 - TEVA rose from 8.245 to 8.28
+12:41:22 - Current assets: 903.5365663846404
+12:41:22 - Current Cash: 281.3898565541143
+12:41:22 - Total Account Value: 1184.9264229387547
+
+
+12:41:23 - W fell from 49.7 to 49.61
+12:41:23 - Current assets: 903.3659926182912
+12:41:23 - Current Cash: 281.3898565541143
+12:41:23 - Total Account Value: 1184.7558491724055
+
+
+12:42:26 - TEVA rose from 8.28 to 8.3
+12:42:26 - Current assets: 903.6592287011218
+12:42:26 - Current Cash: 281.3898565541143
+12:42:26 - Total Account Value: 1185.0490852552362
+
+
+12:42:26 - W rose from 49.61 to 49.72
+12:42:26 - Current assets: 903.867707748882
+12:42:26 - Current Cash: 281.3898565541143
+12:42:26 - Total Account Value: 1185.2575643029963
+
+
+12:43:28 - SPG rose from 45.735 to 45.85
+12:43:28 - Current assets: 904.2836482342285
+12:43:28 - Current Cash: 281.3898565541143
+12:43:28 - Total Account Value: 1185.6735047883428
+
+
+12:43:29 - W fell from 49.72 to 49.61
+12:43:29 - Current assets: 904.0751691864683
+12:43:29 - Current Cash: 281.3898565541143
+12:43:29 - Total Account Value: 1185.4650257405826
+
+
+12:44:31 - SPG rose from 45.85 to 45.93
+12:44:31 - Current assets: 904.364519089318
+12:44:31 - Current Cash: 281.3898565541143
+12:44:31 - Total Account Value: 1185.7543756434325
+
+
+12:44:32 - W fell from 49.61 to 49.6
+12:44:32 - Current assets: 904.3455664486125
+12:44:32 - Current Cash: 281.3898565541143
+12:44:32 - Total Account Value: 1185.7354230027267
+
+
+12:45:34 - SPG rose from 45.93 to 45.95
+12:45:34 - Current assets: 904.417903924325
+12:45:34 - Current Cash: 281.3898565541143
+12:45:34 - Total Account Value: 1185.8077604784394
+
+
+12:45:34 - TEVA rose from 8.3 to 8.34
+12:45:34 - Current assets: 905.0043760899862
+12:45:34 - Current Cash: 281.3898565541143
+12:45:34 - Total Account Value: 1186.3942326441006
+
+
+12:45:34 - W rose from 49.6 to 49.7
+12:45:34 - Current assets: 905.1939024970409
+12:45:34 - Current Cash: 281.3898565541143
+12:45:34 - Total Account Value: 1186.583759051155
+
+
+12:46:37 - TEVA rose from 8.34 to 8.36
+12:46:37 - Current assets: 905.4871385798715
+12:46:37 - Current Cash: 281.3898565541143
+12:46:37 - Total Account Value: 1186.876995133986
+
+
+12:47:37 - W rose from 49.7 to 49.97
+12:47:37 - Current assets: 905.9988598789191
+12:47:37 - Current Cash: 281.3898565541143
+12:47:37 - Total Account Value: 1187.3887164330336
+
+
+12:47:40 - SPG rose from 45.95 to 46.15
+12:47:40 - Current assets: 906.7222346360435
+12:47:40 - Current Cash: 281.3898565541143
+12:47:40 - Total Account Value: 1188.1120911901578
+
+
+12:48:40 - TEVA fell from 8.36 to 8.32
+12:48:40 - Current assets: 906.1357624703822
+12:48:40 - Current Cash: 281.3898565541143
+12:48:40 - Total Account Value: 1187.5256190244966
+
+
+12:49:42 - W fell from 49.97 to 49.83
+12:49:42 - Current assets: 905.8704255005057
+12:49:42 - Current Cash: 281.3898565541143
+12:49:42 - Total Account Value: 1187.26028205462
+
+
+12:50:44 - SPG fell from 46.15 to 46.02
+12:50:44 - Current assets: 905.400231908375
+12:50:44 - Current Cash: 281.3898565541143
+12:50:44 - Total Account Value: 1186.7900884624892
+
+
+12:50:45 - TEVA fell from 8.32 to 8.3
+12:50:45 - Current assets: 905.1069958255443
+12:50:45 - Current Cash: 281.3898565541143
+12:50:45 - Total Account Value: 1186.4968523796588
+
+
+12:50:45 - W fell from 49.83 to 49.39
+12:50:45 - Current assets: 904.2730796345037
+12:50:45 - Current Cash: 281.3898565541143
+12:50:45 - Total Account Value: 1185.662936188618
+
+
+12:51:48 - W rose from 49.39 to 49.535
+12:51:48 - Current assets: 904.547892924733
+12:51:48 - Current Cash: 281.3898565541143
+12:51:48 - Total Account Value: 1185.9377494788473
+
+
+12:52:49 - SPG fell from 46.02 to 46.005
+12:52:49 - Current assets: 904.4936398179486
+12:52:49 - Current Cash: 281.3898565541143
+12:52:49 - Total Account Value: 1185.8834963720628
+
+
+12:52:50 - TEVA rose from 8.3 to 8.32
+12:52:50 - Current assets: 904.7868759007793
+12:52:50 - Current Cash: 281.3898565541143
+12:52:50 - Total Account Value: 1186.1767324548937
+
+
+12:53:52 - TEVA rose from 8.32 to 8.33
+12:53:52 - Current assets: 904.9334939421946
+12:53:52 - Current Cash: 281.3898565541143
+12:53:52 - Total Account Value: 1186.3233504963089
+
+
+12:53:52 - W rose from 49.535 to 49.88
+12:53:52 - Current assets: 905.5873600465333
+12:53:52 - Current Cash: 281.3898565541143
+12:53:52 - Total Account Value: 1186.9772166006476
+
+
+12:54:54 - SPG rose from 46.005 to 46.04
+12:54:54 - Current assets: 905.71395062903
+12:54:54 - Current Cash: 281.3898565541143
+12:54:54 - Total Account Value: 1187.1038071831445
+
+
+12:54:55 - TEVA rose from 8.33 to 8.3478
+12:54:55 - Current assets: 905.9749307427493
+12:54:55 - Current Cash: 281.3898565541143
+12:54:55 - Total Account Value: 1187.3647872968636
+
+
+12:54:55 - W fell from 49.88 to 49.83
+12:54:55 - Current assets: 905.8801675392219
+12:54:55 - Current Cash: 281.3898565541143
+12:54:55 - Total Account Value: 1187.2700240933364
+
+
+12:55:57 - TEVA fell from 8.3478 to 8.34
+12:55:57 - Current assets: 905.765805466918
+12:55:57 - Current Cash: 281.3898565541143
+12:55:57 - Total Account Value: 1187.1556620210322
+
+
+12:55:58 - W rose from 49.83 to 49.92
+12:55:58 - Current assets: 905.9363792332672
+12:55:58 - Current Cash: 281.3898565541143
+12:55:58 - Total Account Value: 1187.3262357873814
+
+
+12:57:00 - SPG fell from 46.04 to 45.94
+12:57:00 - Current assets: 905.5746918547051
+12:57:00 - Current Cash: 281.3898565541143
+12:57:00 - Total Account Value: 1186.9645484088194
+
+
+12:57:00 - W fell from 49.92 to 49.86
+12:57:00 - Current assets: 905.4609760104722
+12:57:00 - Current Cash: 281.3898565541143
+12:57:00 - Total Account Value: 1186.8508325645867
+
+
+12:58:06 - SPG rose from 45.94 to 45.98
+12:58:06 - Current assets: 905.6056509618971
+12:58:06 - Current Cash: 281.3898565541143
+12:58:06 - Total Account Value: 1186.9955075160115
+
+
+12:58:07 - TEVA rose from 8.34 to 8.345
+12:58:07 - Current assets: 905.6789599826047
+12:58:07 - Current Cash: 281.3898565541143
+12:58:07 - Total Account Value: 1187.0688165367192
+
+
+12:59:08 - W rose from 49.86 to 50.0358
+12:59:08 - Current assets: 906.012147406207
+12:59:08 - Current Cash: 281.3898565541143
+12:59:08 - Total Account Value: 1187.4020039603213
+
+
+12:59:11 - SPG fell from 45.98 to 45.77
+12:59:11 - Current assets: 905.2526039112264
+12:59:11 - Current Cash: 281.3898565541143
+12:59:11 - Total Account Value: 1186.6424604653407
+
+
+13:00:12 - W fell from 50.0358 to 49.73
+13:00:12 - Current assets: 904.6730321584531
+13:00:12 - Current Cash: 281.3898565541143
+13:00:12 - Total Account Value: 1186.0628887125674
+
+
+13:00:16 - SPG fell from 45.77 to 45.73
+13:00:16 - Current assets: 904.5283572070282
+13:00:16 - Current Cash: 281.3898565541143
+13:00:16 - Total Account Value: 1185.9182137611424
+
+
+13:01:20 - TEVA rose from 8.345 to 8.35
+13:01:20 - Current assets: 904.6016662277359
+13:01:20 - Current Cash: 281.3898565541143
+13:01:20 - Total Account Value: 1185.99152278185
+
+
+13:02:21 - W fell from 49.73 to 49.49
+13:02:21 - Current assets: 904.1468028508046
+13:02:21 - Current Cash: 281.3898565541143
+13:02:21 - Total Account Value: 1185.536659404919
+
+
+13:02:23 - TEVA fell from 8.35 to 8.345
+13:02:23 - Current assets: 904.0734938300969
+13:02:23 - Current Cash: 281.3898565541143
+13:02:23 - Total Account Value: 1185.4633503842113
+
+
+13:03:24 - W fell from 49.49 to 49.21
+13:03:24 - Current assets: 903.5428198903437
+13:03:24 - Current Cash: 281.3898565541143
+13:03:24 - Total Account Value: 1184.9326764444581
+
+
+13:03:27 - SPG fell from 45.73 to 45.51
+13:03:27 - Current assets: 902.747107657507
+13:03:27 - Current Cash: 281.3898565541143
+13:03:27 - Total Account Value: 1184.1369642116213
+
+
+13:03:27 - TEVA fell from 8.345 to 8.335
+13:03:27 - Current assets: 902.6004896160916
+13:03:27 - Current Cash: 281.3898565541143
+13:03:27 - Total Account Value: 1183.990346170206
+
+
+13:04:28 - W rose from 49.21 to 49.31
+13:04:28 - Current assets: 902.7900160231463
+13:04:28 - Current Cash: 281.3898565541143
+13:04:28 - Total Account Value: 1184.1798725772605
+
+
+13:04:31 - SPG rose from 45.51 to 45.5699
+13:04:31 - Current assets: 903.0066667629051
+13:04:31 - Current Cash: 281.3898565541143
+13:04:31 - Total Account Value: 1184.3965233170193
+
+
+13:05:31 - TEVA fell from 8.335 to 8.325
+13:05:31 - Current assets: 902.8600487214898
+13:05:31 - Current Cash: 281.3898565541143
+13:05:31 - Total Account Value: 1184.249905275604
+
+
+13:05:32 - W rose from 49.31 to 49.575
+13:05:32 - Current assets: 903.3622937001848
+13:05:32 - Current Cash: 281.3898565541143
+13:05:32 - Total Account Value: 1184.752150254299
+
+
+13:05:33 - SPG fell from 45.5699 to 45.47
+13:05:33 - Current assets: 903.0009680090011
+13:05:33 - Current Cash: 281.3898565541143
+13:05:33 - Total Account Value: 1184.3908245631155
+
+
+13:06:35 - W fell from 49.575 to 49.46
+13:06:35 - Current assets: 902.7830126408882
+13:06:35 - Current Cash: 281.3898565541143
+13:06:35 - Total Account Value: 1184.1728691950025
+
+
+13:07:37 - TEVA rose from 8.325 to 8.345
+13:07:37 - Current assets: 903.0762487237188
+13:07:37 - Current Cash: 281.3898565541143
+13:07:37 - Total Account Value: 1184.466105277833
+
+
+13:07:38 - W rose from 49.46 to 49.6928
+13:07:38 - Current assets: 903.5174661993422
+13:07:38 - Current Cash: 281.3898565541143
+13:07:38 - Total Account Value: 1184.9073227534564
+
+
+13:09:43 - TEVA fell from 8.345 to 8.34
+13:09:43 - Current assets: 903.4441571786346
+13:09:43 - Current Cash: 281.3898565541143
+13:09:43 - Total Account Value: 1184.8340137327489
+
+
+13:09:44 - W fell from 49.6928 to 49.61
+13:09:44 - Current assets: 903.2872293135932
+13:09:44 - Current Cash: 281.3898565541143
+13:09:44 - Total Account Value: 1184.6770858677075
+
+
+13:09:45 - SPG fell from 45.47 to 45.42
+13:09:45 - Current assets: 903.1063856243122
+13:09:45 - Current Cash: 281.3898565541143
+13:09:45 - Total Account Value: 1184.4962421784267
+
+
+13:10:46 - TEVA fell from 8.34 to 8.335
+13:10:46 - Current assets: 903.0330766036045
+13:10:46 - Current Cash: 281.3898565541143
+13:10:46 - Total Account Value: 1184.422933157719
+
+
+13:10:46 - W fell from 49.61 to 49.37
+13:10:46 - Current assets: 902.5782132266733
+13:10:46 - Current Cash: 281.3898565541143
+13:10:46 - Total Account Value: 1183.9680697807876
+
+
+13:10:48 - SPG fell from 45.42 to 45.38
+13:10:48 - Current assets: 902.4335382752485
+13:10:48 - Current Cash: 281.3898565541143
+13:10:48 - Total Account Value: 1183.8233948293628
+
+
+13:11:48 - TEVA rose from 8.335 to 8.35
+13:11:48 - Current assets: 902.6534653373714
+13:11:48 - Current Cash: 281.3898565541143
+13:11:48 - Total Account Value: 1184.0433218914857
+
+
+13:11:48 - W rose from 49.37 to 49.44
+13:11:48 - Current assets: 902.7861338223097
+13:11:48 - Current Cash: 281.3898565541143
+13:11:48 - Total Account Value: 1184.1759903764241
+
+
+13:12:51 - SPG rose from 45.38 to 45.411
+13:12:51 - Current assets: 902.8982569096639
+13:12:51 - Current Cash: 281.3898565541143
+13:12:51 - Total Account Value: 1184.2881134637782
+
+
+13:12:51 - TEVA rose from 8.35 to 8.3677
+13:12:51 - Current assets: 903.157770842969
+13:12:51 - Current Cash: 281.3898565541143
+13:12:51 - Total Account Value: 1184.5476273970833
+
+
+13:13:54 - TEVA fell from 8.3677 to 8.36
+13:13:54 - Current assets: 903.0448749510792
+13:13:54 - Current Cash: 281.3898565541143
+13:13:54 - Total Account Value: 1184.4347315051937
+
+
+13:13:54 - W rose from 49.44 to 49.46
+13:13:54 - Current assets: 903.0827802324902
+13:13:54 - Current Cash: 281.3898565541143
+13:13:54 - Total Account Value: 1184.4726367866047
+
+
+13:14:56 - SPG fell from 45.411 to 45.2534
+13:14:56 - Current assets: 902.5127609238763
+13:14:56 - Current Cash: 281.3898565541143
+13:14:56 - Total Account Value: 1183.9026174779906
+
+
+13:14:56 - TEVA fell from 8.36 to 8.34
+13:14:56 - Current assets: 902.2195248410457
+13:14:56 - Current Cash: 281.3898565541143
+13:14:56 - Total Account Value: 1183.60938139516
+
+
+13:14:57 - W fell from 49.46 to 49.29
+13:14:57 - Current assets: 901.8973299490526
+13:14:57 - Current Cash: 281.3898565541143
+13:14:57 - Total Account Value: 1183.287186503167
+
+
+13:15:59 - SPG fell from 45.2534 to 45.13
+13:15:59 - Current assets: 901.451007723907
+13:15:59 - Current Cash: 281.3898565541143
+13:15:59 - Total Account Value: 1182.8408642780214
+
+
+13:15:59 - TEVA fell from 8.34 to 8.33
+13:15:59 - Current assets: 901.3043896824917
+13:15:59 - Current Cash: 281.3898565541143
+13:15:59 - Total Account Value: 1182.694246236606
+
+
+13:15:59 - W fell from 49.29 to 49.04
+13:15:59 - Current assets: 900.8305736648549
+13:15:59 - Current Cash: 281.3898565541143
+13:15:59 - Total Account Value: 1182.2204302189693
+
+
+13:17:02 - SPG fell from 45.13 to 45.04
+13:17:02 - Current assets: 900.505055024149
+13:17:02 - Current Cash: 281.3898565541143
+13:17:02 - Total Account Value: 1181.8949115782634
+
+
+13:17:03 - TEVA fell from 8.33 to 8.32
+13:17:03 - Current assets: 900.3584369827337
+13:17:03 - Current Cash: 281.3898565541143
+13:17:03 - Total Account Value: 1181.748293536848
+
+
+13:17:06 - W fell from 49.04 to 49.01
+13:17:06 - Current assets: 900.3015790606172
+13:17:06 - Current Cash: 281.3898565541143
+13:17:06 - Total Account Value: 1181.6914356147315
+
+
+13:18:12 - SPG fell from 45.04 to 45.035
+13:18:12 - Current assets: 900.283494691689
+13:18:12 - Current Cash: 281.3898565541143
+13:18:12 - Total Account Value: 1181.6733512458034
+
+
+13:18:13 - TEVA rose from 8.32 to 8.325
+13:18:13 - Current assets: 900.3568037123966
+13:18:13 - Current Cash: 281.3898565541143
+13:18:13 - Total Account Value: 1181.7466602665108
+
+
+13:18:14 - W fell from 49.01 to 48.86
+13:18:14 - Current assets: 900.0725141018146
+13:18:14 - Current Cash: 281.3898565541143
+13:18:14 - Total Account Value: 1181.462370655929
+
+
+13:19:16 - SPG rose from 45.035 to 45.11
+13:19:16 - Current assets: 900.3437796357363
+13:19:16 - Current Cash: 281.3898565541143
+13:19:16 - Total Account Value: 1181.7336361898506
+
+
+13:19:17 - TEVA fell from 8.325 to 8.32
+13:19:17 - Current assets: 900.2704706150287
+13:19:17 - Current Cash: 281.3898565541143
+13:19:17 - Total Account Value: 1181.6603271691429
+
+
+13:20:18 - W rose from 48.86 to 49.44
+13:20:18 - Current assets: 901.3697237759459
+13:20:18 - Current Cash: 281.3898565541143
+13:20:18 - Total Account Value: 1182.75958033006
+
+
+13:20:20 - TEVA rose from 8.32 to 8.325
+13:20:20 - Current assets: 901.4430327966535
+13:20:20 - Current Cash: 281.3898565541143
+13:20:20 - Total Account Value: 1182.8328893507678
+
+
+13:21:21 - W rose from 49.44 to 49.585
+13:21:21 - Current assets: 901.7178460868828
+13:21:21 - Current Cash: 281.3898565541143
+13:21:21 - Total Account Value: 1183.107702640997
+
+
+13:21:23 - SPG rose from 45.11 to 45.2
+13:21:23 - Current assets: 902.0433647275888
+13:21:23 - Current Cash: 281.3898565541143
+13:21:23 - Total Account Value: 1183.433221281703
+
+
+13:22:24 - TEVA fell from 8.325 to 8.305
+13:22:24 - Current assets: 901.7501286447582
+13:22:24 - Current Cash: 281.3898565541143
+13:22:24 - Total Account Value: 1183.1399851988726
+
+
+13:23:27 - SPG fell from 45.2 to 45.13
+13:23:27 - Current assets: 901.4969474797647
+13:23:27 - Current Cash: 281.3898565541143
+13:23:27 - Total Account Value: 1182.886804033879
+
+
+13:23:28 - TEVA fell from 8.305 to 8.295
+13:23:28 - Current assets: 901.3503294383494
+13:23:28 - Current Cash: 281.3898565541143
+13:23:28 - Total Account Value: 1182.7401859924637
+
+
+13:23:28 - W fell from 49.585 to 49.43
+13:23:28 - Current assets: 901.0565635074146
+13:23:28 - Current Cash: 281.3898565541143
+13:23:28 - Total Account Value: 1182.446420061529
+
+
+13:24:31 - SPG fell from 45.13 to 45.075
+13:24:31 - Current assets: 900.8576354492053
+13:24:31 - Current Cash: 281.3898565541143
+13:24:31 - Total Account Value: 1182.2474920033196
+
+
+13:24:31 - TEVA fell from 8.295 to 8.275
+13:24:31 - Current assets: 900.5643993663747
+13:24:31 - Current Cash: 281.3898565541143
+13:24:31 - Total Account Value: 1181.954255920489
+
+
+13:24:32 - W fell from 49.43 to 49.29
+13:24:32 - Current assets: 900.2990623964981
+13:24:32 - Current Cash: 281.3898565541143
+13:24:32 - Total Account Value: 1181.6889189506123
+
+
+13:25:34 - SPG rose from 45.075 to 45.085
+13:25:34 - Current assets: 900.3352311343543
+13:25:34 - Current Cash: 281.3898565541143
+13:25:34 - Total Account Value: 1181.7250876884686
+
+
+13:25:34 - TEVA rose from 8.275 to 8.29
+13:25:34 - Current assets: 900.5551581964772
+13:25:34 - Current Cash: 281.3898565541143
+13:25:34 - Total Account Value: 1181.9450147505916
+
+
+13:25:35 - W fell from 49.29 to 49.15
+13:25:35 - Current assets: 900.2898212266007
+13:25:35 - Current Cash: 281.3898565541143
+13:25:35 - Total Account Value: 1181.6796777807149
+
+
+13:26:36 - SPG rose from 45.085 to 45.1
+13:26:36 - Current assets: 900.344074333385
+13:26:36 - Current Cash: 281.3898565541143
+13:26:36 - Total Account Value: 1181.7339308874994
+
+
+13:26:37 - TEVA fell from 8.29 to 8.28
+13:26:37 - Current assets: 900.1974562919697
+13:26:37 - Current Cash: 281.3898565541143
+13:26:37 - Total Account Value: 1181.587312846084
+
+
+13:26:37 - W rose from 49.15 to 49.2872
+13:26:37 - Current assets: 900.4574865224488
+13:26:37 - Current Cash: 281.3898565541143
+13:26:37 - Total Account Value: 1181.847343076563
+
+
+13:27:40 - SPG fell from 45.1 to 45.02
+13:27:40 - Current assets: 900.1681366195991
+13:27:40 - Current Cash: 281.3898565541143
+13:27:40 - Total Account Value: 1181.5579931737134
+
+
+13:27:40 - TEVA rose from 8.28 to 8.29
+13:27:40 - Current assets: 900.3147546610144
+13:27:40 - Current Cash: 281.3898565541143
+13:27:40 - Total Account Value: 1181.7046112151288
+
+
+13:28:43 - SPG rose from 45.02 to 45.025
+13:28:43 - Current assets: 900.3328390299424
+13:28:43 - Current Cash: 281.3898565541143
+13:28:43 - Total Account Value: 1181.7226955840567
+
+
+13:28:43 - TEVA fell from 8.29 to 8.27
+13:28:43 - Current assets: 900.0396029471118
+13:28:43 - Current Cash: 281.3898565541143
+13:28:43 - Total Account Value: 1181.4294595012261
+
+
+13:28:43 - W fell from 49.2872 to 49.19
+13:28:43 - Current assets: 899.8553832794546
+13:28:43 - Current Cash: 281.3898565541143
+13:28:43 - Total Account Value: 1181.245239833569
+
+
+13:29:45 - SPG rose from 45.025 to 45.04
+13:29:45 - Current assets: 899.909636386239
+13:29:45 - Current Cash: 281.3898565541143
+13:29:45 - Total Account Value: 1181.2994929403533
+
+
+13:29:46 - TEVA fell from 8.27 to 8.255
+13:29:46 - Current assets: 899.689709324116
+13:29:46 - Current Cash: 281.3898565541143
+13:29:46 - Total Account Value: 1181.0795658782304
+
+
+13:29:46 - W fell from 49.19 to 49.02
+13:29:46 - Current assets: 899.3675144321231
+13:29:46 - Current Cash: 281.3898565541143
+13:29:46 - Total Account Value: 1180.7573709862374
+
+
+13:30:48 - SPG fell from 45.04 to 45.025
+13:30:48 - Current assets: 899.3132613253388
+13:30:48 - Current Cash: 281.3898565541143
+13:30:48 - Total Account Value: 1180.7031178794532
+
+
+13:30:49 - TEVA rose from 8.255 to 8.26
+13:30:49 - Current assets: 899.3865703460464
+13:30:49 - Current Cash: 281.3898565541143
+13:30:49 - Total Account Value: 1180.7764269001607
+
+
+13:30:49 - W rose from 49.02 to 49.08
+13:30:49 - Current assets: 899.5002861902792
+13:30:49 - Current Cash: 281.3898565541143
+13:30:49 - Total Account Value: 1180.8901427443934
+
+
+13:31:52 - TEVA rose from 8.26 to 8.2699
+13:31:52 - Current assets: 899.6454380512804
+13:31:52 - Current Cash: 281.3898565541143
+13:31:52 - Total Account Value: 1181.0352946053947
+
+
+13:31:52 - W rose from 49.08 to 49.15
+13:31:52 - Current assets: 899.7781065362186
+13:31:52 - Current Cash: 281.3898565541143
+13:31:52 - Total Account Value: 1181.167963090333
+
+
+13:32:54 - SPG rose from 45.025 to 45.05
+13:32:54 - Current assets: 899.8685283808592
+13:32:54 - Current Cash: 281.3898565541143
+13:32:54 - Total Account Value: 1181.2583849349735
+
+
+13:32:54 - TEVA fell from 8.2699 to 8.26
+13:32:54 - Current assets: 899.723376519858
+13:32:54 - Current Cash: 281.3898565541143
+13:32:54 - Total Account Value: 1181.1132330739724
+
+
+13:32:54 - W fell from 49.15 to 49.04
+13:32:54 - Current assets: 899.5148974720978
+13:32:54 - Current Cash: 281.3898565541143
+13:32:54 - Total Account Value: 1180.9047540262122
+
+
+13:33:57 - SPG fell from 45.05 to 44.96
+13:33:57 - Current assets: 899.1893788313919
+13:33:57 - Current Cash: 281.3898565541143
+13:33:57 - Total Account Value: 1180.5792353855063
+
+
+13:33:57 - TEVA fell from 8.26 to 8.245
+13:33:57 - Current assets: 898.969451769269
+13:33:57 - Current Cash: 281.3898565541143
+13:33:57 - Total Account Value: 1180.3593083233832
+
+13:34:58 - Sold 1.895264070547008 shares of W @ 49.49
+13:34:58 - Current assets: 806.5563756893969
+13:34:58 - Current Cash: 373.8029326339864
+13:34:58 - Total Account Value: 1180.3593083233832
+
+
+13:35:17 - SPG fell from 44.96 to 44.91
+13:35:17 - Current assets: 806.3755320001158
+13:35:17 - Current Cash: 373.8029326339864
+13:35:17 - Total Account Value: 1180.178464634102
+
+
+13:36:18 - TEVA fell from 8.245 to 8.215
+13:36:18 - Current assets: 805.9356778758698
+13:36:18 - Current Cash: 373.8029326339864
+13:36:18 - Total Account Value: 1179.7386105098562
+
+
+13:37:37 - SPG fell from 44.91 to 44.89
+13:37:37 - Current assets: 805.8633404001574
+13:37:37 - Current Cash: 373.8029326339864
+13:37:37 - Total Account Value: 1179.6662730341438
+
+13:37:38 - Bought 13.369203599212675 shares of ARNC @ 6.99
+13:37:38 - Current assets: 899.3140735586541
+13:37:38 - Current Cash: 280.3521994754898
+13:37:38 - Total Account Value: 1179.6662730341438
+
+
+13:38:40 - SPG rose from 44.89 to 44.99
+13:38:40 - Current assets: 899.6757609372162
+13:38:40 - Current Cash: 280.3521994754898
+13:38:40 - Total Account Value: 1180.0279604127059
+
+
+13:38:40 - TEVA fell from 8.215 to 8.2
+13:38:40 - Current assets: 899.4558338750933
+13:38:40 - Current Cash: 280.3521994754898
+13:38:40 - Total Account Value: 1179.8080333505832
+
+
+13:38:40 - ARNC fell from 6.99 to 6.985
+13:38:40 - Current assets: 899.3889878570972
+13:38:40 - Current Cash: 280.3521994754898
+13:38:40 - Total Account Value: 1179.7411873325868
+
+
+13:39:44 - TEVA rose from 8.2 to 8.205
+13:39:44 - Current assets: 899.4622968778049
+13:39:44 - Current Cash: 280.3521994754898
+13:39:44 - Total Account Value: 1179.8144963532945
+
+
+13:40:47 - SPG rose from 44.99 to 45.035
+13:40:47 - Current assets: 899.6250561981578
+13:40:47 - Current Cash: 280.3521994754898
+13:40:47 - Total Account Value: 1179.9772556736475
+
+
+13:40:47 - TEVA fell from 8.205 to 8.2
+13:40:47 - Current assets: 899.5517471774501
+13:40:47 - Current Cash: 280.3521994754898
+13:40:47 - Total Account Value: 1179.9039466529398
+
+
+13:41:49 - SPG fell from 45.035 to 44.96
+13:41:49 - Current assets: 899.2804816435286
+13:41:49 - Current Cash: 280.3521994754898
+13:41:49 - Total Account Value: 1179.6326811190183
+
+
+13:42:52 - TEVA fell from 8.2 to 8.19
+13:42:52 - Current assets: 899.1338636021133
+13:42:52 - Current Cash: 280.3521994754898
+13:42:52 - Total Account Value: 1179.486063077603
+
+
+13:43:54 - SPG fell from 44.96 to 44.9099
+13:43:54 - Current assets: 898.9526582254535
+13:43:54 - Current Cash: 280.3521994754898
+13:43:54 - Total Account Value: 1179.3048577009433
+
+
+13:43:55 - TEVA fell from 8.19 to 8.18
+13:43:55 - Current assets: 898.8060401840382
+13:43:55 - Current Cash: 280.3521994754898
+13:43:55 - Total Account Value: 1179.1582396595281
+
+
+13:44:55 - ARNC fell from 6.985 to 6.975
+13:44:55 - Current assets: 898.6723481480461
+13:44:55 - Current Cash: 280.3521994754898
+13:44:55 - Total Account Value: 1179.024547623536
+
+
+13:44:57 - SPG fell from 44.9099 to 44.9
+13:44:57 - Current assets: 898.6365410975685
+13:44:57 - Current Cash: 280.3521994754898
+13:44:57 - Total Account Value: 1178.9887405730583
+
+
+13:44:57 - TEVA fell from 8.18 to 8.1701
+13:44:57 - Current assets: 898.4913892365673
+13:44:57 - Current Cash: 280.3521994754898
+13:44:57 - Total Account Value: 1178.8435887120572
+
+
+13:45:59 - SPG fell from 44.9 to 44.88
+13:45:59 - Current assets: 898.4190517608549
+13:45:59 - Current Cash: 280.3521994754898
+13:45:59 - Total Account Value: 1178.7712512363446
+
+
+13:45:59 - TEVA fell from 8.1701 to 8.165
+13:45:59 - Current assets: 898.3442765597331
+13:45:59 - Current Cash: 280.3521994754898
+13:45:59 - Total Account Value: 1178.696476035223
+
+
+13:48:02 - TEVA rose from 8.165 to 8.175
+13:48:02 - Current assets: 898.4908946011484
+13:48:02 - Current Cash: 280.3521994754898
+13:48:02 - Total Account Value: 1178.8430940766382
+
+
+13:48:06 - ARNC rose from 6.975 to 6.98
+13:48:06 - Current assets: 898.5577406191445
+13:48:06 - Current Cash: 280.3521994754898
+13:48:06 - Total Account Value: 1178.9099400946343
+
+
+13:48:08 - SPG rose from 44.88 to 45.0
+13:48:08 - Current assets: 898.991765473419
+13:48:08 - Current Cash: 280.3521994754898
+13:48:08 - Total Account Value: 1179.3439649489087
+
+
+13:49:09 - TEVA fell from 8.175 to 8.155
+13:49:09 - Current assets: 898.6985293905884
+13:49:09 - Current Cash: 280.3521994754898
+13:49:09 - Total Account Value: 1179.0507288660783
+
+
+13:49:09 - ARNC rose from 6.98 to 6.9878
+13:49:09 - Current assets: 898.8028091786622
+13:49:09 - Current Cash: 280.3521994754898
+13:49:09 - Total Account Value: 1179.155008654152
+
+
+13:50:12 - SPG rose from 45.0 to 45.18
+13:50:12 - Current assets: 899.4538464600741
+13:50:12 - Current Cash: 280.3521994754898
+13:50:12 - Total Account Value: 1179.8060459355638
+
+
+13:50:13 - TEVA rose from 8.155 to 8.1872
+13:50:13 - Current assets: 899.9259565534314
+13:50:13 - Current Cash: 280.3521994754898
+13:50:13 - Total Account Value: 1180.2781560289213
+
+
+13:50:13 - ARNC fell from 6.9878 to 6.985
+13:50:13 - Current assets: 899.8885227833537
+13:50:13 - Current Cash: 280.3521994754898
+13:50:13 - Total Account Value: 1180.2407222588436
+
+
+13:51:15 - SPG rose from 45.18 to 45.27
+13:51:15 - Current assets: 900.2140414240596
+13:51:15 - Current Cash: 280.3521994754898
+13:51:15 - Total Account Value: 1180.5662408995495
+
+
+13:51:15 - TEVA fell from 8.1872 to 8.175
+13:51:15 - Current assets: 900.0351674135329
+13:51:15 - Current Cash: 280.3521994754898
+13:51:15 - Total Account Value: 1180.3873668890228
+
+
+13:52:18 - SPG fell from 45.27 to 45.241
+13:52:18 - Current assets: 899.93027807375
+13:52:18 - Current Cash: 280.3521994754898
+13:52:18 - Total Account Value: 1180.2824775492397
+
+
+13:52:18 - TEVA rose from 8.175 to 8.185
+13:52:18 - Current assets: 900.0768961151653
+13:52:18 - Current Cash: 280.3521994754898
+13:52:18 - Total Account Value: 1180.429095590655
+
+
+13:52:19 - ARNC rose from 6.985 to 7.0
+13:52:19 - Current assets: 900.2774341691535
+13:52:19 - Current Cash: 280.3521994754898
+13:52:19 - Total Account Value: 1180.6296336446433
+
+
+13:53:21 - SPG rose from 45.241 to 45.46
+13:53:21 - Current assets: 901.0695295282046
+13:53:21 - Current Cash: 280.3521994754898
+13:53:21 - Total Account Value: 1181.4217290036945
+
+
+13:53:21 - TEVA rose from 8.185 to 8.2
+13:53:21 - Current assets: 901.2894565903275
+13:53:21 - Current Cash: 280.3521994754898
+13:53:21 - Total Account Value: 1181.6416560658172
+
+
+13:53:22 - ARNC rose from 7.0 to 7.075
+13:53:22 - Current assets: 902.2921468602684
+13:53:22 - Current Cash: 280.3521994754898
+13:53:22 - Total Account Value: 1182.6443463357582
+
+
+13:54:24 - SPG fell from 45.46 to 45.31
+13:54:24 - Current assets: 901.7496157924252
+13:54:24 - Current Cash: 280.3521994754898
+13:54:24 - Total Account Value: 1182.1018152679148
+
+
+13:55:28 - TEVA fell from 8.2 to 8.19
+13:55:28 - Current assets: 901.60299775101
+13:55:28 - Current Cash: 280.3521994754898
+13:55:28 - Total Account Value: 1181.9551972264999
+
+
+13:56:30 - SPG rose from 45.31 to 45.45
+13:56:30 - Current assets: 902.109360080997
+13:56:30 - Current Cash: 280.3521994754898
+13:56:30 - Total Account Value: 1182.461559556487
+
+
+13:56:31 - TEVA fell from 8.19 to 8.185
+13:56:31 - Current assets: 902.0360510602893
+13:56:31 - Current Cash: 280.3521994754898
+13:56:31 - Total Account Value: 1182.3882505357792
+
+
+13:57:33 - TEVA rose from 8.185 to 8.1968
+13:57:33 - Current assets: 902.2090603491594
+13:57:33 - Current Cash: 280.3521994754898
+13:57:33 - Total Account Value: 1182.5612598246491
+
+
+13:59:36 - SPG fell from 45.45 to 45.35
+13:59:36 - Current assets: 901.8473729705972
+13:59:36 - Current Cash: 280.3521994754898
+13:59:36 - Total Account Value: 1182.1995724460871
+
+
+13:59:36 - TEVA fell from 8.1968 to 8.185
+13:59:36 - Current assets: 901.6743636817272
+13:59:36 - Current Cash: 280.3521994754898
+13:59:36 - Total Account Value: 1182.026563157217
+
+
+13:59:37 - ARNC fell from 7.075 to 7.07
+13:59:37 - Current assets: 901.6075176637312
+13:59:37 - Current Cash: 280.3521994754898
+13:59:37 - Total Account Value: 1181.959717139221
+
+
+14:00:39 - SPG rose from 45.35 to 45.355
+14:00:39 - Current assets: 901.6256020326592
+14:00:39 - Current Cash: 280.3521994754898
+14:00:39 - Total Account Value: 1181.977801508149
+
+
+14:00:39 - TEVA rose from 8.185 to 8.19
+14:00:39 - Current assets: 901.6989110533669
+14:00:39 - Current Cash: 280.3521994754898
+14:00:39 - Total Account Value: 1182.0511105288567
+
+
+14:01:41 - ARNC fell from 7.07 to 7.02
+14:01:41 - Current assets: 901.0304508734063
+14:01:41 - Current Cash: 280.3521994754898
+14:01:41 - Total Account Value: 1181.382650348896
+
+
+14:02:43 - TEVA rose from 8.19 to 8.2034
+14:02:43 - Current assets: 901.2269190489028
+14:02:43 - Current Cash: 280.3521994754898
+14:02:43 - Total Account Value: 1181.5791185243925
+
+
+14:03:44 - SPG rose from 45.355 to 45.48
+14:03:44 - Current assets: 901.6790282721055
+14:03:44 - Current Cash: 280.3521994754898
+14:03:44 - Total Account Value: 1182.0312277475953
+
+
+14:03:45 - TEVA rose from 8.2034 to 8.22
+14:03:45 - Current assets: 901.9224142208549
+14:03:45 - Current Cash: 280.3521994754898
+14:03:45 - Total Account Value: 1182.2746136963447
+
+
+14:03:45 - ARNC rose from 7.02 to 7.05
+14:03:45 - Current assets: 902.3234903288312
+14:03:45 - Current Cash: 280.3521994754898
+14:03:45 - Total Account Value: 1182.6756898043209
+
+
+14:04:47 - SPG rose from 45.48 to 45.58
+14:04:47 - Current assets: 902.6851777073934
+14:04:47 - Current Cash: 280.3521994754898
+14:04:47 - Total Account Value: 1183.0373771828831
+
+
+14:04:47 - TEVA fell from 8.22 to 8.195
+14:04:47 - Current assets: 902.3186326038551
+14:04:47 - Current Cash: 280.3521994754898
+14:04:47 - Total Account Value: 1182.670832079345
+
+
+14:05:50 - ARNC fell from 7.05 to 7.045
+14:05:50 - Current assets: 902.2517865858591
+14:05:50 - Current Cash: 280.3521994754898
+14:05:50 - Total Account Value: 1182.603986061349
+
+
+14:06:52 - SPG fell from 45.58 to 45.4217
+14:06:52 - Current assets: 901.6792354655952
+14:06:52 - Current Cash: 280.3521994754898
+14:06:52 - Total Account Value: 1182.031434941085
+
+
+14:06:52 - TEVA rose from 8.195 to 8.2
+14:06:52 - Current assets: 901.7525444863029
+14:06:52 - Current Cash: 280.3521994754898
+14:06:52 - Total Account Value: 1182.1047439617928
+
+
+14:07:52 - ARNC rose from 7.045 to 7.05
+14:07:52 - Current assets: 901.8193905042989
+14:07:52 - Current Cash: 280.3521994754898
+14:07:52 - Total Account Value: 1182.1715899797887
+
+
+14:07:54 - TEVA fell from 8.2 to 8.18
+14:07:54 - Current assets: 901.5261544214683
+14:07:54 - Current Cash: 280.3521994754898
+14:07:54 - Total Account Value: 1181.878353896958
+
+
+14:08:54 - ARNC rose from 7.05 to 7.055
+14:08:54 - Current assets: 901.5930004394644
+14:08:54 - Current Cash: 280.3521994754898
+14:08:54 - Total Account Value: 1181.9451999149542
+
+
+14:08:56 - SPG fell from 45.4217 to 45.38
+14:08:56 - Current assets: 901.442176802604
+14:08:56 - Current Cash: 280.3521994754898
+14:08:56 - Total Account Value: 1181.7943762780938
+
+
+14:09:56 - ARNC rose from 7.055 to 7.06
+14:09:56 - Current assets: 901.5090228206
+14:09:56 - Current Cash: 280.3521994754898
+14:09:56 - Total Account Value: 1181.8612222960896
+
+
+14:09:58 - SPG fell from 45.38 to 45.32
+14:09:58 - Current assets: 901.2920103934626
+14:09:58 - Current Cash: 280.3521994754898
+14:09:58 - Total Account Value: 1181.6442098689524
+
+
+14:09:58 - TEVA fell from 8.18 to 8.175
+14:09:58 - Current assets: 901.2187013727549
+14:09:58 - Current Cash: 280.3521994754898
+14:09:58 - Total Account Value: 1181.5709008482447
+
+
+14:11:00 - SPG fell from 45.32 to 45.31
+14:11:00 - Current assets: 901.1825326348987
+14:11:00 - Current Cash: 280.3521994754898
+14:11:00 - Total Account Value: 1181.5347321103886
+
+
+14:11:01 - TEVA rose from 8.175 to 8.2
+14:11:01 - Current assets: 901.5490777384371
+14:11:01 - Current Cash: 280.3521994754898
+14:11:01 - Total Account Value: 1181.9012772139267
+
+
+14:12:01 - ARNC rose from 7.06 to 7.0998
+14:12:01 - Current assets: 902.0811720416857
+14:12:01 - Current Cash: 280.3521994754898
+14:12:01 - Total Account Value: 1182.4333715171756
+
+
+14:12:09 - SPG rose from 45.31 to 45.36
+14:12:09 - Current assets: 902.2620157309668
+14:12:09 - Current Cash: 280.3521994754898
+14:12:09 - Total Account Value: 1182.6142152064567
+
+
+14:12:10 - TEVA fell from 8.2 to 8.19
+14:12:10 - Current assets: 902.1153976895516
+14:12:10 - Current Cash: 280.3521994754898
+14:12:10 - Total Account Value: 1182.4675971650413
+
+
+14:13:10 - ARNC rose from 7.0998 to 7.13
+14:13:10 - Current assets: 902.5191476382479
+14:13:10 - Current Cash: 280.3521994754898
+14:13:10 - Total Account Value: 1182.8713471137376
+
+
+14:13:12 - SPG fell from 45.36 to 45.27
+14:13:12 - Current assets: 902.193628997542
+14:13:12 - Current Cash: 280.3521994754898
+14:13:12 - Total Account Value: 1182.5458284730316
+
+
+14:14:13 - ARNC rose from 7.13 to 7.16
+14:14:13 - Current assets: 902.5947051055183
+14:14:13 - Current Cash: 280.3521994754898
+14:14:13 - Total Account Value: 1182.946904581008
+
+
+14:14:17 - SPG fell from 45.27 to 45.23
+14:14:17 - Current assets: 902.4500301540934
+14:14:17 - Current Cash: 280.3521994754898
+14:14:17 - Total Account Value: 1182.802229629583
+
+
+14:15:18 - TEVA fell from 8.19 to 8.1771
+14:15:18 - Current assets: 902.2608928806676
+14:15:18 - Current Cash: 280.3521994754898
+14:15:18 - Total Account Value: 1182.6130923561573
+
+
+14:15:18 - ARNC rose from 7.16 to 7.2
+14:15:18 - Current assets: 902.795661024636
+14:15:18 - Current Cash: 280.3521994754898
+14:15:18 - Total Account Value: 1183.1478605001257
+
+
+14:15:20 - SPG fell from 45.23 to 45.17
+14:15:20 - Current assets: 902.5786485974987
+14:15:20 - Current Cash: 280.3521994754898
+14:15:20 - Total Account Value: 1182.9308480729885
+
+
+14:16:21 - ARNC rose from 7.2 to 7.25
+14:16:21 - Current assets: 903.2471087774594
+14:16:21 - Current Cash: 280.3521994754898
+14:16:21 - Total Account Value: 1183.5993082529492
+
+
+14:17:24 - TEVA rose from 8.1771 to 8.195
+14:17:24 - Current assets: 903.5095550715928
+14:17:24 - Current Cash: 280.3521994754898
+14:17:24 - Total Account Value: 1183.8617545470825
+
+
+14:17:24 - ARNC fell from 7.25 to 7.24
+14:17:24 - Current assets: 903.3758630356007
+14:17:24 - Current Cash: 280.3521994754898
+14:17:24 - Total Account Value: 1183.7280625110905
+
+
+14:17:26 - SPG fell from 45.17 to 45.09
+14:17:26 - Current assets: 903.086513132751
+14:17:26 - Current Cash: 280.3521994754898
+14:17:26 - Total Account Value: 1183.4387126082406
+
+
+14:18:27 - TEVA fell from 8.195 to 8.17
+14:18:27 - Current assets: 902.7199680292127
+14:18:27 - Current Cash: 280.3521994754898
+14:18:27 - Total Account Value: 1183.0721675047025
+
+
+14:18:27 - ARNC fell from 7.24 to 7.235
+14:18:27 - Current assets: 902.6531220112166
+14:18:27 - Current Cash: 280.3521994754898
+14:18:27 - Total Account Value: 1183.0053214867064
+
+
+14:19:31 - SPG fell from 45.09 to 45.066
+14:19:31 - Current assets: 902.5663170403617
+14:19:31 - Current Cash: 280.3521994754898
+14:19:31 - Total Account Value: 1182.9185165158515
+
+
+14:19:32 - ARNC rose from 7.235 to 7.295
+14:19:32 - Current assets: 903.3684692563145
+14:19:32 - Current Cash: 280.3521994754898
+14:19:32 - Total Account Value: 1183.7206687318044
+
+
+14:20:34 - TEVA rose from 8.17 to 8.1778
+14:20:34 - Current assets: 903.4828313286184
+14:20:34 - Current Cash: 280.3521994754898
+14:20:34 - Total Account Value: 1183.835030804108
+
+
+14:21:37 - SPG rose from 45.066 to 45.105
+14:21:37 - Current assets: 903.6238894062576
+14:21:37 - Current Cash: 280.3521994754898
+14:21:37 - Total Account Value: 1183.9760888817473
+
+
+14:21:37 - TEVA fell from 8.1778 to 8.17
+14:21:37 - Current assets: 903.5095273339537
+14:21:37 - Current Cash: 280.3521994754898
+14:21:37 - Total Account Value: 1183.8617268094436
+
+
+14:21:38 - ARNC fell from 7.295 to 7.225
+14:21:38 - Current assets: 902.5736830820088
+14:21:38 - Current Cash: 280.3521994754898
+14:21:38 - Total Account Value: 1182.9258825574984
+
+
+14:22:40 - SPG rose from 45.105 to 45.2076
+14:22:40 - Current assets: 902.9447743324135
+14:22:40 - Current Cash: 280.3521994754898
+14:22:40 - Total Account Value: 1183.2969738079032
+
+
+14:22:40 - TEVA rose from 8.17 to 8.2
+14:22:40 - Current assets: 903.3846284566594
+14:22:40 - Current Cash: 280.3521994754898
+14:22:40 - Total Account Value: 1183.736827932149
+
+
+14:22:41 - ARNC rose from 7.225 to 7.27
+14:22:41 - Current assets: 903.9862426186239
+14:22:41 - Current Cash: 280.3521994754898
+14:22:41 - Total Account Value: 1184.3384420941138
+
+
+14:23:43 - SPG rose from 45.2076 to 45.24
+14:23:43 - Current assets: 904.1034293292781
+14:23:43 - Current Cash: 280.3521994754898
+14:23:43 - Total Account Value: 1184.455628804768
+
+
+14:23:44 - ARNC fell from 7.27 to 7.26
+14:23:44 - Current assets: 903.969737293286
+14:23:44 - Current Cash: 280.3521994754898
+14:23:44 - Total Account Value: 1184.3219367687757
+
+
+14:24:46 - SPG fell from 45.24 to 45.23
+14:24:46 - Current assets: 903.9335685554298
+14:24:46 - Current Cash: 280.3521994754898
+14:24:46 - Total Account Value: 1184.2857680309196
+
+
+14:24:46 - TEVA fell from 8.2 to 8.18
+14:24:46 - Current assets: 903.6403324725992
+14:24:46 - Current Cash: 280.3521994754898
+14:24:46 - Total Account Value: 1183.992531948089
+
+
+14:25:48 - SPG rose from 45.23 to 45.28
+14:25:48 - Current assets: 903.8211761618802
+14:25:48 - Current Cash: 280.3521994754898
+14:25:48 - Total Account Value: 1184.17337563737
+
+
+14:25:49 - TEVA fell from 8.18 to 8.1708
+14:25:49 - Current assets: 903.6862875637781
+14:25:49 - Current Cash: 280.3521994754898
+14:25:49 - Total Account Value: 1184.038487039268
+
+
+14:25:49 - ARNC fell from 7.26 to 7.235
+14:25:49 - Current assets: 903.3520574737978
+14:25:49 - Current Cash: 280.3521994754898
+14:25:49 - Total Account Value: 1183.7042569492876
+
+
+14:26:51 - SPG fell from 45.28 to 45.1901
+14:26:51 - Current assets: 903.0269005204705
+14:26:51 - Current Cash: 280.3521994754898
+14:26:51 - Total Account Value: 1183.3790999959601
+
+
+14:26:51 - TEVA rose from 8.1708 to 8.18
+14:26:51 - Current assets: 903.1617891185725
+14:26:51 - Current Cash: 280.3521994754898
+14:26:51 - Total Account Value: 1183.5139885940623
+
+
+14:26:52 - ARNC fell from 7.235 to 7.205
+14:26:52 - Current assets: 902.7607130105962
+14:26:52 - Current Cash: 280.3521994754898
+14:26:52 - Total Account Value: 1183.1129124860859
+
+
+14:27:54 - TEVA fell from 8.18 to 8.16
+14:27:54 - Current assets: 902.4674769277656
+14:27:54 - Current Cash: 280.3521994754898
+14:27:54 - Total Account Value: 1182.8196764032555
+
+
+14:28:56 - SPG fell from 45.1901 to 45.09
+14:28:56 - Current assets: 902.1054278618249
+14:28:56 - Current Cash: 280.3521994754898
+14:28:56 - Total Account Value: 1182.4576273373145
+
+
+14:28:56 - TEVA rose from 8.16 to 8.18
+14:28:56 - Current assets: 902.3986639446555
+14:28:56 - Current Cash: 280.3521994754898
+14:28:56 - Total Account Value: 1182.7508634201454
+
+
+14:29:57 - ARNC rose from 7.205 to 7.21
+14:29:57 - Current assets: 902.4655099626516
+14:29:57 - Current Cash: 280.3521994754898
+14:29:57 - Total Account Value: 1182.8177094381413
+
+
+14:30:59 - ARNC fell from 7.21 to 7.2
+14:30:59 - Current assets: 902.3318179266595
+14:30:59 - Current Cash: 280.3521994754898
+14:30:59 - Total Account Value: 1182.6840174021493
+
+
+14:31:00 - SPG rose from 45.09 to 45.1
+14:31:00 - Current assets: 902.3679866645157
+14:31:00 - Current Cash: 280.3521994754898
+14:31:00 - Total Account Value: 1182.7201861400054
+
+
+14:31:01 - TEVA rose from 8.18 to 8.2
+14:31:01 - Current assets: 902.6612227473463
+14:31:01 - Current Cash: 280.3521994754898
+14:31:01 - Total Account Value: 1183.0134222228362
+
+
+14:32:01 - ARNC rose from 7.2 to 7.295
+14:32:01 - Current assets: 903.9312970892715
+14:32:01 - Current Cash: 280.3521994754898
+14:32:01 - Total Account Value: 1184.2834965647612
+
+
+14:32:08 - SPG rose from 45.1 to 45.29
+14:32:08 - Current assets: 904.6185031085397
+14:32:08 - Current Cash: 280.3521994754898
+14:32:08 - Total Account Value: 1184.9707025840294
+
+
+14:32:08 - TEVA rose from 8.2 to 8.2279
+14:32:08 - Current assets: 905.0275674440885
+14:32:08 - Current Cash: 280.3521994754898
+14:32:08 - Total Account Value: 1185.3797669195783
+
+
+14:33:14 - SPG rose from 45.29 to 45.43
+14:33:14 - Current assets: 905.5339297740755
+14:33:14 - Current Cash: 280.3521994754898
+14:33:14 - Total Account Value: 1185.8861292495653
+
+
+14:33:14 - TEVA rose from 8.2279 to 8.23
+14:33:14 - Current assets: 905.5647195627728
+14:33:14 - Current Cash: 280.3521994754898
+14:33:14 - Total Account Value: 1185.9169190382627
+
+
+14:34:17 - SPG rose from 45.43 to 45.63
+14:34:17 - Current assets: 906.2880943198971
+14:34:17 - Current Cash: 280.3521994754898
+14:34:17 - Total Account Value: 1186.640293795387
+
+
+14:35:17 - TEVA fell from 8.23 to 8.205
+14:35:17 - Current assets: 905.9215492163589
+14:35:17 - Current Cash: 280.3521994754898
+14:35:17 - Total Account Value: 1186.2737486918486
+
+
+14:35:18 - ARNC rose from 7.295 to 7.34
+14:35:18 - Current assets: 906.5231633783235
+14:35:18 - Current Cash: 280.3521994754898
+14:35:18 - Total Account Value: 1186.8753628538134
+
+
+14:36:21 - ARNC rose from 7.34 to 7.345
+14:36:21 - Current assets: 906.5900093963196
+14:36:21 - Current Cash: 280.3521994754898
+14:36:21 - Total Account Value: 1186.9422088718093
+
+
+14:37:23 - SPG fell from 45.63 to 45.28
+14:37:23 - Current assets: 905.324103571352
+14:37:23 - Current Cash: 280.3521994754898
+14:37:23 - Total Account Value: 1185.676303046842
+
+
+14:37:23 - TEVA rose from 8.205 to 8.235
+14:37:23 - Current assets: 905.7639576955979
+14:37:23 - Current Cash: 280.3521994754898
+14:37:23 - Total Account Value: 1186.1161571710877
+
+
+14:37:23 - ARNC rose from 7.345 to 7.385
+14:37:23 - Current assets: 906.2987258395664
+14:37:23 - Current Cash: 280.3521994754898
+14:37:23 - Total Account Value: 1186.6509253150562
+
+
+14:38:26 - SPG fell from 45.28 to 45.225
+14:38:26 - Current assets: 906.0997977813572
+14:38:26 - Current Cash: 280.3521994754898
+14:38:26 - Total Account Value: 1186.4519972568469
+
+
+14:38:26 - TEVA fell from 8.235 to 8.23
+14:38:26 - Current assets: 906.0264887606495
+14:38:26 - Current Cash: 280.3521994754898
+14:38:26 - Total Account Value: 1186.3786882361392
+
+
+14:38:27 - ARNC fell from 7.385 to 7.345
+14:38:27 - Current assets: 905.491720616681
+14:38:27 - Current Cash: 280.3521994754898
+14:38:27 - Total Account Value: 1185.8439200921707
+
+
+14:39:29 - SPG rose from 45.225 to 45.31
+14:39:29 - Current assets: 905.7991548884589
+14:39:29 - Current Cash: 280.3521994754898
+14:39:29 - Total Account Value: 1186.1513543639487
+
+
+14:39:30 - TEVA fell from 8.23 to 8.2176
+14:39:30 - Current assets: 905.617348517104
+14:39:30 - Current Cash: 280.3521994754898
+14:39:30 - Total Account Value: 1185.9695479925938
+
+
+14:39:30 - ARNC rose from 7.345 to 7.39
+14:39:30 - Current assets: 906.2189626790686
+14:39:30 - Current Cash: 280.3521994754898
+14:39:30 - Total Account Value: 1186.5711621545584
+
+
+14:40:33 - SPG rose from 45.31 to 45.32
+14:40:33 - Current assets: 906.2551314169248
+14:40:33 - Current Cash: 280.3521994754898
+14:40:33 - Total Account Value: 1186.6073308924147
+
+
+14:40:33 - TEVA rose from 8.2176 to 8.22
+14:40:33 - Current assets: 906.2903197468645
+14:40:33 - Current Cash: 280.3521994754898
+14:40:33 - Total Account Value: 1186.6425192223542
+
+
+14:40:34 - ARNC rose from 7.39 to 7.455
+14:40:34 - Current assets: 907.1593179808133
+14:40:34 - Current Cash: 280.3521994754898
+14:40:34 - Total Account Value: 1187.511517456303
+
+
+14:41:36 - ARNC fell from 7.455 to 7.45
+14:41:36 - Current assets: 907.0924719628172
+14:41:36 - Current Cash: 280.3521994754898
+14:41:36 - Total Account Value: 1187.444671438307
+
+
+14:42:38 - SPG rose from 45.32 to 45.365
+14:42:38 - Current assets: 907.2552312831701
+14:42:38 - Current Cash: 280.3521994754898
+14:42:38 - Total Account Value: 1187.60743075866
+
+
+14:42:39 - TEVA rose from 8.22 to 8.25
+14:42:39 - Current assets: 907.695085407416
+14:42:39 - Current Cash: 280.3521994754898
+14:42:39 - Total Account Value: 1188.0472848829058
+
+
+14:42:39 - ARNC rose from 7.45 to 7.455
+14:42:39 - Current assets: 907.761931425412
+14:42:39 - Current Cash: 280.3521994754898
+14:42:39 - Total Account Value: 1188.1141309009017
+
+
+14:43:41 - SPG rose from 45.365 to 45.5
+14:43:41 - Current assets: 908.2502093864709
+14:43:41 - Current Cash: 280.3521994754898
+14:43:41 - Total Account Value: 1188.6024088619606
+
+
+14:44:44 - SPG fell from 45.5 to 45.46
+14:44:44 - Current assets: 908.105534435046
+14:44:44 - Current Cash: 280.3521994754898
+14:44:44 - Total Account Value: 1188.4577339105358
+
+
+14:44:45 - ARNC fell from 7.455 to 7.44
+14:44:45 - Current assets: 907.9049963810578
+14:44:45 - Current Cash: 280.3521994754898
+14:44:45 - Total Account Value: 1188.2571958565477
+
+
+14:45:47 - TEVA fell from 8.25 to 8.23
+14:45:47 - Current assets: 907.6117602982272
+14:45:47 - Current Cash: 280.3521994754898
+14:45:47 - Total Account Value: 1187.9639597737169
+
+
+14:45:47 - ARNC rose from 7.44 to 7.445
+14:45:47 - Current assets: 907.6786063162233
+14:45:47 - Current Cash: 280.3521994754898
+14:45:47 - Total Account Value: 1188.0308057917132
+
+
+14:46:49 - SPG rose from 45.46 to 45.505
+14:46:49 - Current assets: 907.8413656365763
+14:46:49 - Current Cash: 280.3521994754898
+14:46:49 - Total Account Value: 1188.1935651120662
+
+
+14:47:52 - SPG rose from 45.505 to 45.66
+14:47:52 - Current assets: 908.4019810733477
+14:47:52 - Current Cash: 280.3521994754898
+14:47:52 - Total Account Value: 1188.7541805488374
+
+
+14:47:52 - TEVA fell from 8.23 to 8.215
+14:47:52 - Current assets: 908.1820540112247
+14:47:52 - Current Cash: 280.3521994754898
+14:47:52 - Total Account Value: 1188.5342534867145
+
+
+14:47:52 - ARNC fell from 7.445 to 7.39
+14:47:52 - Current assets: 907.4467478132681
+14:47:52 - Current Cash: 280.3521994754898
+14:47:52 - Total Account Value: 1187.798947288758
+
+
+14:48:54 - SPG rose from 45.66 to 45.68
+14:48:54 - Current assets: 907.5190852889805
+14:48:54 - Current Cash: 280.3521994754898
+14:48:54 - Total Account Value: 1187.8712847644701
+
+
+14:48:54 - TEVA rose from 8.215 to 8.22
+14:48:54 - Current assets: 907.5923943096882
+14:48:54 - Current Cash: 280.3521994754898
+14:48:54 - Total Account Value: 1187.9445937851779
+
+
+14:48:55 - ARNC rose from 7.39 to 7.46
+14:48:55 - Current assets: 908.5282385616331
+14:48:55 - Current Cash: 280.3521994754898
+14:48:55 - Total Account Value: 1188.880438037123
+
+
+14:49:57 - TEVA rose from 8.22 to 8.225
+14:49:57 - Current assets: 908.6015475823407
+14:49:57 - Current Cash: 280.3521994754898
+14:49:57 - Total Account Value: 1188.9537470578305
+
+
+14:49:57 - ARNC rose from 7.46 to 7.47
+14:49:57 - Current assets: 908.7352396183328
+14:49:57 - Current Cash: 280.3521994754898
+14:49:57 - Total Account Value: 1189.0874390938225
+
+
+14:50:59 - SPG rose from 45.68 to 45.8
+14:50:59 - Current assets: 909.1692644726074
+14:50:59 - Current Cash: 280.3521994754898
+14:50:59 - Total Account Value: 1189.5214639480973
+
+
+14:51:00 - TEVA rose from 8.225 to 8.23
+14:51:00 - Current assets: 909.2425734933151
+14:51:00 - Current Cash: 280.3521994754898
+14:51:00 - Total Account Value: 1189.594772968805
+
+
+14:51:00 - ARNC rose from 7.47 to 7.5395
+14:51:00 - Current assets: 910.1717331434604
+14:51:00 - Current Cash: 280.3521994754898
+14:51:00 - Total Account Value: 1190.5239326189503
+
+
+14:52:08 - SPG rose from 45.8 to 45.83
+14:52:08 - Current assets: 910.2802393570291
+14:52:08 - Current Cash: 280.3521994754898
+14:52:08 - Total Account Value: 1190.6324388325188
+
+
+14:52:08 - TEVA rose from 8.23 to 8.25
+14:52:08 - Current assets: 910.5734754398596
+14:52:08 - Current Cash: 280.3521994754898
+14:52:08 - Total Account Value: 1190.9256749153494
+
+
+14:52:09 - ARNC fell from 7.5395 to 7.53
+14:52:09 - Current assets: 910.4464680056672
+14:52:09 - Current Cash: 280.3521994754898
+14:52:09 - Total Account Value: 1190.7986674811568
+
+
+14:53:12 - SPG rose from 45.83 to 45.973
+14:53:12 - Current assets: 910.9636809570111
+14:53:12 - Current Cash: 280.3521994754898
+14:53:12 - Total Account Value: 1191.3158804325008
+
+
+14:53:13 - TEVA rose from 8.25 to 8.26
+14:53:13 - Current assets: 911.1102989984264
+14:53:13 - Current Cash: 280.3521994754898
+14:53:13 - Total Account Value: 1191.4624984739162
+
+
+14:54:13 - ARNC rose from 7.53 to 7.79
+14:54:13 - Current assets: 914.5862919342217
+14:54:13 - Current Cash: 280.3521994754898
+14:54:13 - Total Account Value: 1194.9384914097113
+
+
+14:54:15 - SPG rose from 45.973 to 46.12
+14:54:15 - Current assets: 915.1179723807081
+14:54:15 - Current Cash: 280.3521994754898
+14:54:15 - Total Account Value: 1195.4701718561978
+
+
+14:55:16 - ARNC fell from 7.79 to 7.645
+14:55:16 - Current assets: 913.1794378588222
+14:55:16 - Current Cash: 280.3521994754898
+14:55:16 - Total Account Value: 1193.531637334312
+
+
+14:55:18 - SPG rose from 46.12 to 46.19
+14:55:18 - Current assets: 913.4326190238157
+14:55:18 - Current Cash: 280.3521994754898
+14:55:18 - Total Account Value: 1193.7848184993054
+
+
+14:55:19 - TEVA rose from 8.26 to 8.265
+14:55:19 - Current assets: 913.5059280445234
+14:55:19 - Current Cash: 280.3521994754898
+14:55:19 - Total Account Value: 1193.858127520013
+
+
+14:56:19 - ARNC rose from 7.645 to 7.73
+14:56:19 - Current assets: 914.6423103504566
+14:56:19 - Current Cash: 280.3521994754898
+14:56:19 - Total Account Value: 1194.9945098259464
+
+
+14:57:21 - TEVA fell from 8.265 to 8.23
+14:57:21 - Current assets: 914.1291472055029
+14:57:21 - Current Cash: 280.3521994754898
+14:57:21 - Total Account Value: 1194.4813466809928
+
+
+14:57:22 - ARNC fell from 7.73 to 7.6632
+14:57:22 - Current assets: 913.2360844050755
+14:57:22 - Current Cash: 280.3521994754898
+14:57:22 - Total Account Value: 1193.5882838805653
+
+
+14:58:25 - SPG fell from 46.19 to 45.8066
+14:58:25 - Current assets: 911.8493749956681
+14:58:25 - Current Cash: 280.3521994754898
+14:58:25 - Total Account Value: 1192.201574471158
+
+
+14:58:25 - TEVA rose from 8.23 to 8.24
+14:58:25 - Current assets: 911.9959930370833
+14:58:25 - Current Cash: 280.3521994754898
+14:58:25 - Total Account Value: 1192.348192512573
+
+
+14:58:26 - ARNC rose from 7.6632 to 7.68
+14:58:26 - Current assets: 912.22059565755
+14:58:26 - Current Cash: 280.3521994754898
+14:58:26 - Total Account Value: 1192.5727951330398
+
+
+14:59:28 - SPG rose from 45.8066 to 45.91
+14:59:28 - Current assets: 912.5945804069834
+14:59:28 - Current Cash: 280.3521994754898
+14:59:28 - Total Account Value: 1192.946779882473
+
+
+14:59:28 - ARNC rose from 7.68 to 7.73
+14:59:28 - Current assets: 913.263040586944
+14:59:28 - Current Cash: 280.3521994754898
+14:59:28 - Total Account Value: 1193.6152400624337
+
+
+15:00:32 - TEVA rose from 8.24 to 8.25
+15:00:32 - Current assets: 913.4096586283594
+15:00:32 - Current Cash: 280.3521994754898
+15:00:32 - Total Account Value: 1193.7618581038491
+
+
+15:00:32 - ARNC fell from 7.73 to 7.7134
+15:00:32 - Current assets: 913.1877298486124
+15:00:32 - Current Cash: 280.3521994754898
+15:00:32 - Total Account Value: 1193.539929324102
+
+
+15:01:34 - SPG rose from 45.91 to 46.0
+15:01:34 - Current assets: 913.5132484893184
+15:01:34 - Current Cash: 280.3521994754898
+15:01:34 - Total Account Value: 1193.865447964808
+
+
+15:01:35 - ARNC fell from 7.7134 to 7.57
+15:01:35 - Current assets: 911.5961046931913
+15:01:35 - Current Cash: 280.3521994754898
+15:01:35 - Total Account Value: 1191.948304168681
+
+
+15:02:37 - SPG fell from 46.0 to 45.95
+15:02:37 - Current assets: 911.4152610039102
+15:02:37 - Current Cash: 280.3521994754898
+15:02:37 - Total Account Value: 1191.7674604794001
+
+
+15:02:38 - TEVA rose from 8.25 to 8.275
+15:02:38 - Current assets: 911.7818061074486
+15:02:38 - Current Cash: 280.3521994754898
+15:02:38 - Total Account Value: 1192.1340055829382
+
+
+15:03:41 - SPG rose from 45.95 to 45.96
+15:03:41 - Current assets: 911.8179748453049
+15:03:41 - Current Cash: 280.3521994754898
+15:03:41 - Total Account Value: 1192.1701743207946
+
+
+15:03:41 - TEVA fell from 8.275 to 8.27
+15:03:41 - Current assets: 911.7446658245972
+15:03:41 - Current Cash: 280.3521994754898
+15:03:41 - Total Account Value: 1192.0968653000868
+
+
+15:03:42 - ARNC rose from 7.57 to 7.7284
+15:03:42 - Current assets: 913.8623476747125
+15:03:42 - Current Cash: 280.3521994754898
+15:03:42 - Total Account Value: 1194.2145471502022
+
+
+15:04:44 - SPG rose from 45.96 to 46.24
+15:04:44 - Current assets: 914.8750723346866
+15:04:44 - Current Cash: 280.3521994754898
+15:04:44 - Total Account Value: 1195.2272718101763
+
+
+15:04:45 - TEVA fell from 8.27 to 8.265
+15:04:45 - Current assets: 914.801763313979
+15:04:45 - Current Cash: 280.3521994754898
+15:04:45 - Total Account Value: 1195.1539627894688
+
+
+15:04:45 - ARNC fell from 7.7284 to 7.725
+15:04:45 - Current assets: 914.7563080217417
+15:04:45 - Current Cash: 280.3521994754898
+15:04:45 - Total Account Value: 1195.1085074972316
+
+
+15:05:48 - ARNC fell from 7.725 to 7.7202
+15:05:48 - Current assets: 914.6921358444654
+15:05:48 - Current Cash: 280.3521994754898
+15:05:48 - Total Account Value: 1195.0443353199553
+
+
+15:06:50 - SPG fell from 46.24 to 46.13
+15:06:50 - Current assets: 914.294279728047
+15:06:50 - Current Cash: 280.3521994754898
+15:06:50 - Total Account Value: 1194.6464792035367
+
+
+15:06:50 - TEVA rose from 8.265 to 8.27
+15:06:50 - Current assets: 914.3675887487545
+15:06:50 - Current Cash: 280.3521994754898
+15:06:50 - Total Account Value: 1194.7197882242444
+
+
+15:06:51 - ARNC rose from 7.7202 to 7.7494
+15:06:51 - Current assets: 914.7579694938515
+15:06:51 - Current Cash: 280.3521994754898
+15:06:51 - Total Account Value: 1195.1101689693414
+
+
+15:08:53 - ARNC fell from 7.7494 to 7.695
+15:08:53 - Current assets: 914.0306848180544
+15:08:53 - Current Cash: 280.3521994754898
+15:08:53 - Total Account Value: 1194.382884293544
+
+
+15:08:55 - SPG fell from 46.13 to 45.86
+15:08:55 - Current assets: 913.0541288959365
+15:08:55 - Current Cash: 280.3521994754898
+15:08:55 - Total Account Value: 1193.4063283714263
+
+
+15:09:55 - TEVA fell from 8.27 to 8.265
+15:09:55 - Current assets: 912.9808198752289
+15:09:55 - Current Cash: 280.3521994754898
+15:09:55 - Total Account Value: 1193.3330193507186
+
+
+15:09:55 - ARNC rose from 7.695 to 7.71
+15:09:55 - Current assets: 913.1813579292171
+15:09:55 - Current Cash: 280.3521994754898
+15:09:55 - Total Account Value: 1193.533557404707
+
+
+15:10:58 - SPG rose from 45.86 to 46.18
+15:10:58 - Current assets: 914.3387575406161
+15:10:58 - Current Cash: 280.3521994754898
+15:10:58 - Total Account Value: 1194.690957016106
+
+
+15:10:58 - TEVA rose from 8.265 to 8.27
+15:10:58 - Current assets: 914.4120665613237
+15:10:58 - Current Cash: 280.3521994754898
+15:10:58 - Total Account Value: 1194.7642660368135
+
+
+15:10:58 - ARNC rose from 7.71 to 7.72
+15:10:58 - Current assets: 914.5457585973159
+15:10:58 - Current Cash: 280.3521994754898
+15:10:58 - Total Account Value: 1194.8979580728055
+
+
+15:12:00 - TEVA rose from 8.27 to 8.28
+15:12:00 - Current assets: 914.6923766387312
+15:12:00 - Current Cash: 280.3521994754898
+15:12:00 - Total Account Value: 1195.044576114221
+
+
+15:12:01 - ARNC fell from 7.72 to 7.7101
+15:12:01 - Current assets: 914.560021523099
+15:12:01 - Current Cash: 280.3521994754898
+15:12:01 - Total Account Value: 1194.9122209985887
+
+
+15:13:08 - SPG fell from 46.18 to 45.955
+15:13:08 - Current assets: 913.746224921334
+15:13:08 - Current Cash: 280.3521994754898
+15:13:08 - Total Account Value: 1194.0984243968237
+
+
+15:13:09 - TEVA fell from 8.28 to 8.27
+15:13:09 - Current assets: 913.5996068799187
+15:13:09 - Current Cash: 280.3521994754898
+15:13:09 - Total Account Value: 1193.9518063554085
+
+
+15:13:09 - ARNC fell from 7.7101 to 7.6
+15:13:09 - Current assets: 912.1276575636454
+15:13:09 - Current Cash: 280.3521994754898
+15:13:09 - Total Account Value: 1192.4798570391351
+
+
+15:14:11 - SPG rose from 45.955 to 46.16
+15:14:11 - Current assets: 912.8691166896978
+15:14:11 - Current Cash: 280.3521994754898
+15:14:11 - Total Account Value: 1193.2213161651875
+
+
+15:14:12 - TEVA fell from 8.27 to 8.265
+15:14:12 - Current assets: 912.7958076689902
+15:14:12 - Current Cash: 280.3521994754898
+15:14:12 - Total Account Value: 1193.1480071444798
+
+
+15:14:12 - ARNC fell from 7.6 to 7.45
+15:14:12 - Current assets: 910.7904271291084
+15:14:12 - Current Cash: 280.3521994754898
+15:14:12 - Total Account Value: 1191.1426266045983
+
+15:14:12 - Sold 13.369203599212675 shares of ARNC @ 6.99
+15:14:12 - Current assets: 811.1898603149739
+15:14:12 - Current Cash: 379.9527662896242
+15:14:12 - Total Account Value: 1191.142626604598
+
+
+15:15:32 - SPG rose from 46.16 to 46.565
+15:15:32 - Current assets: 812.6546941981508
+15:15:32 - Current Cash: 379.9527662896242
+15:15:32 - Total Account Value: 1192.607460487775
+
+15:15:33 - Bought 3.6241202431288078 shares of LVGO @ 26.21
+15:15:33 - Current assets: 907.6428857705569
+15:15:33 - Current Cash: 284.96457471721817
+15:15:33 - Total Account Value: 1192.607460487775
+
+
+15:17:36 - TEVA rose from 8.265 to 8.27
+15:17:36 - Current assets: 907.7161947912645
+15:17:36 - Current Cash: 284.96457471721817
+15:17:36 - Total Account Value: 1192.6807695084826
+
+
+15:18:40 - SPG rose from 46.565 to 46.74
+15:18:40 - Current assets: 908.3491477037483
+15:18:40 - Current Cash: 284.96457471721817
+15:18:40 - Total Account Value: 1193.3137224209663
+
+
+15:18:41 - TEVA rose from 8.27 to 8.28
+15:18:41 - Current assets: 908.4957657451636
+15:18:41 - Current Cash: 284.96457471721817
+15:18:41 - Total Account Value: 1193.4603404623817
+
+
+15:19:44 - SPG rose from 46.74 to 46.8601
+15:19:44 - Current assets: 908.9301522868168
+15:19:44 - Current Cash: 284.96457471721817
+15:19:44 - Total Account Value: 1193.8947270040348
+
+
+15:20:48 - SPG fell from 46.8601 to 46.81
+15:20:48 - Current assets: 908.7489469101571
+15:20:48 - Current Cash: 284.96457471721817
+15:20:48 - Total Account Value: 1193.7135216273753
+
+
+15:20:48 - TEVA rose from 8.28 to 8.3
+15:20:48 - Current assets: 909.0421829929877
+15:20:48 - Current Cash: 284.96457471721817
+15:20:48 - Total Account Value: 1194.0067577102059
+
+
+15:21:51 - SPG rose from 46.81 to 46.93
+15:21:51 - Current assets: 909.4762078472622
+15:21:51 - Current Cash: 284.96457471721817
+15:21:51 - Total Account Value: 1194.4407825644803
+
+
+15:21:51 - TEVA rose from 8.3 to 8.31
+15:21:51 - Current assets: 909.6228258886775
+15:21:51 - Current Cash: 284.96457471721817
+15:21:51 - Total Account Value: 1194.5874006058957
+
+
+15:22:55 - TEVA fell from 8.31 to 8.28
+15:22:55 - Current assets: 909.1829717644316
+15:22:55 - Current Cash: 284.96457471721817
+15:22:55 - Total Account Value: 1194.14754648165
+
+
+15:23:57 - SPG fell from 46.93 to 46.86
+15:23:57 - Current assets: 908.9297905994381
+15:23:57 - Current Cash: 284.96457471721817
+15:23:57 - Total Account Value: 1193.8943653166561
+
+
+15:23:58 - TEVA fell from 8.28 to 8.27
+15:23:58 - Current assets: 908.7831725580228
+15:23:58 - Current Cash: 284.96457471721817
+15:23:58 - Total Account Value: 1193.747747275241
+
+
+15:25:02 - SPG fell from 46.86 to 46.805
+15:25:02 - Current assets: 908.5842444998135
+15:25:02 - Current Cash: 284.96457471721817
+15:25:02 - Total Account Value: 1193.5488192170317
+
+
+15:26:12 - SPG rose from 46.805 to 46.861
+15:26:12 - Current assets: 908.7867894318083
+15:26:12 - Current Cash: 284.96457471721817
+15:26:12 - Total Account Value: 1193.7513641490264
+
+
+15:26:12 - TEVA fell from 8.27 to 8.268
+15:26:12 - Current assets: 908.7574658235253
+15:26:12 - Current Cash: 284.96457471721817
+15:26:12 - Total Account Value: 1193.7220405407434
+
+
+15:27:15 - SPG rose from 46.861 to 46.915
+15:27:15 - Current assets: 908.952777007949
+15:27:15 - Current Cash: 284.96457471721817
+15:27:15 - Total Account Value: 1193.917351725167
+
+
+15:27:16 - TEVA rose from 8.268 to 8.2799
+15:27:16 - Current assets: 909.1272524772331
+15:27:16 - Current Cash: 284.96457471721817
+15:27:16 - Total Account Value: 1194.0918271944513
+
+
+15:28:20 - SPG rose from 46.915 to 46.95
+15:28:20 - Current assets: 909.2538430597299
+15:28:20 - Current Cash: 284.96457471721817
+15:28:20 - Total Account Value: 1194.2184177769482
+
+
+15:28:20 - TEVA fell from 8.2799 to 8.275
+15:28:20 - Current assets: 909.1820002194364
+15:28:20 - Current Cash: 284.96457471721817
+15:28:20 - Total Account Value: 1194.1465749366546
+
+
+15:30:23 - SPG fell from 46.95 to 46.9381
+15:30:23 - Current assets: 909.1389594213875
+15:30:23 - Current Cash: 284.96457471721817
+15:30:23 - Total Account Value: 1194.1035341386057
+
+
+15:31:30 - SPG fell from 46.9381 to 46.88
+15:31:30 - Current assets: 908.9288190544429
+15:31:30 - Current Cash: 284.96457471721817
+15:31:30 - Total Account Value: 1193.893393771661
+
+
+15:31:30 - TEVA rose from 8.275 to 8.285
+15:31:30 - Current assets: 909.0754370958582
+15:31:30 - Current Cash: 284.96457471721817
+15:31:30 - Total Account Value: 1194.0400118130765
+
+
+15:32:34 - TEVA rose from 8.285 to 8.3
+15:32:34 - Current assets: 909.2953641579811
+15:32:34 - Current Cash: 284.96457471721817
+15:32:34 - Total Account Value: 1194.2599388751992
+
+
+15:33:38 - TEVA rose from 8.3 to 8.315
+15:33:38 - Current assets: 909.515291220104
+15:33:38 - Current Cash: 284.96457471721817
+15:33:38 - Total Account Value: 1194.4798659373223
+
+
+15:34:41 - SPG fell from 46.88 to 46.825
+15:34:41 - Current assets: 909.3163631618949
+15:34:41 - Current Cash: 284.96457471721817
+15:34:41 - Total Account Value: 1194.280937879113
+
+
+15:35:44 - SPG fell from 46.825 to 46.73
+15:35:44 - Current assets: 908.9727601522607
+15:35:44 - Current Cash: 284.96457471721817
+15:35:44 - Total Account Value: 1193.937334869479
+
+
+15:35:44 - TEVA fell from 8.315 to 8.305
+15:35:44 - Current assets: 908.8261421108455
+15:35:44 - Current Cash: 284.96457471721817
+15:35:44 - Total Account Value: 1193.7907168280635
+
+
+15:36:47 - SPG fell from 46.73 to 46.59
+15:36:47 - Current assets: 908.3197797808584
+15:36:47 - Current Cash: 284.96457471721817
+15:36:47 - Total Account Value: 1193.2843544980765
+
+
+15:36:48 - TEVA rose from 8.305 to 8.325
+15:36:48 - Current assets: 908.6130158636889
+15:36:48 - Current Cash: 284.96457471721817
+15:36:48 - Total Account Value: 1193.577590580907
+
+
+15:38:52 - TEVA rose from 8.325 to 8.34
+15:38:52 - Current assets: 908.832942925812
+15:38:52 - Current Cash: 284.96457471721817
+15:38:52 - Total Account Value: 1193.79751764303
+
+
+15:39:55 - SPG fell from 46.59 to 46.52
+15:39:55 - Current assets: 908.5797617608184
+15:39:55 - Current Cash: 284.96457471721817
+15:39:55 - Total Account Value: 1193.5443364780367
+
+
+15:39:55 - TEVA fell from 8.34 to 8.335
+15:39:55 - Current assets: 908.5064527401107
+15:39:55 - Current Cash: 284.96457471721817
+15:39:55 - Total Account Value: 1193.471027457329
+
+
+15:40:58 - SPG rose from 46.52 to 46.675
+15:40:58 - Current assets: 909.067068176882
+15:40:58 - Current Cash: 284.96457471721817
+15:40:58 - Total Account Value: 1194.0316428941
+
+
+15:40:58 - TEVA fell from 8.335 to 8.325
+15:40:58 - Current assets: 908.9204501354667
+15:40:58 - Current Cash: 284.96457471721817
+15:40:58 - Total Account Value: 1193.8850248526849
+
+
+15:42:03 - TEVA fell from 8.325 to 8.315
+15:42:03 - Current assets: 908.7738320940514
+15:42:03 - Current Cash: 284.96457471721817
+15:42:03 - Total Account Value: 1193.7384068112697
+
+
+15:43:11 - SPG fell from 46.675 to 46.53
+15:43:11 - Current assets: 908.2493853951363
+15:43:11 - Current Cash: 284.96457471721817
+15:43:11 - Total Account Value: 1193.2139601123545
+
+
+15:43:12 - TEVA rose from 8.315 to 8.335
+15:43:12 - Current assets: 908.5426214779668
+15:43:12 - Current Cash: 284.96457471721817
+15:43:12 - Total Account Value: 1193.5071961951849
+
+
+15:44:15 - SPG fell from 46.53 to 46.515
+15:44:15 - Current assets: 908.4883683711824
+15:44:15 - Current Cash: 284.96457471721817
+15:44:15 - Total Account Value: 1193.4529430884006
+
+15:45:17 - Sold 8.546269727403155 shares of ETSY @ 34.85
+15:45:17 - Current assets: 610.6508683711825
+15:45:17 - Current Cash: 582.8020747172181
+15:45:17 - Total Account Value: 1193.4529430884006
+
+15:45:17 - Sold 33.9480433130699 shares of DOYU @ 6.58
+15:45:17 - Current assets: 387.2727433711825
+15:45:17 - Current Cash: 806.1801997172181
+15:45:17 - Total Account Value: 1193.4529430884006
+
+15:45:17 - Sold 3.6168737856217614 shares of SPG @ 46.32
+15:45:17 - Current assets: 219.0338592329863
+15:45:17 - Current Cash: 974.4190838554143
+15:45:17 - Total Account Value: 1193.4529430884006
+
+15:45:17 - Sold 14.661804141530236 shares of TEVA @ 8.5699
+15:45:17 - Current assets: 96.82772171333175
+15:45:17 - Current Cash: 1096.6252213750688
+15:45:17 - Total Account Value: 1193.4529430884006
+
+15:45:17 - Sold 3.6241202431288078 shares of LVGO @ 26.21
+15:45:17 - Current assets: 1.839530140925703
+15:45:17 - Current Cash: 1191.613412947475
+15:45:17 - Total Account Value: 1193.4529430884006
+

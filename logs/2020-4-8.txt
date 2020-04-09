@@ -1,0 +1,25 @@
+11:20:51 - Bought 44.169611307420496 shares of NLY @ 5.66
+11:20:51 - Current assets: 250.0
+11:20:51 - Current Cash: 750.0
+11:20:51 - Total Account Value: 1000.0
+
+11:20:52 - Bought 37.27485984652698 shares of NRZ @ 5.0302
+11:20:52 - Current assets: 437.5
+11:20:52 - Current Cash: 562.5
+11:20:52 - Total Account Value: 1000.0
+
+11:20:52 - Bought 11.331587429492345 shares of STWD @ 12.41
+11:20:52 - Current assets: 578.125
+11:20:52 - Current Cash: 421.875
+11:20:52 - Total Account Value: 1000.0
+
+11:20:52 - Bought 6.262989904988124 shares of PINS @ 16.84
+11:20:52 - Current assets: 683.59375
+11:20:52 - Current Cash: 316.40625
+11:20:52 - Total Account Value: 1000.0
+
+11:20:52 - Bought 3.4496974487570866 shares of ARMK @ 22.93
+11:20:52 - Current assets: 762.6953125
+11:20:52 - Current Cash: 237.3046875
+11:20:52 - Total Account Value: 1000.0
+

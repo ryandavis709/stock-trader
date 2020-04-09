@@ -1,0 +1,30 @@
+
+09:30:59 - ETSY rose from 34.85 to 38.03
+09:30:59 - Current assets: 1.839530140925703
+09:30:59 - Current Cash: 1191.613412947475
+09:30:59 - Total Account Value: 1193.4529430884006
+
+
+09:31:00 - DOYU rose from 6.58 to 7.16
+09:31:00 - Current assets: 1.839530140925703
+09:31:00 - Current Cash: 1191.613412947475
+09:31:00 - Total Account Value: 1193.4529430884006
+
+
+09:31:00 - SPG rose from 46.515 to 46.91
+09:31:00 - Current assets: 1.839530140925703
+09:31:00 - Current Cash: 1191.613412947475
+09:31:00 - Total Account Value: 1193.4529430884006
+
+
+09:31:01 - TEVA rose from 8.335 to 8.38
+09:31:01 - Current assets: 1.839530140925703
+09:31:01 - Current Cash: 1191.613412947475
+09:31:01 - Total Account Value: 1193.4529430884006
+
+
+09:31:02 - LVGO rose from 26.21 to 29.17
+09:31:02 - Current assets: 1.839530140925703
+09:31:02 - Current Cash: 1191.613412947475
+09:31:02 - Total Account Value: 1193.4529430884006
+
