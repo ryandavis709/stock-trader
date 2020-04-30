@@ -49,7 +49,7 @@ class Stock_Trader:
     def getSMAhigh(self,symbol, current_calls):
         print("ENTERED getSMAHIGH...")
         try:
-            test = symbol['symbol']
+            symbol['symbol']
         except:
             print("Error with symbol.... ")
             print(symbol)
@@ -139,7 +139,7 @@ class Stock_Trader:
     def getCurrentPrice(self,symbol, current_calls):
         print("ENTERED GET CURRENT PRICE")
         try:
-            test = symbol['symbol']
+            symbol['symbol']
         except:
             print("Error with symbol.... ")
             print(symbol)
@@ -163,7 +163,7 @@ class Stock_Trader:
             symbol["Current_Price"] = float(a[newest_key]["1. open"])
             print("LEFT GET CURRENT PRICE")
             return symbol, current_calls
-        except Exception as e:
+        except Exception:
             try:
 
                 print("API Call failed... retrying")
@@ -341,7 +341,6 @@ def get_stocks_to_watch(searched_stocks):
     driver.set_window_position(-2000,0)
     driver.get("http://finance.yahoo.com/gainers")
 
-    elem = driver.find_element_by_name
     table = driver.find_element_by_xpath("//table[@class='W(100%)']/tbody")
     row = table.find_element_by_xpath(".//tr[@class='simpTblRow Bgc($extraLightBlue):h BdB Bdbc($finLightGrayAlt) Bdbc($tableBorderBlue):h H(32px) Bgc(white) ']")
     while row:
@@ -353,7 +352,7 @@ def get_stocks_to_watch(searched_stocks):
             volume = row.find_element_by_xpath(".//td[6]").text
             if symbol not in searched_stocks:
                 if "M" in volume and "+" in change:
-                    stock = {"symbol":symbol, "price":price,"change":change, "volume":volume}
+                    stock = {"symbol":symbol, "price":price,"change":change, "volume":volume, "removed":False}
                     stocks_to_watch.append(stock)
         except:
             print("Error locating new stocks...")
@@ -407,23 +406,6 @@ def wait_one_hour():
     future = datetime.datetime(now.year, now.month, now.day, now.hour + 1, now.minute)
     print((future-now).seconds)
     time.sleep((future-now).seconds)
-"""
-    Author: Ryan Davis
-    Date: 3/27/2020
-
-    Resets used variables for between days
-
-    Arguments:
-        Total_assets: float, contains sum of capital and assets
-        Symbols: contains all symbols current in assets
-    Returns:
-        Total_assets: float, contains sum of capital and assets
-        stocks_to_watch: empty arr, contains all stocks that are being looked at
-        symbols: all stocks currently in assets
-"""
-def reset(total_assets, symbols):
-    stocks_to_watch = []
-    return total_assets, stocks_to_watch, symbols, 0
 
 """
     Author: Ryan Davis
@@ -445,22 +427,16 @@ def print_account_holdings(symbols, current_assets):
 
 
 
+
 if __name__ == "__main__":
     trader = Stock_Trader()
-    stocks_to_remove = []
     searched_stocks = []
     count = 0
     current_assets = 0
     current_calls = 0
 
     start_balance = trader.capital
-    stocks_to_watch = get_stocks_to_watch(trader.bought_stocks)
-    trader.symbols = stocks_to_watch[:5]
-
-    for symbol in trader.symbols:
-        symbol, current_calls = trader.getSMAhigh(symbol, current_calls)
-        print(symbol)
-
+    
     trading = True
     while trading:
         total_assets = trader.capital + current_assets
@@ -469,76 +445,37 @@ if __name__ == "__main__":
             for symbol in trader.symbols:
                 if symbol['symbol'] in trader.bought_stocks:
                     current_assets, symbol = trader.sell_stock(symbol, current_assets)
-                    stocks_to_remove.append(symbol)
-            wait_until_next_day()
             start_balance = total_assets
-            stocks_to_remove = []
-            searched_stocks = symbols
-
+            trader.symbols = []
+            wait_until_next_day()
+            continue
         now = datetime.datetime.now()
         today930 = now.replace(hour=9, minute=30, second=0, microsecond=0)
-        today4 = now.replace(hour=16, minute=0, second=0, microsecond=0)
         today345 = now.replace(hour=15, minute=45, second=0, microsecond=0)
         if now > today345:
             for symbol in trader.symbols:
                 current_assets, symbol = trader.sell_stock(symbol, current_assets)
-                stocks_to_remove.append(symbol)
+                #reset trader.symbols after this happens.....
             print_account_holdings(trader.symbols, current_assets)
+            start_balance = current_assets
+            searched_stocks = []
+            trader.symbols = []
             wait_until_next_day()
-            start_balance, stocks_to_remove, searched_stocks, current_calls = reset(total_assets, trader.symbols)
-
-        if now < today930 or now > today4:
+            continue
+        if now < today930:
             print("not in trading hours... sleeping")
+            start_balance = current_assets
+            searched_stocks = []
+            trader.symbols = []
             wait_until_next_day()
-            start_balance, stocks_to_remove, searched_stocks, current_calls = reset(total_assets, trader.symbols)
-
-        for symbol in trader.symbols:
-            try:
-                symbol, current_calls = trader.getCurrentPrice(symbol, current_calls)
-            except:
-                print("Error occured in getting current price...")
-                print(symbol)
-                current_calls = 5
-            searched_stocks.append(symbol['symbol'])
-            if symbol["Current_Price"] > symbol["SMA"]:
-                if symbol["symbol"] not in trader.bought_stocks:
-                    symbol, current_assets = trader.buy_stock(symbol, current_assets)
-                if symbol["Current_Price"] > symbol["Last_Price"] or symbol["Current_Price"] < symbol["Last_Price"]:
-                    symbol, current_assets = trader.update_stock(symbol, current_assets)
-                if symbol["Current_Price"] <= symbol["Exit"]:
-                    current_assets, symbol = trader.sell_stock(symbol, current_assets)
-                    stocks_to_remove.append(symbol)
-            else:
-                stocks_to_remove.append(symbol)
-                print("{} price was not above SMA, abandoning...".format(symbol['symbol']))
-                #accounts for the case that the stock value drops rapidly below SMA when it was previously above
-                #or accounts for case that stock value is just above SMA then falls just below
-                if symbol['symbol'] in trader.bought_stocks:
-                    current_assets, symbol = trader.sell_stock(symbol, current_assets)
-                    stocks_to_remove.append(symbol)
-        for stock in stocks_to_remove:
-            try:
-                for item in trader.symbols:
-                    if stock['symbol'] == item['symbol']:
-                        trader.symbols.remove(item)
-                        break
-            except:
-                print("Error removing stock from symbols.....")
-                print(stock)
-                print(trader.symbols)
-        if count % 2 == 0:
-            print_account_holdings(trader.symbols, current_assets)
-        count += 1
+            continue
 
         if len(trader.symbols) < 5:
-            #repeat the process
             print("Searching for new stocks")
-            stocks_to_remove = []
             new_stocks = get_stocks_to_watch(searched_stocks)
             if len(new_stocks) == 0 and len(trader.symbols) == 0:
                 print("no new stocks found... will try again in an hour")
                 wait_one_hour()
-                start_balance, stocks_to_remove, searched_stocks, current_calls = reset(total_assets, trader.symbols)
             new_stock_ct = 0
             while len(trader.symbols) != 5 and len(new_stocks) != 0:
                 try:
@@ -553,3 +490,40 @@ if __name__ == "__main__":
                         continue
                 except:
                     symbol, current_calls = trader.getSMAhigh(symbol, current_calls)
+
+
+
+        for symbol in trader.symbols:
+            if symbol['removed'] == False:
+                symbol, current_calls = trader.getSMAhigh(symbol, current_calls)
+                print(symbol)
+
+        for symbol in trader.symbols:
+            if symbol['removed'] == False:
+                try:
+                    symbol, current_calls = trader.getCurrentPrice(symbol, current_calls)
+                except:
+                    print("Error occured in getting current price...")
+                    print(symbol)
+                    current_calls = 5
+                    continue #skip this stock, set to remove?
+                searched_stocks.append(symbol['symbol'])
+                if symbol["Current_Price"] > symbol["SMA"]:
+                    if symbol["symbol"] not in trader.bought_stocks:
+                        symbol, current_assets = trader.buy_stock(symbol, current_assets)
+                    if symbol["Current_Price"] > symbol["Last_Price"] or symbol["Current_Price"] < symbol["Last_Price"]:
+                        symbol, current_assets = trader.update_stock(symbol, current_assets)
+                    if symbol["Current_Price"] <= symbol["Exit"]:
+                        current_assets, symbol = trader.sell_stock(symbol, current_assets)
+                        symbol["removed"] = True
+                else:
+                    symbol["removed"] = True
+                    print("{} price was not above SMA, abandoning...".format(symbol['symbol']))
+                    #accounts for the case that the stock value drops rapidly below SMA when it was previously above
+                    #or accounts for case that stock value is just above SMA then falls just below
+                    if symbol['symbol'] in trader.bought_stocks:
+                        current_assets, symbol = trader.sell_stock(symbol, current_assets)
+                    
+        if count % 2 == 0:
+            print_account_holdings(trader.symbols, current_assets)
+        count += 1
