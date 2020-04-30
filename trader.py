@@ -422,7 +422,8 @@ def print_account_holdings(symbols, current_assets):
     print("Current account summary: \n\tAssets: {} \n\tCash: {} \n\tTotal: {} \n\tgains/losses: {}\n".format(current_assets, trader.capital, current_assets + trader.capital, (current_assets + trader.capital) - start_balance))
     print("Current Holdings: ")
     for symbol in symbols:
-        print("{} shares of {}".format(symbol["Shares_Bought"], symbol["symbol"]))
+        if symbol['removed'] == False:
+            print("{} shares of {}".format(symbol["Shares_Bought"], symbol["symbol"]))
     print()
 
 
